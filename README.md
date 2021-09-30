@@ -140,12 +140,13 @@ Coding-interview university github
 # Language Questions:
 
 ## Python Questions: 
+
 Python is a high-level, interpreted, dynamically typed, general-purpose programming language.
 
 What are the lists and tuples and what are their differences:
-Both sequence data types (can hold multiple types)
-Lists are mutable - changeable
-Tuples are immutable
+- Both sequence data types (can hold multiple types)
+- Lists are mutable - changeable
+- Tuples are immutable
 
 Lambda is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
 
@@ -171,22 +172,40 @@ JavaScript is a high level interpreted oop language that is single threaded (no 
 https://www.youtube.com/watch?v=6Wzj7kxfRdI
 
 What is the difference between let and var?
-The let statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the var keyword used to define a variable globally, or locally to an entire function regardless of block scope.
+- The let statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the var keyword used to define a variable globally, or locally to an entire function regardless of block scope.
 
 Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can react to these events.
 
 What is a prototype in javascript?
-	All javascript objects inherit properties and methods from a prototype.
+- All javascript objects inherit properties and methods from a prototype.
 
 What is the meaning of the keyword this in javascript?
-	This is a reference to the object it belongs to
+- This is a reference to the object it belongs to
 
-Explain settimeout in javascript?
 The setTimeout() method is used to call a function or evaluate an expression after a specified number of milliseconds. 
 
 What is a promise and what is a callback?
-	- A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
-	- A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
-
+- A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
+- A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-chain
+
 ---------------------------------------------------------------------------
+
+## Java
+
+Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
+
+Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
+
+The keyword public denotes that a method can be called from code in other classes, or that a class may be used by classes outside the class hierarchy. The class hierarchy is related to the name of the directory in which the .java file is located. This is called an access level modifier. Other access level modifiers include the keywords private (a method that can only be accessed in the same class) and protected (which allows code from the same package to access). If a piece of code attempts to access private methods or protected methods, the JVM will throw a SecurityException
+
+The keyword static in front of a method indicates a static method, which is associated only with the class and not with any specific instance of that class. Only static methods can be invoked without a reference to an object. Static methods cannot access any class members that are not also static. Methods that are not designated static are instance methods and require a specific instance of a class to operate.
+
+The keyword void indicates that the main method does not return any value to the caller. If a Java program is to exit with an error code, it must call System.exit() explicitly.
+The method name main is not a keyword in the Java language. It is simply the name of the method the Java launcher calls to pass control to the program. A Java program may contain multiple classes that have main methods, which means that the VM needs to be explicitly told which class to launch from.
+
+What is a singleton class in java?
+- A singleton class is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created.
+
+---------------------------------------------------------------------------
+
