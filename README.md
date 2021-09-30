@@ -81,3 +81,35 @@ Weakness:
 - How long is the interviewing process?
 - What is the growth potential for me?
 
+## Technical Questions Overview:
+What do you look for when reviewing code?
+- Bottlenecks
+- Unnecessary work
+- Duplicated work
+
+What is an Object and a class, what's the difference between them ?  
+A class is a template for objects. A class defines object properties and behaviors including a valid range of values, and a default value 
+An object is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings.
+
+What are the pillars of OOP?
+Abstraction- ability to hide things
+Encapsulation- binding data and functions for protection
+Inheritance- inheriting features of parent class
+Polymorphism- the ability to redefine methods for derived classes
+
+Recursion:
+	A function which calls itself recursively
+	Consists of a base case (stopper) and a recursive case(recurser).
+
+What's the difference between a stack and a queue ?  
+Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
+Queues use first-in, first-out (FIFO) (think of a pipe)
+
+Heap
+Priority Queue
+Trees
+
+Mixin- a class that contains methods for other classes without having to be the parent class
+
+
+
