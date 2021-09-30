@@ -139,7 +139,7 @@ Coding-interview university github
 
 # Language Questions:
 
-##Python Questions: 
+## Python Questions: 
 Python is a high-level, interpreted, dynamically typed, general-purpose programming language.
 
 What are the lists and tuples and what are their differences:
@@ -162,3 +162,31 @@ Functions are first-class objects. This means that they can be assigned to varia
 
 PEP8: Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.
 
+----------------------------------------------------------------
+
+## JavaScript Questions:
+
+JavaScript is a high level interpreted oop language that is single threaded (no parallelism). It is dynamically typed, and has first-class functions. Multiparadigm language supports: event-driven, functional, and imperative programming styles. Sets the behavior of web pages.
+
+https://www.youtube.com/watch?v=6Wzj7kxfRdI
+
+What is the difference between let and var?
+The let statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the var keyword used to define a variable globally, or locally to an entire function regardless of block scope.
+
+Events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can react to these events.
+
+What is a prototype in javascript?
+	All javascript objects inherit properties and methods from a prototype.
+
+What is the meaning of the keyword this in javascript?
+	This is a reference to the object it belongs to
+
+Explain settimeout in javascript?
+The setTimeout() method is used to call a function or evaluate an expression after a specified number of milliseconds. 
+
+What is a promise and what is a callback?
+	- A promise is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
+	- A callback function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
+
+https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-chain
+---------------------------------------------------------------------------
