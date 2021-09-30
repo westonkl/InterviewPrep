@@ -5,9 +5,23 @@
 - [Behavioral](#behavioral)
 - [Gaining Experience](#gaining-experience)
 - [Mock Interviews](#mock-interviews)
+- [Helpful Links](#helpful-links)
 - [Company Interview Questions](#company-interview-questions)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
 - [Language Questions](#language-questions)
+- [Bash](#bash)
+- [Docker](#docker)
+- [SQL/NoSQL](#sql)
+- [Relational Databases](#relational-databases)
+- [API Design](#api-design)
+- [HTTP](#http)
+- [AWS](#aws)
+- [Software Testing](#software-testing)
+- [Parallel Processing](#parallel-processing)
+- [System Design](#system-design)
+- [Statistics / Probability](#statistics-probability)
+- [ML Prep](#ml-prep)
+- [TODO](#todo)
 
 ----------------------------------------------------------------
 ## Behavioral:
