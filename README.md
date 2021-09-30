@@ -66,3 +66,18 @@ Strength:
 Enjoy a challenge/prb solving
 Weakness:
 	Perfectionism- I may spend too long on a problem trying to achieve the best solution
+	
+## Questions for an interviewer:
+- What would my normal day look like?
+- Can you tell me about whom I will be working with?
+- How is mentorship approached?
+- What would be your definition of success for this role?
+- What is your tech stack?
+- Do you enjoy your role in the company? What do you enjoy about your job?
+- Do you like your company?
+- What brought you to this company?
+- Remote work?
+- What are the standard working hours?
+- How long is the interviewing process?
+- What is the growth potential for me?
+
