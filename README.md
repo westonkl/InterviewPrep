@@ -111,7 +111,7 @@ Trees
 
 Mixin- a class that contains methods for other classes without having to be the parent class
 
-===================================================================================
+=====================================================================
 
 - Big O Notation:
 Coding-interview university github
@@ -135,6 +135,30 @@ Coding-interview university github
 - Bit Manipulation:
 - SQL:
 
+===================================================================
 
+# Language Questions:
 
+##Python Questions: 
+Python is a high-level, interpreted, dynamically typed, general-purpose programming language.
+
+What are the lists and tuples and what are their differences:
+Both sequence data types (can hold multiple types)
+Lists are mutable - changeable
+Tuples are immutable
+
+Lambda is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
+
+__init__ is a constructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.
+
+Self is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables
+
+Decorators in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
+
+*args can be used to pass multiple  positional arguments
+**kwargs can be used to pass multiple  keyword/named arguments
+
+Functions are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects
+
+PEP8: Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.
 
