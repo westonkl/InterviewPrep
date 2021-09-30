@@ -1,11 +1,12 @@
-## InterviewPrep
+# InterviewPrep
 
-# Behavioral:
+## Behavioral:
+
 Tell me about yourself:
-I graduated from St Mary’s College of Maryland, where I received a bachelor’s in Mathematics and Computer Science. 
-I am currently part time pursuing a Masters in Data Analytics
-I recently completed a data science internship at Smartronix, where I delivered a successful product to the team.
-Outside of work I have been taking part in Kaggle competitions and learning about ML. As well as contributing to an open source project LightGBM.
+- I graduated from St Mary’s College of Maryland, where I received a bachelor’s in Mathematics and Computer Science. 
+- I am currently part time pursuing a Masters in Data Analytics
+- I recently completed a data science internship at Smartronix, where I delivered a successful product to the team.
+- Outside of work I have been taking part in Kaggle competitions and learning about ML. As well as contributing to an open source project LightGBM.
 
 https://www.linkedin.com/in/weston-king-leatham/
 https://github.com/WestonKing-Leatham
@@ -18,7 +19,7 @@ Outside of work
 Career goal - I would love to find myself working in a position with impact, where I can work  with a team to create meaningful products and insights.
 Unique - I love learning and expanding my skill sets. Outside of work I will continue to code.
 
-Company Specific Questions:
+## Company Interview Questions:
 What do you know about ___ and why did you decide to apply here?  What drew you to us?
 Do research on company applying too
 I’m interested in what kind of work you do
