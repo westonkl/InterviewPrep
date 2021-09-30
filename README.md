@@ -111,5 +111,30 @@ Trees
 
 Mixin- a class that contains methods for other classes without having to be the parent class
 
+===================================================================================
+
+- Big O Notation:
+Coding-interview university github
+
+- Dynamic Programming + Recursion:
+- BFS and DFS:
+- Trees:
+- Linked lists:	
+- Stacks:
+- Heaps / Priority Queues:
+- Binary Search:
+- Two Pointers:
+- Divide and Conquer:
+- Hashing/dictionaries:
+- Greedy Algorithms:
+- Backtracking:
+- Sliding Window:
+- Union Find:
+- Graphing:
+- Sorting Algorithms: (Quick, Merge, Selection, Tim)
+- Bit Manipulation:
+- SQL:
+
+
 
 
