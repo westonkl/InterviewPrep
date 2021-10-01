@@ -15,7 +15,7 @@
 	- [Node.js](#node.js)
 	- [Bash](#bash)
 - [Docker](#docker)
-- [SQL/NoSQL](#sql)
+- [SQL/NoSQL](#sql/nosql)
 - [Relational Databases](#relational-databases)
 - [API Design](#api-design)
 - [HTTP](#http)
@@ -45,7 +45,8 @@ Tell me about yourself:
 
 - Resume Projects
 - Kaggle
-- Restful API
+- Rest API
+- Web applications
 - SQL database
 - Open Source Projects
 
@@ -140,6 +141,8 @@ Tell me your greatest strength and weakness:
 - How long is the interviewing process?
 - What is the growth potential for me?
 
+----------------------------------------------------------
+
 ## Technical Questions Overview:
 What do you look for when reviewing code?
 - **B** ottlenecks
@@ -155,6 +158,8 @@ An **object** is a member or an "instance" of a class. An object has a state in 
 	- Encapsulation- binding data and functions for protection
 	- Inheritance- inheriting features of parent class
 	- Polymorphism- the ability to redefine methods for derived classes
+
+method overloading vs overriding
 
 **Recursion:**
 	- A function which calls itself recursively
@@ -328,7 +333,6 @@ The Docker daemon (dockerd) listens for Docker API requests and manages Docker o
 **The Docker client**
 The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 
-
 **Docker registries**
 A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
 
@@ -368,6 +372,12 @@ What are the sql aggregate functions?
 - CASE
 - DISTINCT
 - JOINS
+
+SQL | NoSQL
+------------ | -------------
+vertically scalable | horizontally scalable
+table based | document, key-value, graph or wide-column stores
+better for multi-row transactions | better for unstructured data like documents or JSON
 
 -----------------------------------
 
@@ -471,7 +481,7 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 **Elastic File System (EFS):** a network file system (NFS), that is scalable and fully managed by AWS. Amazon EFS is designed to provide massively parallel shared access to thousands of Amazon EC2 instances. Customers can use EFS to lift-and-shift existing enterprise applications to the AWS Cloud. Other use cases: big data analytics, web serving and content management, application development and testing, media workflows, database backups, and container storage. EFS is a regional service storing data within and across multiple (AZs) for high availability and durability. Amazon EC2 instances can access your file system across AZs, regions, and VPCs, while on-premises servers can access using AWS Direct Connect or AWS VPN. Not supported for Windows EC2 Instances.
 
-**FSx:** see above EFS. Comparable to EFS but built on Windows Server and supports Windows EC2, as well as Linux and MacOS Compute Instances.
+**FSx:** see above EFS. Comparable to EFS but built on Windows Server and supports Windows EC2, Linux, and MacOS Compute Instances.
 
 **Identity and Access Management (IAM):** AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you can create and manage AWS users and groups, and use permissions.
 
