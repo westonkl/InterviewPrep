@@ -15,6 +15,7 @@
 	- [Node.js](#node.js)
 	- [Bash](#bash)
 - [Docker](#docker)
+- [Git](#git)
 - [SQL/NoSQL](#sql/nosql)
 - [Relational Databases](#relational-databases)
 - [API Design](#api-design)
@@ -44,7 +45,7 @@ Tell me about yourself:
 ## Gaining Experience:
 
 - Resume Projects
-- Kaggle
+- [Kaggle](kaggle.com)
 - Rest API
 - Web applications
 - SQL database
@@ -72,6 +73,7 @@ Tools:
 - Tripe Byte Triplebyte Prep, Crossover, Canvas, Angellist, Smartr
 - Pathrise, Sharpest minds, Cognixia
 - Leetcode, hackerrank, stratascratch
+- mode
 
 ----------------------------------------------------------------
 
@@ -353,6 +355,20 @@ By default, a container is relatively well isolated from other containers and it
 
 A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
 
+------------------
+
+## Git
+
+[Git book](https://git-scm.com/book/en/v2)
+
+My initial project workflow:
+- git init repo in directory
+- git add files
+- git status
+- git commit -m "asdf"
+- git pull origin master (if remote branch chaged)
+- git push -u origin master
+
 --------------------------------------------------
 ## SQL/NoSQL
 
@@ -442,20 +458,21 @@ REST = REpresentational State Transfer
 	- Update = put
 	- Delete = delete
 
-GET to retrieve a resource;
-PUT to change the state of or update a resource, which can be an object, file or block;
-POST to create that resource; and
-DELETE to remove it.
+- GET to retrieve a resource;
+- PUT to change the state of or update a resource, which can be an object, file or block;
+- POST to create that resource; and
+- DELETE to remove it.
 
-**Persistence** is said to be "orthogonal" or "transparent" when it is implemented as an intrinsic property of the execution environment of a program. An orthogonal persistence environment does not require any specific actions by programs running in it to retrieve or save their state.
-Non-orthogonal persistence requires data to be written and read to and from storage using specific instructions in a program, resulting in the use of persist as a transitive verb: On completion, the program persists the data.
+**Persistence** is said to be ["orthogonal"](https://en.wikipedia.org/wiki/Orthogonality#Computer_science) or "transparent" when it is implemented as an intrinsic property of the execution environment of a program. An orthogonal persistence environment does not require any specific actions by programs running in it to retrieve or save their state.
+
+**Non-orthogona**l persistence requires data to be written and read to and from storage using specific instructions in a program, resulting in the use of persist as a transitive verb: On completion, the program persists the data.
 The advantage of orthogonal persistence environments is simpler and less error-prone programs
 
 **GraphQL:**
-A query/manipulation language for your API and a runtime for fulfilling queries with existing data
+- A query/manipulation language for your API and a runtime for fulfilling queries with existing data
 
-**OLTP vs OLAP** - link
-Both are online processing systems. OLTP is a transactional processing sys which modifies data while OLAP is an analytical processing system which queries.
+**OLTP vs OLAP** - [link](https://techdifferences.com/difference-between-oltp-and-olap.html#:~:text=OLTP%20and%20OLAP%20both%20are,is%20an%20analytical%20processing%20system.&text=The%20basic%20difference%20between%20OLTP,online%20database%20query%20answering%20system.)
+- Both are online processing systems. OLTP is a transactional processing sys which modifies data while OLAP is an analytical processing system which queries.
 
 ------------------------------------------------------
 
@@ -511,11 +528,11 @@ https://blog.teamtreehouse.com/an-introduction-to-websockets
 The client establishes a WebSocket connection through a process known as the WebSocket handshake. This process starts with the client sending a regular HTTP request to the server. An Upgrade header is included in this request that informs the server that the client wishes to establish a WebSocket connection.
 
 Here is a simplified example of the initial request headers.
-> GET ws://websocket.example.com/ HTTP/1.1
-> Origin: http://example.com
-> Connection: Upgrade
-> Host: websocket.example.com
-> Upgrade: websocket
+> - GET ws://websocket.example.com/ HTTP/1.1
+> - Origin: http://example.com
+> - Connection: Upgrade
+> - Host: websocket.example.com
+> - Upgrade: websocket
 
 TCP/IP
 
