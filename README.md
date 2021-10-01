@@ -99,7 +99,7 @@ Story Time: Can you tell me about a time that you _____?
 Nugget first
 - Start with a nugget that succinctly describes what your response will be about.
 
-STAR method
+**STAR** method
 - Situation / Task -> Action -> Result
 	
 Tell me about a time where you had to persuade a group of people to make a change.
@@ -156,7 +156,7 @@ An **object** is a member or an "instance" of a class. An object has a state in 
 	- Inheritance- inheriting features of parent class
 	- Polymorphism- the ability to redefine methods for derived classes
 
-Recursion:
+<in>Recursion:<\in>
 	- A function which calls itself recursively
 	- Consists of a base case (stopper) and a recursive case(recurser).
 
@@ -259,6 +259,7 @@ The keyword **public** denotes that a method can be called from code in other cl
 The keyword **static** in front of a method indicates a static method, which is associated only with the class and not with any specific instance of that class. Only static methods can be invoked without a reference to an object. Static methods cannot access any class members that are not also static. Methods that are not designated static are instance methods and require a specific instance of a class to operate.
 
 The keyword **void** indicates that the main method does not return any value to the caller. If a Java program is to exit with an error code, it must call System.exit() explicitly.
+
 The method name **main** is not a keyword in the Java language. It is simply the name of the method the Java launcher calls to pass control to the program. A Java program may contain multiple classes that have main methods, which means that the VM needs to be explicitly told which class to launch from.
 
 What is a **singleton class** in java?
@@ -398,9 +399,9 @@ To help us properly design our tables we have a set of guidelines which, if foll
 https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798
 
 There are several steps involved in normalizing a database. The steps are referred to as "Normal Forms". There are at least 7 NF. Each NF requires that the NF before it has also been satisfied. The spot between 3NF and 4NF is reserved for the BCNF (Boyce-Codd normal form), which was developed later as a slightly stronger version of the 3NF. Tables that have reached the 3NF are generally considered "normalized".
-1NF: tables must not contain repeating groups of data
-2NF: no field should only be partially dependent on any candidate key
-3NF: columns should depend only upon the primary key of the table
+- 1NF: tables must not contain repeating groups of data
+- 2NF: no field should only be partially dependent on any candidate key
+- 3NF: columns should depend only upon the primary key of the table
 
 **B-Tree**
 A self balancing tree used as a database
@@ -416,6 +417,63 @@ MapReduce
 ## CI/CD
 - Jenkins
 
+------------------------------------------------------
+## AWS
+
+### Amazon Web Services / Cloud Data Principles
+
+**Serverless:** an AWS architectural design principle based, where developers focus on the
+applications that they want to put into AWS resources, and serverless solutions such as AWS
+Lambda will then interpret the application and provision the compute and storage power
+required for execution.
+
+**Virtual Private Cloud (VPC):****
+a plot of virtual space within the Amazon Cloud to work within. A user or account may have many VPCs, but must have at least one VPC to act as a designated workspace to house your AWS cloud resources. VPC is a backbone principle of AWS cloud architecture, and they can connect to one another to create complex private and public networks. VPC has 4 main subcomponents – SUBNET, INTERNET GATEWAY, ROUTE, TABLE, NETWORK ACCESS CONTROL LIST (NACL).
+
+**Elastic Compute Cloud (EC2):** a scalable computing capacity or virtual machine (VM)
+powered by AWS. A backbone resource of AWS that supports application hosting, remote
+network logins and gateways, database hosting and more.
+
+**Simple Storage Service (S3):** has a simple web services interface that you can use to
+store and retrieve any amount of data, at any time, from anywhere on the web. This data is
+stored in buckets, and you pay as you go for the size of storage you need. S3 is not able to be
+queried like a database and is not designed for frequent or mass request access. S3 buckets can be used to house the files such as HTML, JS, and CSS for a static web site, and then host that static website.
+
+**Relational Database Service (RDS):** RDS makes it easy to set up, operate, and scale a
+relational database in the cloud. It provides cost-efficient and resizable capacity while
+automating time-consuming administration tasks such as hardware provisioning, database
+setup, patching and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need. Amazon RDS is
+available on several database instance types - optimized for memory, performance or I/O - and
+provides you with six database engines to choose from, including Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
+
+**Amazon Aurora:** is a MySQL/PostgreSQL compatible relational database built for the
+cloud. Aurora is up to 5x faster than standard MySQL databases and 3x faster than standard PostgreSQL databases. Aurora is fully managed by Amazon (RDS), which automates time-consuming administration tasks like hardware provisioning, database setup, patching, and backups. Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 128TB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across 3(AZs).
+
+**Elastic Block Store (EBS):** is a block-storage service designed for use with Amazon Elastic
+Compute Cloud (EC2) for both throughput and transaction intensive workloads at scale. A
+broad range of workloads, such as relational and non-relational databases, enterprise
+applications, containerized applications, big data analytics engines, file systems, and media
+workflows are deployed on Amazon EBS. You may only mount one EC2 to an EBS at a
+time. Designed for mission-critical systems, EBS volumes are replicated within an Availability
+Zone (AZ) and can easily scale to petabytes of data. Also, you can use EBS Snapshots with
+automated lifecycle policies to back up your volumes in S3, while ensuring geographic
+protection of your data and business continuity.
+
+**Elastic File System (EFS):** a network file system (NFS), that is scalable and fully managed
+by AWS. Amazon EFS is designed to provide massively parallel shared access to thousands of Amazon EC2 instances. Customers can use EFS to lift-and-shift existing enterprise applications to the AWS Cloud. Other use cases: big data analytics, web serving and content management, application development and testing, media workflows, database backups, and container storage. EFS is a regional service storing data within and across multiple (AZs) for high availability and durability. Amazon EC2 instances can access your file system across AZs, regions, and VPCs, while on-premises servers can access using AWS Direct Connect or AWS VPN. Not supported for Windows EC2 Instances.
+
+**FSx:** see above EFS. Comparable to EFS but built on Windows Server and supports Windows
+EC2, as well as Linux and MacOS Compute Instances.
+
+**Identity and Access Management (IAM):** AWS Identity and Access Management (IAM) enables you to manage access to AWS services and resources securely. Using IAM, you
+can create and manage AWS users and groups, and use permissions.
+
+**AWS Lambda:** is a serverless compute service that lets you run code without provisioning or
+managing servers, creating workload-aware cluster scaling logic, maintaining event integrations,
+or managing runtimes. Just upload your code as a ZIP file or container image, and Lambda allocates compute execution power and runs your code based on the incoming request or event. You can set up your code to automatically trigger from 140 AWS services or call it directly. You can write Lambda functions in any language and use both serverless and container tools, such as AWS SAM or Docker CLI, to build, test, and deploy your Functions.
+
+**Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale. Amazon SageMaker includes modules that can be used together or independently to build,
+train, and deploy your machine learning models.
 
 
 ===========================================================
