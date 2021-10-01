@@ -417,6 +417,38 @@ MapReduce
 ## CI/CD
 - Jenkins
 
+-----------------------------------------------------
+
+## API Design:
+
+**RESTful API**:
+- An architectural style for an application program interface (API) that uses HTTP requests to access and use data. That data can be used to GET, PUT, POST and DELETE data types, which refers to the reading, updating, creating and deleting of operations concerning resources.
+
+REST = REpresentational State Transfer
+
+**CRUD** - persistent data
+	- Create = post
+	- Read = get
+	- Update = put
+	- Delete = delete
+
+GET to retrieve a resource;
+PUT to change the state of or update a resource, which can be an object, file or block;
+POST to create that resource; and
+DELETE to remove it.
+
+**Persistence** is said to be "orthogonal" or "transparent" when it is implemented as an intrinsic property of the execution environment of a program. An orthogonal persistence environment does not require any specific actions by programs running in it to retrieve or save their state.
+Non-orthogonal persistence requires data to be written and read to and from storage using specific instructions in a program, resulting in the use of persist as a transitive verb: On completion, the program persists the data.
+The advantage of orthogonal persistence environments is simpler and less error-prone programs
+
+**GraphQL:**
+A query/manipulation language for your API and a runtime for fulfilling queries with existing data
+
+**OLTP vs OLAP** - link
+Both are online processing systems. OLTP is a transactional processing sys which modifies data while OLAP is an analytical processing system which queries.
+
+
+
 ------------------------------------------------------
 ## AWS
 
