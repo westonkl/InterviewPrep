@@ -457,6 +457,76 @@ A query/manipulation language for your API and a runtime for fulfilling queries 
 **OLTP vs OLAP** - link
 Both are online processing systems. OLTP is a transactional processing sys which modifies data while OLAP is an analytical processing system which queries.
 
+------------------------------------------------------
+
+## HTTP (Hypertext Transfer Protocol)
+
+(HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable transport layer, that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP
+https://www.tutorialspoint.com/http/http_overview.htm
+ 
+Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+ 
+Cookies:
+- a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
+ 
+ 
+Cookies are mainly used for three purposes:
+Session management
+- Logins, shopping carts, game scores, or anything else the server should remember
+Personalization
+- User preferences, themes, and other settings
+Tracking
+- Recording and analyzing user behavior
+
+How a browser works:https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+
+## HTTP request methods (HTTP verbs):
+
+Indicate the desired action to be performed for a given resource. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
+GET
+- The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+HEAD
+- The HEAD method asks for a response identical to that of a GET request, but without the response body.
+POST
+- The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+PUT
+- The PUT method replaces all current representations of the target resource with the request payload.
+DELETE
+- The DELETE method deletes the specified resource.
+CONNECT
+- The CONNECT method establishes a tunnel to the server identified by the target resource.
+OPTIONS
+- The OPTIONS method is used to describe the communication options for the target resource.
+TRACE
+- The TRACE method performs a message loop-back test along the path to the target resource.
+PATCH
+- The PATCH method is used to apply partial modifications to a resource.
+
+WebSockets:
+- Provide a persistent connection between a client and server that both parties can use to start sending data at any time.
+https://blog.teamtreehouse.com/an-introduction-to-websockets
+
+The client establishes a WebSocket connection through a process known as the WebSocket handshake. This process starts with the client sending a regular HTTP request to the server. An Upgrade header is included in this request that informs the server that the client wishes to establish a WebSocket connection.
+
+Here is a simplified example of the initial request headers.
+> GET ws://websocket.example.com/ HTTP/1.1
+> Origin: http://example.com
+> Connection: Upgrade
+> Host: websocket.example.com
+> Upgrade: websocket
+
+TCP/IP
+
+## Model View Controller (MVC)    
+
+Model
+- The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application. It receives user input from the controller.
+View
+- Any representation of information such as a chart, diagram or table.
+Controller
+- Accepts input and converts it to commands for the model or view
 
 
 ------------------------------------------------------
