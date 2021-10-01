@@ -18,7 +18,7 @@
 - [SQL/NoSQL](#sql/nosql)
 - [Relational Databases](#relational-databases)
 - [API Design](#api-design)
-- [HTTP](#http)
+- [HTTP](#http-request-methods-(http-verbs))
 - [AWS](#aws)
 - [Software Testing](#software-testing)
 - [Parallel Processing](#parallel-processing)
@@ -468,43 +468,43 @@ https://www.tutorialspoint.com/http/http_overview.htm
  
 Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
  
-Cookies:
+**Cookies:**
 - a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
  
  
 Cookies are mainly used for three purposes:
-Session management
-- Logins, shopping carts, game scores, or anything else the server should remember
-Personalization
-- User preferences, themes, and other settings
-Tracking
-- Recording and analyzing user behavior
+- Session management
+	- Logins, shopping carts, game scores, or anything else the server should remember
+- Personalization
+	- User preferences, themes, and other settings
+- Tracking
+	- Recording and analyzing user behavior
 
 How a browser works:https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
 
 ## HTTP request methods (HTTP verbs):
 
 Indicate the desired action to be performed for a given resource. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
-GET
-- The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
-HEAD
-- The HEAD method asks for a response identical to that of a GET request, but without the response body.
-POST
-- The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
-PUT
-- The PUT method replaces all current representations of the target resource with the request payload.
-DELETE
-- The DELETE method deletes the specified resource.
-CONNECT
-- The CONNECT method establishes a tunnel to the server identified by the target resource.
-OPTIONS
-- The OPTIONS method is used to describe the communication options for the target resource.
-TRACE
-- The TRACE method performs a message loop-back test along the path to the target resource.
-PATCH
-- The PATCH method is used to apply partial modifications to a resource.
+- GET
+	- The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
+- HEAD
+	- The HEAD method asks for a response identical to that of a GET request, but without the response body.
+- POST
+	- The POST method is used to submit an entity to the specified resource, often causing a change in state or side effects on the server.
+- PUT
+	- The PUT method replaces all current representations of the target resource with the request payload.
+- DELETE
+	- The DELETE method deletes the specified resource.
+- CONNECT
+	- The CONNECT method establishes a tunnel to the server identified by the target resource.
+- OPTIONS
+	- The OPTIONS method is used to describe the communication options for the target resource.
+- TRACE
+	- The TRACE method performs a message loop-back test along the path to the target resource.
+- PATCH
+	- The PATCH method is used to apply partial modifications to a resource.
 
-WebSockets:
+**WebSockets:**
 - Provide a persistent connection between a client and server that both parties can use to start sending data at any time.
 https://blog.teamtreehouse.com/an-introduction-to-websockets
 
@@ -521,12 +521,12 @@ TCP/IP
 
 ## Model View Controller (MVC)    
 
-Model
-- The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application. It receives user input from the controller.
-View
-- Any representation of information such as a chart, diagram or table.
-Controller
-- Accepts input and converts it to commands for the model or view
+- Model
+	- The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application. It receives user input from the controller.
+- View
+	- Any representation of information such as a chart, diagram or table.
+- Controller
+	- Accepts input and converts it to commands for the model or view
 
 
 ------------------------------------------------------
