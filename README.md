@@ -874,6 +874,100 @@ How do you deal with outliers in a dataset?
 **Search Criteria Validation** 
 – This validation technique is used to offer the user accurate and related matches for their searched keywords or phrases. The main purpose of this validation method is to ensure that the user’s search queries can return the most relevant results.
 
+---------------------------------------------
+
+## ML Prep:
+https://developers.google.com/machine-learning/crash-course
+
+Possible Topics:
+	> Statistical distributions
+	> Probability simulation
+	> String parsing and data manipulation
+	> Numpy functions and matrices
+	> Pandas data munging
+
+https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva
+https://www.springboard.com/blog/machine-learning-interview-questions/
+https://www.edureka.co/blog/interview-questions/data-science-interview-questions/
+
+### Precision vs recall
+- Recall is the true positive rate (pos claims vs actual num of pos)- rate of fish caught in pond
+- Precision is the positive predictive value - rate of correct predictions
+
+**F1 Score: **
+	A weighted average of the precision and recall of a model (1 best, 0 worst)
+
+### Evaluation metrics:
+- Classification
+	- Accuracy
+	- Precision
+	- Recall
+	- Confusion matrix
+	- F1 score
+	- Mean average precision (MAP) - object detection
+	- Jaccard index
+- Regression
+	- RMSE / RMSECV
+	- MAE
+	- R^2
+
+### Supervised Algorithms:
+- Linear Regression
+- Logistic Regression
+- k-Nearest Neighbors
+- Support Vector Machines (SVM)
+- Decision Trees and Random Forest
+- AdaBoost and Gradient boosting
+	- XGBoost
+	- CatBoost
+	-  LightGBM
+- Neural Networks
+	- Convolutional
+	- Recurrent (RNN)
+	- Transformer
+
+### Unsupervised Algorithms:
+- Clustering (K-Means)
+- Visualization and dimensionality reduction
+	- PCA
+	- Autoencoders
+	- t-Distributed Stochastic Neighbor Embedding(t-SNE)
+- Anomaly Detection
+	- Autoencoder
+	- One-class classification
+
+What is the difference between supervised vs unsupervised machine learning?
+
+What is the difference between **discriminative** and **generative** models?
+	- **Discriminative**
+		- Learn decision boundaries (ex: svm, regressions)
+	- **Generative**
+		- Learn distributions (ex: naive bayes)
+
+Time series:
+	K-fold cv
+
+**Variance** = how scattered the predictions are from the actual value
+High variance means overfitting
+
+**Correlation** measures how strongly two variables are related.
+In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in cycle
+
+- **Error** = bias + variance
+- **Bias** = how far the predicted values are from the actual values
+High bias means you are underfitting
+
+How to deal with **underfitting**:
+	- Add features
+	- Decrease regularization term
+How to deal with **overfitting**:
+	- Reduce number of features
+	- Increase regularization term
+	- Dropout- randomly remove parts of your model
+	- Data Augmentation
+	- Batch  normalization
+
+
 ===========================================================
 ## TODO
 - add all the links
