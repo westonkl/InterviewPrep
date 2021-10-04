@@ -700,8 +700,68 @@ A **mutex** is a locking mechanism used to synchronize access to a resource. Onl
 
 **Semaphore** is a signaling mechanism (“I am done, you can carry on” kind of signal). For example, if you are listening to songs (assume it as one task) on your mobile phone and at the same time, your friend calls you, an interrupt is triggered upon which an interrupt service routine (ISR) signals the call processing task to wake up. 
 
+-----------------------------------------------------
+
+## System Design preparation:
+
+### ACID
+- Atomicity - each transaction is a single unit (fails or succeeds completely)
+- Consistency - a transaction can only bring the database from one valid state to another
+- Isolation - all transactions in a concurrent stream get executed fully
+- Durability - once a transaction has been committed it will remain so
+
+### CAP Theorem for distributed computing
+this states that it is not possible for a distributed computer system to simultaneously provide all three of the following guarantees:
+- **Consistency** (all nodes see the same data even at the same time with concurrent updates )
+- **Availability** (a guarantee that every request receives a response about whether it was successful or failed)
+- **Partition tolerance** (the system continues to operate despite arbitrary message loss or failure of part of the system)
+
+### Code Reusability
+Candidate design features for software reuse include:
+- [Adaptable](https://en.wikipedia.org/wiki/Adaptability)
+- Brief: small size
+- [Consistency](https://en.wikipedia.org/wiki/Consistency)
+- [Correctness](https://en.wikipedia.org/wiki/Correctness_(computer_science))
+- [Extensibility](https://en.wikipedia.org/wiki/Extensibility)
+- Fast
+- Flexible
+- Generic
+- Localization of volatile (changeable) design assumptions (David Parnas)
+- [Modularity](https://en.wikipedia.org/wiki/Modularity_(programming))
+- [Orthogonality](https://en.wikipedia.org/wiki/Orthogonality)
+- Parameterization
+- Simple: low complexity
+- Stability under changing requirements
+
+## SOLID
+
+### Single Responsibility Principle (SRP)
+This principle states that there should never be more than one reason for a class to change. This means that you should design your classes in such a way that each class should have a single purpose.
+- Ex: An Account class is responsible for managing Current and Saving Account but a CurAccount and a SavingAccount classes are specialized. Hence both are responsible for a single purpose only.
+
+### Open/Closed Principle (OCP)
+This principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. The "closed" part of the rule states that once a module has been developed and tested, the code should only be changed to correct bugs. The "open" part says that you should be able to extend existing code in order to introduce new functionality.
+- Ex: A PaymentGateway base class contains all basic payment related properties and methods. This class can be extended by different PaymentGateway classes for different payment gateway vendors to achieve their functionalities. Hence it is open for extension but closed for modification.
+
+### Liskov Substitution Principle (LSP)
+This principle states that functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it.
+- Ex: Assume that you have an inheritance hierarchy with Person and Student. Wherever you can use Person, you should also be able to use a Student, because Student is a subclass of Person.
+
+### Interface Segregation Principle (ISP)
+This principle states that Clients should not be forced to depend upon interfaces that they don’t use. This means the number of members in the interface that is visible to the dependent class should be minimized.
+
+### Dependency Inversion Principle (DIP)
+- High level modules should not depend upon low level modules. Both should depend upon abstractions.
+- Abstractions should not depend upon details. Details should depend upon abstractions.
+- It helps us to develop loosely coupled code by ensuring that high-level modules depend on abstractions rather than concrete implementations of lower-level modules. The Dependency Injection pattern is an implementation of this principle
+
+### DRY (Don’t Repeat Yourself)
+This principle states that each small piece of knowledge (code) may only occur exactly once in the entire system. This helps us to write scalable, maintainable and reusable code.
+
 ===========================================================
 ## TODO
-add all the links
-add images
-add everything to table of contents
+- add all the links
+- add images
+- add everything to table of contents
+- add ci/cd section and jenkins
+- add spark and kafka section
