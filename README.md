@@ -484,10 +484,10 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ([HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)) is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical [client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol), meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable [transport layer](https://en.wikipedia.org/wiki/Transport_Layer), that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
 
-![http](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhatis.techtarget.com%2Fdefinition%2FHTTP-Hypertext-Transfer-Protocol&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAD)
+![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
 
 http vs https:
-![http vs https](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsmate.com%2F2020%2F07%2Fhttp-vs-https.html&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAK)
+![httpvshttps](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsmate.com%2F2020%2F07%2Fhttp-vs-https.html&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAK)
 
 https://www.tutorialspoint.com/http/http_overview.htm
  
@@ -552,7 +552,7 @@ TCP/IP
 	- Any representation of information such as a chart, diagram or table.
 - Controller
 	- Accepts input and converts it to commands for the model or view
-![mvc](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGlossary%2FMVC&psig=AOvVaw3IHH8UQTqf3HKeevGM-D2x&ust=1633460356012000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCG9ZS4sfMCFQAAAAAdAAAAABAW)
+![mvc](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 ------------------------------------------------------
 ## AWS
