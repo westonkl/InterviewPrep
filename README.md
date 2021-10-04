@@ -38,7 +38,7 @@ Tell me about yourself:
 - Outside of work
 
 - Career goal
-- Uniquef fact about yourself
+- Unique fact about yourself
 
 ----------------------------------------------------------------
 
@@ -116,6 +116,10 @@ Tell me about a time where you dealt with ambiguity.
 What do you do when faced with adversity?
 
 How do you handle working under pressure?
+
+What are the things that are most important to you in a job?
+
+Tell me about a time where you demonstrated leadership skills.
 
 How do you approach a new project and technology?
 - Look at similar project examples
@@ -613,6 +617,41 @@ involves having knowledge of internal data structures and algorithms for purpose
 
 4. Acceptance Testing 
 	Operational readiness of the system to be supported and integrated. Final Step to see if it doesn’t break anything else.
+
+## Testing types, techniques and tactics:
+
+Installation testing: self explanatory
+
+Compatibility testing: 
+	- Testing compatibility with other applications or OS or versions.
+	
+Smoke and Sanity testing: 
+- Sanity testing determines whether or not to test further
+- Smoke testing consists of minimal attempts to operate the software
+
+Regression testing:
+	- Method for finding defects after a major code change. To find regressions (degraded or lost features). 
+
+Acceptance testing:
+	- A smoke test or acceptance testing by the customer.
+
+Alpha/beta testing: user acceptance testing by the customer/ testers
+
+Functional vs non-functional testing: test if it fits specifications vs performance and scalability
+
+Continuous testing: using automated tests as part of the delivery pipeline
+
+Destructive testing: attempts to cause the software to fail
+
+Talk to me about which debuggers/testing software you have used in order to fix programming errors?  
+- Python assert()
+- VS Code
+- Pypy
+- Mypy
+
+Test Driven Development: (develop tests before coding)
+- Cypress
+- jest
 
 ===========================================================
 ## TODO
