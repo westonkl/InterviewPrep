@@ -758,6 +758,122 @@ This principle states that Clients should not be forced to depend upon interface
 ### DRY (Don’t Repeat Yourself)
 This principle states that each small piece of knowledge (code) may only occur exactly once in the entire system. This helps us to write scalable, maintainable and reusable code.
 
+-------------------------------------------
+
+## Statistics / Probability
+https://www.khanacademy.org/math/statistics-probability
+
+**Permutations:**
+> Abc, bca, bac, cav, cba, acbb = 3! => n!
+> PEPPER = 6! / (3!2!)
+> n!/(n1!)
+
+
+**Combinations:** n choose r
+*(n r)  for r<=n => n! / ((n-r)!r!)*
+
+Binomial Theorem
+
+De Morgan’s Laws: 
+	(E U F)^c = E^cF^c
+	(EF)^c = E^c U Fc
+
+**Probability:** P(E) = (num of outcomes in E) / (num of outcomes in S)
+
+**Conditional Probability:**
+	P(E|F) = probability  E occurs given F
+	
+What is Bayes theorem?
+P(A|B) = P(A) P(B|A) / P(B)
+
+----------------------------
+What is the diff between precision/specificity
+
+Quantile: value under which a certain percent lies
+
+Dispersion -> Variance: average of the squared deviation from the mean 
+(subtract the mean and square the result, then find the average of those differences)
+
+[Standard deviation](https://www.mathsisfun.com/data/standard-deviation.html) = variance
+
+------------------------------
+
+## Distributions:
+https://en.wikipedia.org/wiki/Binomial_distribution
+
+**Probability Density Function (PDF)** := the probability of seeing a value in a certain interval equals the integral of the density function over the interval
+
+**Cumulative Distribution Function (CDF)** := the probability that a random variable is <= a value
+
+**Normal distribution:** 
+	A continuous probability distribution that is symmetric about the mean (Bell curve).
+
+**Variance** = how scattered the predictions are from the actual value
+High variance means overfitting
+
+**Correlation** measures how strongly two variables are related.
+- In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in tandem
+
+**Error** = bias + variance
+
+**Bias** = how far the predicted values are from the actual values
+
+High bias means you are underfitting
+
+----------------------------------------
+## Data
+
+### Analysis types
+
+**Univariate analysis** is the simplest and easiest form of data analysis where the data being analyzed contains only one variable. 
+- Example - Studying the heights of players in the NBA.
+- Univariate analysis can be described using Central Tendency, Dispersion, Quartiles, Bar charts, Histograms, Pie charts, and Frequency distribution tables.
+
+**Bivariate analysis** involves the analysis of two variables to find causes, relationships, and correlations between the variables. 
+- Example – Analyzing the sale of ice creams based on the temperature outside.
+- The bivariate analysis can be explained using Correlation coefficients, Linear regression, Logistic regression, Scatter plots, and Box plots.
+
+**Multivariate analysis** involves the analysis of three or more variables to understand the relationship of each variable with the other variables. 
+- Example – Analysing Revenue based on expenditure.
+- Multivariate analysis can be performed using Multiple regression, Factor analysis, Classification & regression trees, Cluster analysis, Principal component analysis, Dual-axis charts, etc.
+
+**A/B testing** (also known as split testing or bucket testing) is a method of comparing two versions of a webpage or app against each other to determine which one performs better. AB testing is essentially an experiment where two or more variants of a page are shown to users at random, and statistical analysis is used to determine which variation performs better for a given conversion goal.
+
+
+### Hypothesis Testing:
+a hypothesis that is testable on the basis of observed data modelled as the realised values taken by a collection of random variables.[1] A set of data is modelled as being realised values of a collection of random variables having a joint probability distribution in some set of possible joint distributions. The hypothesis being tested is exactly that set of possible probability distributions. 
+
+A **statistical hypothesis** test is a method of [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference). An alternative hypothesis is proposed for the probability distribution of the data, either explicitly or only informally. The comparison of the two models is deemed statistically significant if, according to a threshold probability—the significance level—the data would be unlikely to occur if the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) were true. A hypothesis test specifies which outcomes of a study may lead to a rejection of the null hypothesis at a pre-specified level of significance, while using a pre-chosen measure of deviation from that hypothesis (the test statistic, or goodness-of-fit measure). The pre-chosen level of significance is the maximal allowed "false positive rate". One wants to control the risk of incorrectly rejecting a true null hypothesis.
+
+## Data Cleaning:
+
+How can you handle missing values in a dataset?
+- **Listwise Deletion**
+	- In the listwise deletion method, an entire record is excluded from analysis if any single value is missing.
+- **Average Imputation**
+	- Take the average value of the other participants' responses and fill in the missing value.
+- **Regression Substitution**
+	- You can use multiple-regression analyses to estimate a missing value.
+- **Multiple Imputations**
+	- It creates plausible values based on the correlations for the missing data and then averages the simulated datasets by incorporating random errors in your predictions.
+
+How do you deal with outliers in a dataset?
+	- Trim them out
+	- Normalize them (log+1)
+
+### Dataset validation
+**Field Level Validation** 
+– In this method, data validation is done in each field as and when a user enters the data. It helps to correct the errors as you go.
+
+**Form Level Validation** 
+– In this method, the data is validated after the user completes the form and submits it. It checks the entire data entry form at once, validates all the fields in it, and highlights the errors (if any) so that the user can correct it. 
+
+**Data Saving Validation** 
+– This data validation technique is used during the process of saving an actual file or database record. Usually, it is done when multiple data entry forms must be validated. 
+
+**Search Criteria Validation** 
+– This validation technique is used to offer the user accurate and related matches for their searched keywords or phrases. The main purpose of this validation method is to ensure that the user’s search queries can return the most relevant results.
+
 ===========================================================
 ## TODO
 - add all the links
