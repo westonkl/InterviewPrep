@@ -482,16 +482,19 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ## HTTP (Hypertext Transfer Protocol)
 
-(HTTP) is an application-layer protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical client-server model, with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a stateless protocol, meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable transport layer, that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
+([HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)) is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical [client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol), meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable [transport layer](https://en.wikipedia.org/wiki/Transport_Layer), that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP
+![http](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwhatis.techtarget.com%2Fdefinition%2FHTTP-Hypertext-Transfer-Protocol&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAD)
+
+http vs https:
+![http vs https](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsmate.com%2F2020%2F07%2Fhttp-vs-https.html&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAK)
+
 https://www.tutorialspoint.com/http/http_overview.htm
  
 Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
  
 **Cookies:**
 - a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
- 
  
 Cookies are mainly used for three purposes:
 - Session management
@@ -505,7 +508,8 @@ How a browser works:https://www.html5rocks.com/en/tutorials/internals/howbrowser
 
 ## HTTP request methods (HTTP verbs):
 
-Indicate the desired action to be performed for a given resource. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
+Indicate the desired action to be performed for a given resource. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be [safe](https://developer.mozilla.org/en-US/docs/Glossary/Safe), [idempotent](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent), or [cacheable](https://developer.mozilla.org/en-US/docs/Glossary/cacheable).
+
 - GET
 	- The GET method requests a representation of the specified resource. Requests using GET should only retrieve data.
 - HEAD
@@ -548,7 +552,7 @@ TCP/IP
 	- Any representation of information such as a chart, diagram or table.
 - Controller
 	- Accepts input and converts it to commands for the model or view
-
+![mvc](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FGlossary%2FMVC&psig=AOvVaw3IHH8UQTqf3HKeevGM-D2x&ust=1633460356012000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPCG9ZS4sfMCFQAAAAAdAAAAABAW)
 
 ------------------------------------------------------
 ## AWS
