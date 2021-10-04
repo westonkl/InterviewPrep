@@ -576,6 +576,44 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 **Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale. 
 
+-------------------------------------------------
+
+## Software Testing:
+There are many approaches available in software testing. Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as dynamic testing(validation)
+
+https://en.wikipedia.org/wiki/Software_testing
+Automation Testing: Selenium and Katalon Studio
+
+### White Box Testing:
+an internal perspective of the system, as well as programming skills, are used to design test cases. This testing is usually done at the unit level.
+- API testing – testing of the application using public and private APIs (application programming interfaces)
+- Code coverage – creating tests to satisfy some criteria of code coverage (e.g., the test designer can create tests to cause all statements in the program to be executed at least once)
+- Fault injection methods – intentionally introducing faults to gauge the efficacy of testing strategies
+- Mutation testing methods
+- Static testing methods
+
+### Black Box Testing:
+testing method in which testers evaluate the functionality of the software under test without looking at the internal code structure.
+- Black-box testing methods include: equivalence partitioning, boundary value analysis, all-pairs testing, state transition tables, decision table testing, fuzz testing, model-based testing, use case testing, exploratory testing, and specification-based testing.
+It can be applied to all levels of software testing, usually used at higher levels.
+
+### Grey Box Testing:
+involves having knowledge of internal data structures and algorithms for purposes of designing tests while executing those tests at the user, or black-box level.
+
+## Testing Levels: 
+1. Unit Testing
+	- Unit testing refers to tests that verify the functionality of a specific section of code, usually at the function level. In an object-oriented environment, this is usually at the class level, and the minimal unit tests include the constructors and destructors. 
+	- Unit testing might include static code analysis, data-flow analysis, metrics analysis, peer code reviews, code coverage analysis and other software testing practices.
+
+2. Integration Testing
+	Integration Testing is the process of testing the connectivity or data transfer between a couple of unit tested modules.
+	
+3. System Testing
+	A completely integrated system to verify that the system meets its requirements. For example, a system test might involve testing a login interface, then creating and editing an entry, plus sending or printing results, followed by summary processing or deletion (or archiving) of entries, then logoff.
+
+4. Acceptance Testing 
+	Operational readiness of the system to be supported and integrated. Final Step to see if it doesn’t break anything else.
+
 ===========================================================
 ## TODO
 add all the links
