@@ -583,18 +583,17 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 -------------------------------------------------
 
 ## Software Testing:
-There are many approaches available in software testing. Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as dynamic testing(validation)
+There are many approaches available in [software testing](https://en.wikipedia.org/wiki/Software_testing). Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as [dynamic testing](https://en.wikipedia.org/wiki/Dynamic_testing)(validation)
 
-https://en.wikipedia.org/wiki/Software_testing
 Automation Testing: Selenium and Katalon Studio
 
 ### White Box Testing:
 an internal perspective of the system, as well as programming skills, are used to design test cases. This testing is usually done at the unit level.
-- API testing – testing of the application using public and private APIs (application programming interfaces)
-- Code coverage – creating tests to satisfy some criteria of code coverage (e.g., the test designer can create tests to cause all statements in the program to be executed at least once)
-- Fault injection methods – intentionally introducing faults to gauge the efficacy of testing strategies
-- Mutation testing methods
-- Static testing methods
+- [API testing](https://en.wikipedia.org/wiki/API_testing): testing of the application using public and private APIs (application programming interfaces)
+- [Code coverage](https://en.wikipedia.org/wiki/Code_coverage): creating tests to satisfy some criteria of code coverage (e.g., the test designer can create tests to cause all statements in the program to be executed at least once)
+- [Fault injection methods](https://en.wikipedia.org/wiki/Fault_injection): intentionally introducing faults to gauge the efficacy of testing strategies
+- [Mutation testing methods](https://en.wikipedia.org/wiki/Mutation_testing)
+- [Static testing methods](https://en.wikipedia.org/wiki/Static_testing)
 
 ### Black Box Testing:
 testing method in which testers evaluate the functionality of the software under test without looking at the internal code structure.
@@ -622,26 +621,26 @@ involves having knowledge of internal data structures and algorithms for purpose
 
 Installation testing: self explanatory
 
-Compatibility testing: 
+**Compatibility** testing: 
 	- Testing compatibility with other applications or OS or versions.
 	
-Smoke and Sanity testing: 
+**Smoke** and **Sanity** testing: 
 - Sanity testing determines whether or not to test further
 - Smoke testing consists of minimal attempts to operate the software
 
-Regression testing:
+**Regression testing:**
 	- Method for finding defects after a major code change. To find regressions (degraded or lost features). 
 
-Acceptance testing:
+**Acceptance testing:**
 	- A smoke test or acceptance testing by the customer.
 
-Alpha/beta testing: user acceptance testing by the customer/ testers
+**Alpha/beta testing:** user acceptance testing by the customer/ testers
 
-Functional vs non-functional testing: test if it fits specifications vs performance and scalability
+**Functional** vs **non-functional** testing: test if it fits specifications vs performance and scalability
 
-Continuous testing: using automated tests as part of the delivery pipeline
+**Continuous** testing: using automated tests as part of the delivery pipeline
 
-Destructive testing: attempts to cause the software to fail
+**Destructive** testing: attempts to cause the software to fail
 
 Talk to me about which debuggers/testing software you have used in order to fix programming errors?  
 - Python assert()
@@ -652,6 +651,50 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 Test Driven Development: (develop tests before coding)
 - Cypress
 - jest
+
+------------------------------------------------
+
+## Parallel Processing:
+> Multiple processes done in separate memory locations
+Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
+- A [Fork](https://en.wikipedia.org/wiki/Fork_(system_call)) is when a process creates a copy of itself.
+
+### Process
+Each [process](https://en.wikipedia.org/wiki/Process_(computing)) provides the resources needed to execute a program. A process has a virtual address space, executable code, open handles to system objects, a security context, a unique process identifier, environment variables, a priority class, minimum and maximum working set sizes, and at least one thread of execution. Each process is started with a single thread, often called the primary thread, but can create additional threads from any of its threads.
+
+### Thread
+A thread is an entity within a process that can be scheduled for execution. All threads of a process share its virtual address space and system resources. In addition, each thread maintains exception handlers, a scheduling priority, thread local storage, a unique thread identifier, and a set of structures the system will use to save the thread context until it is scheduled. The thread context includes the thread's set of machine registers, the kernel stack, a thread environment block, and a user stack in the address space of the thread's process. Threads can also have their own security context, which can be used for impersonating clients.
+
+Concurrency:
+https://en.wikipedia.org/wiki/Concurrency_(computer_science)
+
+Daemon:
+https://en.wikipedia.org/wiki/Daemon_(computing)
+
+### ASYNC Await
+- Async makes a function return a Promise
+- Await makes a function wait for a Promise
+Fake synchronous checks if we are not breaking the execution thread
+
+A **Promise** is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+A **Promise** is in one of these states:
+- Pending: initial state, neither fulfilled nor rejected.
+- Fulfilled: meaning that the operation was completed successfully.
+- Rejected: meaning that the operation failed.
+
+Consider the standard producer-consumer problem. Assume, we have a buffer of 4096-byte length. A producer thread collects the data and writes it to the buffer. A consumer thread processes the collected data from the buffer. The objective is, both the threads should not run at the same time. 
+
+Using **Mutex**: 
+- A **mutex** provides mutual exclusion, either producer or consumer can have the key (mutex) and proceed with their work. As long as the buffer is filled by the producer, the consumer needs to wait, and vice versa. 
+- At any point of time, only one thread can work with the entire buffer. The concept can be generalized using **semaphore**. 
+
+Using **Semaphore**: 
+- A semaphore is a generalized mutex. In lieu of a single buffer, we can split the 4 KB buffer into four 1 KB buffers (identical resources). A semaphore can be associated with these four buffers. The consumer and producer can work on different buffers at the same time.
+
+A **mutex** is a locking mechanism used to synchronize access to a resource. Only one task (can be a thread or process based on OS abstraction) can acquire the mutex. It means there is ownership associated with a mutex, and only the owner can release the lock (mutex). 
+
+**Semaphore** is a signaling mechanism (“I am done, you can carry on” kind of signal). For example, if you are listening to songs (assume it as one task) on your mobile phone and at the same time, your friend calls you, an interrupt is triggered upon which an interrupt service routine (ISR) signals the call processing task to wake up. 
 
 ===========================================================
 ## TODO
