@@ -2,11 +2,11 @@
 
 ## Table of Contents:
 
-- [Behavioral](#behavioral)
+- [Purpose of this guide](#purpose-of-this-guide)
 - [Gaining Experience](#gaining-experience)
 - [Mock Interviews](#mock-interviews)
 - [Helpful Links](#random-helpful-links)
-- [Company Interview Questions](#company-interview-questions)
+- [Behavioral](#behavioral)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
 - [Language Questions](#language-questions)
 	- [Python](#python)
@@ -23,16 +23,18 @@
 - [AWS](#aws)
 - [Software Testing](#software-testing)
 - [Parallel Processing](#parallel-processing)
-- [System Design](#system-design)
+- [System Design](#system-design-preparation)
 - [Statistics / Probability](#statistics-probability)
 - [ML Prep](#ml-prep)
+- [NLP](#nlp)
 - [TODO](#todo)
 
 ---------------------------------
 
 ## Purpose of this guide:
 
-This guide is intended to provide short info snippets on a variety of coding topics and the interview process. 
+This guide is intended to provide short info snippets on a variety of coding topics and the interview process.
+- I would suggest using the book Cracking the Coding Interview
 
 ---------------------------------
 
@@ -45,6 +47,10 @@ Expanding your resume/portfolio:
 - SQL analysis (tableau, powerbi)
 - Contributing to open source projects
 
+## Resume Help
+Look up Mayuko and Ken Jee for the best resume advice  
+[best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
+
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
 - https://www.youtube.com/c/hellomayuko -SWE Interview Questions
@@ -52,8 +58,12 @@ Expanding your resume/portfolio:
 - https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
 - https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
 - https://www.youtube.com/c/3blue1brown -Math Creator
+- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML guy
 
 ## Random helpful links:
+[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source
+[Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems
+
 [Coding Interview Help](https://github.com/jwasham/coding-interview-university)
 - [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
 
@@ -101,10 +111,6 @@ Most behavioral interviews are 15-30 minutes long and are inquiries into your pe
 Career goal  
 Unique fact about yourself  
 
-----------------------------------------------------------------
-
-## Company Interview Questions
-
 What do you know about ___ and why did you decide to apply here?  What drew you to us?
 - Research company you're applying to
 	- Work environment
@@ -117,8 +123,7 @@ What are you looking for?
 What makes you a good fit for the company? 
 
 Story Time: Can you tell me about a time that you _____?   
-Nugget first
-- Start with a nugget that succinctly describes what your response will be about.
+Nugget first: Start with a nugget that succinctly describes what your response will be about.
 
 **STAR** method
 - Situation / Task -> Action -> Result
@@ -168,6 +173,7 @@ Tell me your greatest strength and weakness:
 ----------------------------------------------------------
 
 ## Technical Questions Overview:
+
 What do you look for when reviewing code?
 - **B** ottlenecks
 - **U** nnecessary work
