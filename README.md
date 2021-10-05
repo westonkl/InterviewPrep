@@ -159,11 +159,11 @@ What do you look for when reviewing code?
 - **U** nnecessary work
 - **D** uplicated work
 
-* What is an **Object** and a **Class**, what's the difference between them ?  
-A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value 
-An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings.
+What is an **Object** and a **Class**, what's the difference between them ?  
+A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
+An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings.  
 
-* What are the pillars of OOP?
+What are the pillars of OOP?
 	- Abstraction- ability to hide things
 	- Encapsulation- binding data and functions for protection
 	- Inheritance- inheriting features of parent class
@@ -171,17 +171,17 @@ An **object** is a member or an "instance" of a class. An object has a state in 
 
 method overloading vs overriding
 
-**Recursion:**
+**Recursion:**  
 	- A function which calls itself recursively
 	- Consists of a base case (stopper) and a recursive case(recurser).
 
-What's the difference between a stack and a queue ?  
+What's the difference between a stack and a queue?  
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
-Heap
-Priority Queue
-Trees
+Heap  
+Priority Queue  
+Trees  
 
 Mixin- a class that contains methods for other classes without having to be the parent class
 
@@ -217,7 +217,7 @@ Coding-interview university github
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.
 
-What are lists and tuples and what are their differences:
+What are lists and tuples and what are their differences?:  
 - Both sequence data types (can hold multiple types)
 - Lists are mutable - changeable
 - Tuples are immutable
@@ -310,7 +310,7 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 
 ## Bash
 
-The Bourne Again SHell. It is a Unix shell and command language. 
+The Bourne Again SHell. It is a Unix shell and command language.  
 https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
 
 It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
@@ -324,7 +324,7 @@ The improvements offered by Bash include:
 Example commands:
 	Cd, break, continue, exec.
 	
-Name:
+**Name:** 
 A word consisting solely of letters, numbers, and underscores, and beginning with a letter or underscore. Names are used as shell variables and function names. Also referred to as an identifier.
 
 --------------------------------------------------------------------------
@@ -334,29 +334,29 @@ Docker is an open platform for developing, shipping, and running applications. D
 
 ![Docker](https://docs.docker.com/engine/images/architecture.svg)
 
-**Docker architecture**
+**Docker architecture**  
 Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, which lets you work with applications consisting of a set of containers.
 
-**The Docker daemon**
+**The Docker daemon**  
 The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
 
-**The Docker client**
+**The Docker client**  
 The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 
-**Docker registries**
+**Docker registries**  
 A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
 
 When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
 
-**Docker objects**
+**Docker objects**  
 When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects.
 
-**Images**
+**Images**  
 An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.
 
 You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
 
-**Containers**
+**Containers**  
 A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
 
 By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
@@ -407,41 +407,41 @@ better for multi-row transactions | better for unstructured data like documents 
 
 ## Relational Databases:
 
-**Primary Key (PK):**
+**Primary Key (PK):**  
 A column with a unique value for each row. Although not all database management systems (DBMS) require you to put a PK into each table, from a design perspective a PK is a requirement. No table should be without one.
 
-**Foreign Key (FK):**
+**Foreign Key (FK):**  
 These define relationships between tables. When you want a row in one table to be linked to a row in another table, you place a FK column in the child table and use the value of the parent row's PK as the value of the FK field.
 
-**Composite Key:**
+**Composite Key:**  
 This is a key that is made up of more than one column. This is typically used when you want to prevent a table from using the same combination of values twice. For example, in a table that lists item prizes for shops, you would only want each shop to have a single price for each item. So, you create a FK for the shop and a FK for the item, and then you create a composite PK out of those two columns. This would cause the DBMS to forcefully restrict entries that would create rows where the combined values of these fields are duplicated. - This type of key is commonly used in N:M relationships.
 
-**One-To-One (1:1) relationship:**
-A relationship between two tables, where a single row in one table is linked to a single row in another table.
-
+**One-To-One (1:1) relationship:**  
+A relationship between two tables, where a single row in one table is linked to a single row in another table.  
 This type of relationship is practically non-existent in normalized relational designs. They exist mostly to get around limitations in databases like Access, where the number of columns was limited, thus creating the need to split tables up. They are also sometimes used to optimize the performance of the database.
 
-**One-To-Many (1:N) relationship:**
+**One-To-Many (1:N) relationship:**  
 A relationship between two tables, where multiple rows in a child table can be linked to a single row in a parent table.
 This is in fact the only "real" type of relationship in a relational database.
 
-**Many-To-Many (N:M) relationship:**
+**Many-To-Many (N:M) relationship:**  
 A relationship between two tables, where multiple rows in one table can be linked to multiple rows in another table. This type is "artificial" in a a way, because this kind of relationship can not be created directly between tables. To accomplish this type of relationship you need to create a third table; an intermediary table that contains FKs to both parents, linked via a set of 1:N relationships.
 
-## Normalization:
-To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization". https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/
-https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798
+## Normalization:  
+To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization". 
+https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/  
+https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798  
 
-There are several steps involved in normalizing a database. The steps are referred to as "Normal Forms". There are at least 7 NF. Each NF requires that the NF before it has also been satisfied. The spot between 3NF and 4NF is reserved for the BCNF (Boyce-Codd normal form), which was developed later as a slightly stronger version of the 3NF. Tables that have reached the 3NF are generally considered "normalized".
+There are several steps involved in normalizing a database. The steps are referred to as "Normal Forms". There are at least 7 NF. Each NF requires that the NF before it has also been satisfied. The spot between 3NF and 4NF is reserved for the BCNF (Boyce-Codd normal form), which was developed later as a slightly stronger version of the 3NF. Tables that have reached the 3NF are generally considered "normalized".  
 - 1NF: tables must not contain repeating groups of data
 - 2NF: no field should only be partially dependent on any candidate key
 - 3NF: columns should depend only upon the primary key of the table
 
-**B-Tree**
+**B-Tree**  
 A self balancing tree used as a database
 http://20bits.com/article/interview-questions-database-indexes
 
-## ETL (Extract, Transform, Load)
+## ETL (Extract, Transform, Load)  
 Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.
 
 MapReduce
@@ -479,7 +479,8 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 **GraphQL:**
 - A query/manipulation language for your API and a runtime for fulfilling queries with existing data
 
-**OLTP vs OLAP** - [link](https://techdifferences.com/difference-between-oltp-and-olap.html#:~:text=OLTP%20and%20OLAP%20both%20are,is%20an%20analytical%20processing%20system.&text=The%20basic%20difference%20between%20OLTP,online%20database%20query%20answering%20system.)
+**OLTP vs OLAP** 
+- [link](https://techdifferences.com/difference-between-oltp-and-olap.html#:~:text=OLTP%20and%20OLAP%20both%20are,is%20an%20analytical%20processing%20system.&text=The%20basic%20difference%20between%20OLTP,online%20database%20query%20answering%20system.)
 - Both are online processing systems. OLTP is a transactional processing sys which modifies data while OLAP is an analytical processing system which queries.
 
 ------------------------------------------------------
@@ -490,7 +491,7 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
 
-http vs https:
+http vs https:  
 ![httpvshttps](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsmate.com%2F2020%2F07%2Fhttp-vs-https.html&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAK)
 
 https://www.tutorialspoint.com/http/http_overview.htm
@@ -534,7 +535,7 @@ Indicate the desired action to be performed for a given resource. Each of them i
 	- The PATCH method is used to apply partial modifications to a resource.
 
 **WebSockets:**
-- Provide a persistent connection between a client and server that both parties can use to start sending data at any time.
+- Provide a persistent connection between a client and server that both parties can use to start sending data at any time.  
 https://blog.teamtreehouse.com/an-introduction-to-websockets
 
 The client establishes a WebSocket connection through a process known as the WebSocket handshake. This process starts with the client sending a regular HTTP request to the server. An Upgrade header is included in this request that informs the server that the client wishes to establish a WebSocket connection.
@@ -555,7 +556,7 @@ TCP/IP
 - View
 	- Any representation of information such as a chart, diagram or table.
 - Controller
-	- Accepts input and converts it to commands for the model or view
+	- Accepts input and converts it to commands for the model or view  
 ![mvc](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 ------------------------------------------------------
@@ -948,10 +949,10 @@ What is the difference between **discriminative** and **generative** models?
 	- **Generative**
 		- Learn distributions (ex: naive bayes)
 
-Time series:
+Time series:  
 	K-fold cv
 
-**Variance** = how scattered the predictions are from the actual value
+**Variance** = how scattered the predictions are from the actual value  
 High variance means overfitting
 
 **Correlation** measures how strongly two variables are related.
@@ -970,6 +971,58 @@ How to deal with **overfitting**:
 	- Dropout- randomly remove parts of your model
 	- Data Augmentation
 	- Batch  normalization
+
+Regularization is a technique where we penalize the loss function for flexibility
+  	**L1 and L2 regularization:**  
+L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.
+
+Type 1 error is a false positive  
+Type 2 error is a false negative  
+
+**What is deep learning,** and how does it contrast with other machine learning algorithms?  
+  	Deep learning is a subset of machine learning that is concerned with neural networks: how to use backpropagation and certain principles from neuroscience to more accurately model large sets of unlabelled or semi-structured data. In that sense, deep learning represents an unsupervised learning algorithm that learns representations of data through the use of neural nets.
+
+**Convolutional Neural Network:**
+  	a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.  
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+
+What cross-validation technique would you use on a time series dataset?
+  	K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates
+
+How would you build a data pipeline?  
+
+How would you implement a recommendation system?  
+
+-------------------------------------------
+
+### NLP
+    
+Statistical: Part of Speech tagging, decision trees  
+Neural Networks: word embeddings, NER, bert  
+
+### Morphological analysis
+[Lemmatization](https://en.wikipedia.org/wiki/Lemmatisation)  
+The task of removing inflectional endings only and to return the base dictionary form of a word which is also known as a lemma. Lemmatization is another technique for reducing words to their normalized form. But in this case, the transformation actually uses a dictionary to map words to their actual form
+
+[Morphological segmentation](https://en.wikipedia.org/wiki/Morphology_(linguistics))  
+Separate words into individual morphemes and identify the class of the morphemes.
+
+[Part-of-speech tagging](https://en.wikipedia.org/wiki/Part-of-speech_tagging)  
+Given a sentence, determine the part of speech (POS) for each word. Many words, especially common ones, can serve as multiple parts of speech. For example, "book" can be a noun ("the book on the table") or verb ("to book a flight"); "set" can be a noun, verb or adjective; and "out" can be any of at least five different parts of speech.
+
+[Stemming](https://en.wikipedia.org/wiki/Stemming)  
+The process of reducing inflected (or sometimes derived) words to a base form (e.g., "close" will be the root for "closed", "closing", "close", "closer" etc.). Stemming yields similar results as lemmatization, but does so on grounds of rules, not a dictionary.
+
+[Named entity recognition](https://en.wikipedia.org/wiki/Named_entity_recognition) (NER)  
+Given a stream of text, determine which items in the text map to proper names, such as people or places, and what the type of each such name is (e.g. person, location, organization). Although capitalization can aid in recognizing named entities in languages such as English, this information cannot aid in determining the type of named entity, and in any case, is often inaccurate or insufficient. For example, the first letter of a sentence is also capitalized, and named entities often span several words, only some of which are capitalized. Furthermore, many other languages in non-Western scripts (e.g. Chinese or Arabic) do not have any capitalization at all, and even languages with capitalization may not consistently use it to distinguish names. For example, German capitalizes all nouns, regardless of whether they are names, and French and Spanish do not capitalize names that serve as adjectives.
+
+
+[Sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) (see also [Multimodal sentiment analysis](https://en.wikipedia.org/wiki/Multimodal_sentiment_analysis))  
+Extract subjective information usually from a set of documents, often using online reviews to determine "polarity" about specific objects. It is especially useful for identifying trends of public opinion in social media, for marketing.
+
+BERT: https://www.kaggle.com/mdfahimreshm/bert-in-depth-understanding
+
+SPACY: https://spacy.io/
 
 
 ===========================================================
