@@ -5,7 +5,7 @@
 - [Behavioral](#behavioral)
 - [Gaining Experience](#gaining-experience)
 - [Mock Interviews](#mock-interviews)
-- [Helpful Links](#helpful-links)
+- [Helpful Links](#random-helpful-links)
 - [Company Interview Questions](#company-interview-questions)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
 - [Language Questions](#language-questions)
@@ -51,36 +51,40 @@ Tell me about yourself:
 - SQL database
 - Open Source Projects
 
-Random helpful links:
-* https://github.com/jwasham/coding-interview-university
-https://github.com/jwasham/computer-science-flash-cards
+## Random helpful links:
+[Coding Interview Help](https://github.com/jwasham/coding-interview-university)
+- [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
+
+[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
 Web.dev.learn/
 
-Data Science / analytics:
-https://www.sharpestminds.com/landing-a-data-job-the-course
+### Data Science / analytics:  
+https://www.sharpestminds.com/landing-a-data-job-the-course  
 https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst
 
-*https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md
+https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md
 
-https://github.com/andkret/Cookbook
+[Great Big Data Cookbook](https://github.com/andkret/Cookbook)
 
-https://developers.google.com/learn
-https://developers.google.com/machine-learning/crash-course
-https://developers.google.com/learn/pathways
+https://developers.google.com/learn  
+https://developers.google.com/machine-learning/crash-course  
+https://developers.google.com/learn/pathways  
+
+https://raft.github.io/
 
 Tools:
 - Tripe Byte Triplebyte Prep, Crossover, Canvas, Angellist, Smartr
 - Pathrise, Sharpest minds, Cognixia
 - Leetcode, hackerrank, stratascratch
-- mode
+- mode (SQL)
 
 ----------------------------------------------------------------
 
 ## Mock interviews:
-https://interviewing.io/
-https://www.pramp.com/#/
-https://www.swecareers.com/mock-interviews
+https://interviewing.io/  
+https://www.pramp.com/#/  
+https://www.swecareers.com/mock-interviews  
 
 
 ----------------------------------------------------------------
