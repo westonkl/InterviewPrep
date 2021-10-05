@@ -28,28 +28,30 @@
 - [ML Prep](#ml-prep)
 - [TODO](#todo)
 
-----------------------------------------------------------------
-## Behavioral:
+---------------------------------
 
-Tell me about yourself:
-- Current Role -headline
-- College
-- Post College / Current Role - details
-- Outside of work
+## Purpose of this guide:
 
-- Career goal
-- Unique fact about yourself
+This guide is intended to provide short info snippets on a variety of coding topics and the interview process. 
 
-----------------------------------------------------------------
+---------------------------------
 
 ## Gaining Experience:
 
-- Resume Projects
+Expanding your resume/portfolio:  
 - [Kaggle](kaggle.com)
-- Rest API
-- Web applications
-- SQL database
-- Open Source Projects
+- Creating a RESTful API
+- Web applications (with persistent memory)
+- SQL analysis (tableau, powerbi)
+- Contributing to open source projects
+
+## Favorite Youtube Creators:
+- https://www.youtube.com/c/Fireship -Random Tech Tutorials
+- https://www.youtube.com/c/hellomayuko -SWE Interview Questions
+- https://www.youtube.com/c/Reducible -SWE Interview Questions
+- https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
+- https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
+- https://www.youtube.com/c/3blue1brown -Math Creator
 
 ## Random helpful links:
 [Coding Interview Help](https://github.com/jwasham/coding-interview-university)
@@ -57,27 +59,26 @@ Tell me about yourself:
 
 [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
-Web.dev.learn/
+### Data Science / Analytics links:  
+ 
+https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst  
 
-### Data Science / analytics:  
-https://www.sharpestminds.com/landing-a-data-job-the-course  
-https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst
-
-https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md
+https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md  
 
 [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
 
-https://developers.google.com/learn  
-https://developers.google.com/machine-learning/crash-course  
-https://developers.google.com/learn/pathways  
+**Google Learning Resources**  
+> https://developers.google.com/learn  
+> https://developers.google.com/machine-learning/crash-course  
+> https://developers.google.com/learn/pathways  
 
 https://raft.github.io/
 
 Tools:
 - Tripe Byte Triplebyte Prep, Crossover, Canvas, Angellist, Smartr
-- Pathrise, Sharpest minds, Cognixia
+- Pathrise, [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course )
 - Leetcode, hackerrank, stratascratch
-- mode (SQL)
+- Mode (SQL)
 
 ----------------------------------------------------------------
 
@@ -86,6 +87,19 @@ https://interviewing.io/
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
 
+----------------------------------------------------------------
+## Behavioral:
+
+Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for.
+
+**Tell me about yourself:**  
+  - Current Role (your headline) 
+  - College  
+  - Post College / Current Role  
+  - Outside of work (how are you upskilling?)  
+
+Career goal  
+Unique fact about yourself  
 
 ----------------------------------------------------------------
 
@@ -217,10 +231,10 @@ Coding-interview university github
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.
 
-What are lists and tuples and what are their differences?:  
+What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
-- Lists are mutable - changeable
-- Tuples are immutable
+- **Lists** are mutable - changeable
+- **Tuples** are immutable
 
 **Lambda** is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
 
@@ -501,12 +515,12 @@ Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 **Cookies:**
 - a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
  
-Cookies are mainly used for three purposes:
-- Session management
+**Cookies** are mainly used for three purposes:
+- **Session management**
 	- Logins, shopping carts, game scores, or anything else the server should remember
-- Personalization
+- **Personalization**
 	- User preferences, themes, and other settings
-- Tracking
+- **Tracking**
 	- Recording and analyzing user behavior
 
 How a browser works:https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
@@ -774,7 +788,7 @@ https://www.khanacademy.org/math/statistics-probability
 > n!/(n1!)
 
 
-**Combinations:** n choose r
+**Combinations:** n choose r  
 *(n r)  for r<=n => n! / ((n-r)!r!)*
 
 Binomial Theorem
@@ -785,10 +799,10 @@ De Morgan’s Laws:
 
 **Probability:** P(E) = (num of outcomes in E) / (num of outcomes in S)
 
-**Conditional Probability:**
+**Conditional Probability:**  
 	P(E|F) = probability  E occurs given F
 	
-What is Bayes theorem?
+What is Bayes theorem?  
 P(A|B) = P(A) P(B|A) / P(B)
 
 ----------------------------
