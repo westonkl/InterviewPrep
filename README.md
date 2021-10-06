@@ -13,20 +13,21 @@
 	- [Python](#python)
 	- [Java](#java)
 	- [JavaScript](#javascript)
-	- [Node.js](#node.js)
+	- [Node.js](#node-js)
 	- [Bash](#bash)
 - [Docker](#docker)
 - [Git](#git)
-- [SQL/NoSQL](#sql/nosql)
+- [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 - [API Design](#api-design)
-- [HTTP](#http-request-methods-(http-verbs))
+- [HTTP (Hypertext Transfer Protocol)](#http)
 - [AWS](#aws)
-- [CI/CD](#ci/cd)
+- [CI/CD](#ci-and-cd)
 - [Software Testing](#software-testing)
 - [Parallel Processing](#parallel-processing)
 - [System Design](#system-design-preparation)
-- [Statistics / Probability](#statistics-probability)
+- [Statistics and Probability](#statistics-and-probability)
+- [Data](#data)
 - [ML Prep](#ml-prep)
 - [NLP](#nlp)
 - [TODO](#todo)
@@ -78,6 +79,11 @@ Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYq
 [Coding Interview Help](https://github.com/jwasham/coding-interview-university)
 - [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
 
+https://github.com/Olshansk/interview#similar-repos  
+https://github.com/schmatz/cs-interview-guide  
+https://github.com/donnemartin/interactive-coding-challenges  
+https://github.com/donnemartin/system-design-primer   
+
 [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
 ### Data Science / Analytics links:  
@@ -98,8 +104,8 @@ https://raft.github.io/
 Tools:
 - Tripe Byte Triplebyte Prep, Crossover, Canvas, Angellist, Smartr
 - Pathrise, [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course )
-- Leetcode, hackerrank, stratascratch
-- Mode (SQL)
+- [Leetcode](https://leetcode.com/problemset/all/), hackerrank, [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc),  stratascratch
+- [Mode (SQL)](https://mode.com/sql-tutorial/)
 
 ----------------------------------------------------------------
 
@@ -253,7 +259,7 @@ Coding-interview university github
 
 # Language Questions:
 
-## Python Questions: 
+## Python: 
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.
 
@@ -279,7 +285,7 @@ What are **lists** and **tuples** and what are their differences?:
 
 ----------------------------------------------------------------
 
-## JavaScript Questions:
+## JavaScript:
 
 JavaScript is a high level interpreted oop language that is single threaded (no parallelism). It is dynamically typed, and has first-class functions. Multiparadigm language supports: event-driven, functional, and imperative programming styles. Sets the behavior of web pages.
 
@@ -324,7 +330,7 @@ What is a **singleton class** in java?
 
 ---------------------------------------------------------------------------
 
-## Node.js 
+## Node js
 
 A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
 
@@ -424,7 +430,7 @@ My initial project workflow:
 - git push -u origin master
 
 --------------------------------------------------
-## SQL/NoSQL
+## SQL and NoSQL
 
 Format of a SQL query:
 - SELECT
@@ -533,7 +539,8 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ------------------------------------------------------
 
-## HTTP (Hypertext Transfer Protocol)
+## HTTP 
+**(Hypertext Transfer Protocol)**
 
 ([HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)) is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical [client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol), meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable [transport layer](https://en.wikipedia.org/wiki/Transport_Layer), that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
 
@@ -639,7 +646,7 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 ----------------------------
 
-## CI/CD
+## CI and CD
 
 https://www.redhat.com/en/topics/devops/what-is-ci-cd
 
@@ -820,7 +827,7 @@ This principle states that each small piece of knowledge (code) may only occur e
 
 -------------------------------------------
 
-## Statistics / Probability
+## Statistics and Probability 
 https://www.khanacademy.org/math/statistics-probability
 
 **Permutations:**
@@ -1009,10 +1016,10 @@ https://www.edureka.co/blog/interview-questions/data-science-interview-questions
 What is the difference between supervised vs unsupervised machine learning?
 
 What is the difference between **discriminative** and **generative** models?
-	- **Discriminative**
-		- Learn decision boundaries (ex: svm, regressions)
-	- **Generative**
-		- Learn distributions (ex: naive bayes)
+- **Discriminative**
+	- Learn decision boundaries (ex: svm, regressions)
+- **Generative**
+	- Learn distributions (ex: naive bayes)
 
 Time series:  
 	K-fold cv
@@ -1020,7 +1027,7 @@ Time series:
 **Variance** = how scattered the predictions are from the actual value  
 High variance means overfitting
 
-**Correlation** measures how strongly two variables are related.
+**Correlation** measures how strongly two variables are related.  
 In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in cycle
 
 - **Error** = bias + variance
@@ -1028,16 +1035,16 @@ In covariance two items vary together and it’s a measure that indicates the ex
 High bias means you are underfitting
 
 How to deal with **underfitting**:
-	- Add features
-	- Decrease regularization term
+- Add features
+- Decrease regularization term  
 How to deal with **overfitting**:
-	- Reduce number of features
-	- Increase regularization term
-	- Dropout- randomly remove parts of your model
-	- Data Augmentation
-	- Batch  normalization
+- Reduce number of features
+- Increase regularization term
+- Dropout- randomly remove parts of your model
+- Data Augmentation
+- Batch  normalization
 
-Regularization is a technique where we penalize the loss function for flexibility
+Regularization is a technique where we penalize the loss function for flexibility  
   	**L1 and L2 regularization:**  
 L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.
 
