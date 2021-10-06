@@ -47,9 +47,17 @@ Expanding your resume/portfolio:
 - SQL analysis (tableau, powerbi)
 - Contributing to open source projects
 
+**Motivation** 
+* https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
+* https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
+
 ## Resume Help
-Look up Mayuko and Ken Jee for the best resume advice  
+Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and Ken Jee for the best resume advice  
 [best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
+
+## Last Step
+[Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
+[Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
@@ -96,6 +104,11 @@ Tools:
 https://interviewing.io/  
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
+
+**Example Coding Interviews:**  
+https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=3  
+https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=4&t=344s  
+https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=5&t=126s
 
 ----------------------------------------------------------------
 ## Behavioral:
@@ -174,10 +187,18 @@ Tell me your greatest strength and weakness:
 
 ## Technical Questions Overview:
 
+A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+
 What do you look for when reviewing code?
 - **B** ottlenecks
 - **U** nnecessary work
 - **D** uplicated work
+
+https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1   
+https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=14&t=853s  
+https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=13
+
+#### General Technical 'Trivia'
 
 What is an **Object** and a **Class**, what's the difference between them ?  
 A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
@@ -198,10 +219,6 @@ method overloading vs overriding
 What's the difference between a stack and a queue?  
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
-
-Heap  
-Priority Queue  
-Trees  
 
 Mixin- a class that contains methods for other classes without having to be the parent class
 
@@ -283,7 +300,7 @@ https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-c
 
 ---------------------------------------------------------------------------
 
-## Java
+## Java 
 
 **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
 
@@ -304,7 +321,7 @@ What is a **singleton class** in java?
 
 ---------------------------------------------------------------------------
 
-## Node.js
+## Node.js 
 
 A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
 
@@ -387,7 +404,9 @@ A container is defined by its image as well as any configuration options you pro
 
 ## Git
 
-[Git book](https://git-scm.com/book/en/v2)
+[Git book](https://git-scm.com/book/en/v2)  
+
+https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s  
 
 My initial project workflow:
 - git init repo in directory
@@ -422,6 +441,8 @@ SQL | NoSQL
 vertically scalable | horizontally scalable
 table based | document, key-value, graph or wide-column stores
 better for multi-row transactions | better for unstructured data like documents or JSON
+  
+https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40  
 
 -----------------------------------
 
@@ -679,7 +700,8 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 
 Test Driven Development: (develop tests before coding)
 - Cypress
-- jest
+- jest  
+https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35
 
 ------------------------------------------------
 
@@ -821,6 +843,14 @@ Dispersion -> Variance: average of the squared deviation from the mean
 
 [Standard deviation](https://www.mathsisfun.com/data/standard-deviation.html) = variance
 
+https://www.youtube.com/watch?v=zRUliXuwJCQ&list=WL&index=9  
+
+https://www.youtube.com/watch?v=mBCiKUzwdMs&list=WL&index=88
+
+https://www.youtube.com/watch?v=HZGCoVF3YvM&list=WL&index=11  
+
+https://www.youtube.com/watch?v=BrK7X_XlGB8&list=WL&index=10  
+
 ------------------------------
 
 ## Distributions:
@@ -902,7 +932,9 @@ How do you deal with outliers in a dataset?
 ---------------------------------------------
 
 ## ML Prep:
-https://developers.google.com/machine-learning/crash-course
+https://developers.google.com/machine-learning/crash-course  
+
+https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36  
 
 Possible Topics:
 	> Statistical distributions
@@ -911,15 +943,15 @@ Possible Topics:
 	> Numpy functions and matrices
 	> Pandas data munging
 
-https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva
-https://www.springboard.com/blog/machine-learning-interview-questions/
-https://www.edureka.co/blog/interview-questions/data-science-interview-questions/
+https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva  
+https://www.springboard.com/blog/machine-learning-interview-questions/  
+https://www.edureka.co/blog/interview-questions/data-science-interview-questions/  
 
 ### Precision vs recall
 - Recall is the true positive rate (pos claims vs actual num of pos)- rate of fish caught in pond
 - Precision is the positive predictive value - rate of correct predictions
 
-**F1 Score: **
+**F1 Score:**  
 	A weighted average of the precision and recall of a model (1 best, 0 worst)
 
 ### Evaluation metrics:
@@ -1044,6 +1076,7 @@ BERT: https://www.kaggle.com/mdfahimreshm/bert-in-depth-understanding
 
 SPACY: https://spacy.io/
 
+[Link to top](table-of-contents)
 
 ===========================================================
 ## TODO
