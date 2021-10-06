@@ -49,8 +49,8 @@ I recommend applying to as many places that fit your resume/skillset as possible
 [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
 
 Other good application sites include:
-- Tripe Byte, Crossover, Canvas, Angellist, Smartr
-- Pathrise, [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
+- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE), [Crossover](https://www.crossover.com/), [Canvas](https://www.canvas.com/app/discover/jobs), [Angellist](https://angel.co/), [Smartr](https://www.smartr.me/)
+- [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
 Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.
 
@@ -258,7 +258,7 @@ Coding-interview university github
 - Graphing:
 - Sorting Algorithms: (Quick, Merge, Selection, Tim)
 - Bit Manipulation:
-- SQL:
+- SQL
 
 ----------------------------------------------------------------
 
