@@ -36,7 +36,7 @@
 
 ## Purpose of this guide:
 
-This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer.
+This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer. This is a work in progress.
 
 ---------------------------------
 
@@ -769,6 +769,9 @@ A **mutex** is a locking mechanism used to synchronize access to a resource. Onl
 
 ## System Design preparation:
 
+This section is more of a high level view of some important things to know about database design and software design. You may get a more in depth system design focused interview where you are asked to design a product or fix/improve one.  
+[Here is a useful repo for a system design interview](https://github.com/donnemartin/system-design-primer)
+
 ### ACID
 - Atomicity - each transaction is a single unit (fails or succeeds completely)
 - Consistency - a transaction can only bring the database from one valid state to another
@@ -1043,7 +1046,7 @@ How to deal with **overfitting**:
 - Batch  normalization
 
 Regularization is a technique where we penalize the loss function for flexibility  
-  	**L1 and L2 regularization:**  
+            **L1 and L2 regularization:**  
 L2 regularization tends to spread error among all the terms, while L1 is more binary/sparse, with many variables either being assigned a 1 or 0 in weighting. L1 corresponds to setting a Laplacean prior on the terms, while L2 corresponds to a Gaussian prior.
 
 Type 1 error is a false positive  
@@ -1086,7 +1089,6 @@ The process of reducing inflected (or sometimes derived) words to a base form (e
 [Named entity recognition](https://en.wikipedia.org/wiki/Named_entity_recognition) (NER)  
 Given a stream of text, determine which items in the text map to proper names, such as people or places, and what the type of each such name is (e.g. person, location, organization). Although capitalization can aid in recognizing named entities in languages such as English, this information cannot aid in determining the type of named entity, and in any case, is often inaccurate or insufficient. For example, the first letter of a sentence is also capitalized, and named entities often span several words, only some of which are capitalized. Furthermore, many other languages in non-Western scripts (e.g. Chinese or Arabic) do not have any capitalization at all, and even languages with capitalization may not consistently use it to distinguish names. For example, German capitalizes all nouns, regardless of whether they are names, and French and Spanish do not capitalize names that serve as adjectives.
 
-
 [Sentiment analysis](https://en.wikipedia.org/wiki/Sentiment_analysis) (see also [Multimodal sentiment analysis](https://en.wikipedia.org/wiki/Multimodal_sentiment_analysis))  
 Extract subjective information usually from a set of documents, often using online reviews to determine "polarity" about specific objects. It is especially useful for identifying trends of public opinion in social media, for marketing.
 
@@ -1097,9 +1099,9 @@ SPACY: https://spacy.io/
 [Link to top](table-of-contents)
 
 ===========================================================
-## TODO <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30">
-- add all the links
-- add images
-- add everything to table of contents
+## TODO <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+- add more images and resize them
 - add to ci/cd section and jenkins
 - add spark and kafka section
+- add Hadoop Section
+- add springboot and maven to Java
