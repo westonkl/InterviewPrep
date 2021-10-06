@@ -417,17 +417,21 @@ A container is defined by its image as well as any configuration options you pro
 ------------------
 
 ## Git
+Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.  
+
+![git ex](https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png)
 
 [Git book](https://git-scm.com/book/en/v2)  
 
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 
 **Markdown help:**  
-https://wordpress.com/support/markdown-quick-reference/  
-https://guides.github.com/features/mastering-markdown/  
-[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
+> [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
+> [Mastering markdown](https://guides.github.com/features/mastering-markdown/)  
+> [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
-https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s  
+- [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)  
+- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)  
 
 My initial project workflow:
 - git init repo in directory
@@ -436,8 +440,6 @@ My initial project workflow:
 - git commit -m "asdf"
 - git pull origin master (if remote branch chaged)
 - git push -u origin master
-
-
 
 --------------------------------------------------
 ## SQL and NoSQL
