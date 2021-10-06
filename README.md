@@ -19,10 +19,10 @@
 - [Git](#git)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
+- [CI/CD](#ci-and-cd)
 - [API Design](#api-design)
 - [HTTP (Hypertext Transfer Protocol)](#http)
 - [AWS](#aws)
-- [CI/CD](#ci-and-cd)
 - [Software Testing](#software-testing)
 - [Parallel Processing](#parallel-processing)
 - [System Design](#system-design-preparation)
@@ -502,8 +502,12 @@ MapReduce
 
 ## Data Pipeline
 
-## CI/CD
-- Jenkins
+----------------------------
+
+## CI and CD
+
+https://www.redhat.com/en/topics/devops/what-is-ci-cd  
+Jenkins
 
 -----------------------------------------------------
 
@@ -643,12 +647,6 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 **AWS Lambda:** is a serverless compute service that lets you run code without provisioning ormanaging servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. Just upload your code as a ZIP file or container image, and Lambda allocates compute execution power and runs your code based on the incoming request or event. You can set up your code to automatically trigger from 140 AWS services or call it directly. You can write Lambda functions in any language and use both serverless and container tools, such as AWS SAM or Docker CLI, to build, test, and deploy your Functions.
 
 **Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale. 
-
-----------------------------
-
-## CI and CD
-
-https://www.redhat.com/en/topics/devops/what-is-ci-cd
 
 ----------------------------
 
