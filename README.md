@@ -1,4 +1,4 @@
-# InterviewPrep
+# Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
 ## Table of Contents:
 
@@ -8,6 +8,7 @@
 - [Helpful Links](#random-helpful-links)
 - [Behavioral](#behavioral)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
+- [Technical Questions Overview](#technical-questions-overview)
 - [Language Questions](#language-questions)
 	- [Python](#python)
 	- [Java](#java)
@@ -21,6 +22,7 @@
 - [API Design](#api-design)
 - [HTTP](#http-request-methods-(http-verbs))
 - [AWS](#aws)
+- [CI/CD](#ci/cd)
 - [Software Testing](#software-testing)
 - [Parallel Processing](#parallel-processing)
 - [System Design](#system-design-preparation)
@@ -33,8 +35,7 @@
 
 ## Purpose of this guide:
 
-This guide is intended to provide short info snippets on a variety of coding topics and the interview process.
-- I would suggest using the book Cracking the Coding Interview
+This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer.
 
 ---------------------------------
 
@@ -46,6 +47,8 @@ Expanding your resume/portfolio:
 - Web applications (with persistent memory)
 - SQL analysis (tableau, powerbi)
 - Contributing to open source projects
+
+- I would suggest using the book Cracking the Coding Interview for technical practice
 
 **Motivation** 
 * https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
@@ -200,9 +203,9 @@ https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=13
 
 #### General Technical 'Trivia'
 
-What is an **Object** and a **Class**, what's the difference between them ?  
-A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
-An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default settings.  
+What is an **Object** and a **Class**, what's the difference between them?  
+- A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
+- An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default  
 
 What are the pillars of OOP?
 	- Abstraction- ability to hide things
@@ -233,7 +236,7 @@ Coding-interview university github
 - Linked lists:	
 - Stacks:
 - Heaps / Priority Queues:
-- Binary Search:
+- Binary Search: [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
 - Two Pointers:
 - Divide and Conquer:
 - Hashing/dictionaries:
@@ -405,6 +408,10 @@ A container is defined by its image as well as any configuration options you pro
 ## Git
 
 [Git book](https://git-scm.com/book/en/v2)  
+
+**Markdown help:**  
+https://wordpress.com/support/markdown-quick-reference/  
+https://guides.github.com/features/mastering-markdown/  
 
 https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s  
 
@@ -630,7 +637,13 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 **Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale. 
 
--------------------------------------------------
+----------------------------
+
+## CI/CD
+
+https://www.redhat.com/en/topics/devops/what-is-ci-cd
+
+----------------------------
 
 ## Software Testing:
 There are many approaches available in [software testing](https://en.wikipedia.org/wiki/Software_testing). Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as [dynamic testing](https://en.wikipedia.org/wiki/Dynamic_testing)(validation)
@@ -1079,9 +1092,9 @@ SPACY: https://spacy.io/
 [Link to top](table-of-contents)
 
 ===========================================================
-## TODO
+## TODO <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="30">
 - add all the links
 - add images
 - add everything to table of contents
-- add ci/cd section and jenkins
+- add to ci/cd section and jenkins
 - add spark and kafka section
