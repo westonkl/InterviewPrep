@@ -71,7 +71,7 @@ Expanding your resume/portfolio:
 - Creating a RESTful API
 - Web applications (with persistent memory)
 - SQL analysis (tableau, powerbi)
-- Contributing to open source projects
+- Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
 
 - I would suggest using the book Cracking the Coding Interview for technical practice
 
@@ -419,6 +419,8 @@ A container is defined by its image as well as any configuration options you pro
 ## Git
 
 [Git book](https://git-scm.com/book/en/v2)  
+
+[Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 
 **Markdown help:**  
 https://wordpress.com/support/markdown-quick-reference/  
