@@ -1,11 +1,10 @@
 # Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
 
-## Table of Contents:
-
+## Table of Contents
 - [Purpose of this guide](#purpose-of-this-guide)
 - [Gaining Experience](#gaining-experience)
 - [Mock Interviews](#mock-interviews)
-- [Helpful Links](#random-helpful-links)
+- [Helpful Links](#misc-helpful-links)
 - [Behavioral](#behavioral)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
 - [Technical Questions Overview](#technical-questions-overview)
@@ -40,6 +39,31 @@ This guide is intended to provide short info snippets on a variety of coding top
 
 ---------------------------------
 
+## Resume Help
+Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
+
+## Applying
+I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.
+[best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)  
+
+[Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
+
+Other good application sites include:
+- Tripe Byte, Crossover, Canvas, Angellist, Smartr
+- Pathrise, [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
+
+Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.
+
+https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10
+
+**Motivation** 
+* https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
+* https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
+
+## Last Step
+[Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
+[Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
+
 ## Gaining Experience:
 
 Expanding your resume/portfolio:  
@@ -51,61 +75,42 @@ Expanding your resume/portfolio:
 
 - I would suggest using the book Cracking the Coding Interview for technical practice
 
-**Motivation** 
-* https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
-* https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
-
-## Resume Help
-Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and Ken Jee for the best resume advice  
-[best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
-
-## Last Step
-[Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
-[Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
-
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
 - https://www.youtube.com/c/hellomayuko -SWE Interview Questions
 - https://www.youtube.com/c/Reducible -SWE Interview Questions
 - https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
 - https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
-- https://www.youtube.com/c/3blue1brown -Math Creator
-- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML guy
+- https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
+- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
-## Random helpful links:
+## Misc helpful links:
 [Leetcode](https://leetcode.com/problemset/all/) - best technical problem source
 [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems
 
-[Coding Interview Help](https://github.com/jwasham/coding-interview-university)
-- [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
+[Coding Interview Help](https://github.com/jwasham/coding-interview-university)  
+[Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
 
 https://github.com/Olshansk/interview#similar-repos  
 https://github.com/schmatz/cs-interview-guide  
 https://github.com/donnemartin/interactive-coding-challenges  
 https://github.com/donnemartin/system-design-primer   
 
-[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
-
 ### Data Science / Analytics links:  
- 
-https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst  
+- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
 https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md  
-
-[Great Big Data Cookbook](https://github.com/andkret/Cookbook)
+[Great Big Data Cookbook](https://github.com/andkret/Cookbook)  
+[Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 
 **Google Learning Resources**  
 > https://developers.google.com/learn  
 > https://developers.google.com/machine-learning/crash-course  
 > https://developers.google.com/learn/pathways  
 
-https://raft.github.io/
-
-Tools:
-- Tripe Byte Triplebyte Prep, Crossover, Canvas, Angellist, Smartr
-- Pathrise, [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course )
-- [Leetcode](https://leetcode.com/problemset/all/), hackerrank, [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc),  stratascratch
-- [Mode (SQL)](https://mode.com/sql-tutorial/)
+**Random Helpful Articles**
+https://raft.github.io/  
+[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
 ----------------------------------------------------------------
 
@@ -418,6 +423,7 @@ A container is defined by its image as well as any configuration options you pro
 **Markdown help:**  
 https://wordpress.com/support/markdown-quick-reference/  
 https://guides.github.com/features/mastering-markdown/  
+[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
 https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s  
 
@@ -428,6 +434,8 @@ My initial project workflow:
 - git commit -m "asdf"
 - git pull origin master (if remote branch chaged)
 - git push -u origin master
+
+
 
 --------------------------------------------------
 ## SQL and NoSQL
