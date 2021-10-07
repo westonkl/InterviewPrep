@@ -1,4 +1,4 @@
-# Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30">
+# Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
 
 ## Table of Contents
 - [Purpose of this guide](#purpose-of-this-guide)
@@ -16,6 +16,7 @@
 	- [Bash](#bash)
 - [Docker](#docker)
 - [Git](#git)
+- [React](#react)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 - [CI/CD](#ci-and-cd)
@@ -35,7 +36,7 @@
 
 ## Purpose of this guide:
 
-This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer. This is a work in progress.
+:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer. This is a work in progress.
 
 ---------------------------------
 
@@ -43,7 +44,7 @@ This guide is intended to provide short info snippets on a variety of coding top
 Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
 
 ## Applying
-I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
+:keyboard: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
 [best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)  
 
 [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
@@ -74,7 +75,7 @@ Expanding your resume/portfolio:
 - SQL analysis (tableau, powerbi)
 - Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
 
-- I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
+- :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
@@ -128,7 +129,7 @@ https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PG
 ----------------------------------------------------------------
 ## Behavioral:
 
-Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for.
+Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and know every part of your projects.
 
 **Tell me about yourself:**  
   - Current Role (your headline) 
@@ -206,18 +207,18 @@ https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5C
 https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=14&t=853s  
 https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=13
 
-#### General Technical 'Trivia'
+#### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
 
 What is an **Object** and a **Class**, what's the difference between them?  
 - A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
 - An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default  
 
-What are the pillars of OOP?
-- Abstraction- ability to hide things
-- Encapsulation- binding data and functions for protection
-- Inheritance- inheriting features of parent class
-- Polymorphism- the ability to redefine methods for derived classes
+What are the pillars of **OOP?**
+- **Abstraction- ability to hide things
+- **Encapsulation**- binding data and functions for protection
+- **Inheritance**- inheriting features of parent class
+- **Polymorphism**- the ability to redefine methods for derived classes
 
 What is method **overloading** and **overriding**?  
 **Overloading:** when two or more methods in the same class share a name, but not parameters  
@@ -238,29 +239,29 @@ What do you look for when reviewing code?
 
 ----------------------------------------------------------------
 
-I am working on filling out this section, but this is most likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
+I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
 
-- Big O Notation:
-Coding-interview university github
+**Big O Notation: [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** :point_left: super important
 
-- Dynamic Programming + Recursion:
-- BFS and DFS:
-- Trees:
-- Linked lists:	
-- Stacks:
-- Heaps / Priority Queues:
-- Binary Search: [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-- Two Pointers:
-- Divide and Conquer:
-- Hashing/dictionaries:
-- Greedy Algorithms:
-- Backtracking:
+- [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
+- [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
+- [Trees:](https://leetcode.com/tag/tree)
+- [Linked lists:](https://leetcode.com/tag/linked-list)	
+- [Stacks:](https://leetcode.com/tag/stack)
+- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue)
+- [Binary Search:](https://leetcode.com/tag/binary-search) [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+- [Two Pointers:](https://leetcode.com/tag/two-pointers)
+- [Divide and Conquer:](https://leetcode.com/tag/divide-and-conquer)
+- [Hashing/dictionaries:](https://leetcode.com/tag/hash-table)
+- [Greedy Algorithms:](https://leetcode.com/tag/greedy)
+- [Backtracking:](https://leetcode.com/tag/backtracking)
 - Sliding Window:
-- Union Find:
-- Graphing:
-- Sorting Algorithms: (Quick, Merge, Selection, Tim)
-- Bit Manipulation:
-- SQL
+- [Union Find:](https://leetcode.com/tag/union-find)
+- [Graphing:](https://leetcode.com/tag/graph)
+- [Sorting Algorithms:](https://leetcode.com/tag/sorting) (Quick, Merge, Selection, Tim)
+- [Bit Manipulation:](https://leetcode.com/tag/bit-manipulation)
+
+- [SQL](https://leetcode.com/tag/database/): [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
 ----------------------------------------------------------------
 
@@ -268,12 +269,16 @@ Coding-interview university github
 
 ## Python: 
 
-**Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.
+**Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
+
+:spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews.
 
 What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
 - **Lists** are mutable - changeable
 - **Tuples** are immutable
+
+Understanding [list comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp) and [slicing](https://www.w3schools.com/python/python_strings_slicing.asp) will make your life a lot easier.
 
 **Lambda** is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
 
@@ -313,6 +318,8 @@ What is a **promise** and what is a **callback?**
 - A **promise** is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 - A **callback** function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
+What does === do in JavaScript?
+
 https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-chain
 
 ---------------------------------------------------------------------------
@@ -351,7 +358,7 @@ Here is how PHP or ASP handles a file request:
 Here is how Node.js handles a file request:
 1. Sends the task to the computer's file system.
 2. Ready to handle the next request.
-3. When the file system has opened and read the file, the server returns the content to the client.
+3. When the file system has opened and read the file, the server returns the content to the client.  
 Node.js eliminates the waiting, and simply continues with the next request.
 
 Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
@@ -374,7 +381,8 @@ The improvements offered by Bash include:
 - job control,
 - shell functions and aliases,
 - indexed arrays of unlimited size,
-- integer arithmetic in any base from two to sixty-four.
+- integer arithmetic in any base from two to sixty-four.  
+
 Example commands:
 	Cd, break, continue, exec.
 	
@@ -420,7 +428,7 @@ A container is defined by its image as well as any configuration options you pro
 ------------------
 
 ## Git
-Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.  
+Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
 
 ![git ex](https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png)
 
@@ -429,12 +437,14 @@ Git is an additive version control system used to aid cooperation on projects. I
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 
 **Markdown help:**  
-> [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
-> [Mastering markdown](https://guides.github.com/features/mastering-markdown/)  
+> [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)
+> [Mastering markdown](https://guides.github.com/features/mastering-markdown/)
 > [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
+> [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#objects) :heart_eyes:  
 
-- [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)  
-- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)  
+**Helpful Videos:**
+- [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)
+- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)
 
 My initial project workflow: :octocat:
 - git init repo in directory
@@ -521,7 +531,7 @@ http://20bits.com/article/interview-questions-database-indexes
 ## ETL (Extract, Transform, Load)  
 Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.
 
-MapReduce
+## MapReduce
 
 ## Data Pipeline
 
@@ -580,7 +590,7 @@ https://www.tutorialspoint.com/http/http_overview.htm
  
 Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
  
-**Cookies:**
+**Cookies:** :cookie:
 - a small piece of data that a server sends to the user's web browser. The browser may store it and send it back with later requests to the same server. Typically, it's used to tell if two requests came from the same browser — keeping a user logged-in, for example. It remembers stateful information for the stateless HTTP protocol.
  
 **Cookies** are mainly used for three purposes:
@@ -591,7 +601,7 @@ Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
 - **Tracking**
 	- Recording and analyzing user behavior
 
-How a browser works:https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/
+[How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)
 
 ## HTTP request methods (HTTP verbs):
 
@@ -629,7 +639,7 @@ Here is a simplified example of the initial request headers.
 > - Host: websocket.example.com
 > - Upgrade: websocket
 
-TCP/IP
+## TCP/IP
 
 ## Model View Controller (MVC)    
 
@@ -646,7 +656,7 @@ TCP/IP
 
 ### Amazon Web Services / Cloud Data Principles
 
-I took the AWS cloud practioner ceritification and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
+I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
 
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
@@ -680,7 +690,6 @@ Stateless, meaning any change applied to an incoming rule isn’t automatically 
 
 What are the different types of EC2 instances?  
 There 5 different types of EC2 instances: general purpose, compute-optimized, memory-optimized, storage-optimized, accelerated computing. Know each.
-
 
 ----------------------------
 
@@ -806,6 +815,8 @@ A **mutex** is a locking mechanism used to synchronize access to a resource. Onl
 This section is more of a high level view of some important things to know about database design and software design. You may get a more in depth system design focused interview where you are asked to design a product or fix/improve one.  
 [Here is a useful repo for a system design interview](https://github.com/donnemartin/system-design-primer)
 
+![system design overview](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
+
 ### ACID
 - Atomicity - each transaction is a single unit (fails or succeeds completely)
 - Consistency - a transaction can only bring the database from one valid state to another
@@ -923,7 +934,7 @@ High variance means overfitting
 
 **Correlation** measures how strongly two variables are related.
 - In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in tandem
-
+  
 **Error** = bias + variance
 
 **Bias** = how far the predicted values are from the actual values
@@ -968,8 +979,8 @@ How can you handle missing values in a dataset?
 	- It creates plausible values based on the correlations for the missing data and then averages the simulated datasets by incorporating random errors in your predictions.
 
 How do you deal with outliers in a dataset?
-	- Trim them out
-	- Normalize them (log+1)
+- Trim them out
+- Normalize them (log+1)
 
 ### Dataset validation
 **Field Level Validation** 
@@ -991,14 +1002,15 @@ https://developers.google.com/machine-learning/crash-course
 
 https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36  
 
-Possible Topics:
-	> Statistical distributions
-	> Probability simulation
-	> String parsing and data manipulation
-	> Numpy functions and matrices
-	> Pandas data munging
+Possible Interview Topics:
+> Statistical distributions
+> Probability simulation
+> String parsing and data manipulation
+> Numpy functions and matrices
+> Pandas data munging
+> A project walkthrough
 
-https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva  
+[An ML roadmap](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)   
 https://www.springboard.com/blog/machine-learning-interview-questions/  
 https://www.edureka.co/blog/interview-questions/data-science-interview-questions/  
 
@@ -1057,16 +1069,16 @@ What is the difference between **discriminative** and **generative** models?
 	- Learn distributions (ex: naive bayes)
 
 Time series:  
-	K-fold cv
+	K-fold cv  
 
 **Variance** = how scattered the predictions are from the actual value  
-High variance means overfitting
+High variance means overfitting  
 
 **Correlation** measures how strongly two variables are related.  
-In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in cycle
+In covariance two items vary together and it’s a measure that indicates the extent to which two random variables change in cycle  
 
-- **Error** = bias + variance
-- **Bias** = how far the predicted values are from the actual values
+**Error** = bias + variance  
+**Bias** = how far the predicted values are from the actual values  
 High bias means you are underfitting
 
 How to deal with **underfitting**:
@@ -1093,8 +1105,8 @@ Type 2 error is a false negative
   	a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.  
 https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
-What cross-validation technique would you use on a time series dataset?
-  	K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates
+What cross-validation technique would you use on a time series dataset?  
+  K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates
 
 How would you build a data pipeline?  
 
@@ -1139,3 +1151,4 @@ SPACY: https://spacy.io/
 - add spark and kafka section
 - add Hadoop Section
 - add springboot and maven to Java
+- add react section
