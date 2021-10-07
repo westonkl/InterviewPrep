@@ -54,14 +54,14 @@ Other good application sites include:
 
 Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.  
 
-[How to find Software Engineering job openings(]https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
+[How to find Software Engineering job openings](https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
 
 **Motivation** 
 * https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
 * https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
 
 ## Last Step
-Congratulations!!  
+:tada: Congratulations!! :tada:  
 [Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
@@ -175,13 +175,14 @@ How would your boss describe you?
 
 Tell me your greatest strength and weakness.
 
-How do you approach a new project and technology?
+How do you approach a new project and technology? :test_tube:
 - Look at similar project examples
 - Examine why they used the technology
 - Read documentation explaining things
 - Get hands on and try tutorials and experiment
 	
-## Questions for an interviewer:
+## Questions for an interviewer: 
+It is important to ask questions during and at the end of an interview, try one of these :speech_balloon:
 - What would my normal day look like?
 - Can you tell me about whom I will be working with?
 - How is mentorship approached?
@@ -201,41 +202,39 @@ How do you approach a new project and technology?
 
 A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
 
-What do you look for when reviewing code?
-- **B** ottlenecks
-- **U** nnecessary work
-- **D** uplicated work
-
 https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1   
 https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=14&t=853s  
 https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=13
 
 #### General Technical 'Trivia'
+> I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
 
 What is an **Object** and a **Class**, what's the difference between them?  
 - A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
 - An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default  
 
 What are the pillars of OOP?
-	- Abstraction- ability to hide things
-	- Encapsulation- binding data and functions for protection
-	- Inheritance- inheriting features of parent class
-	- Polymorphism- the ability to redefine methods for derived classes
+- Abstraction- ability to hide things
+- Encapsulation- binding data and functions for protection
+- Inheritance- inheriting features of parent class
+- Polymorphism- the ability to redefine methods for derived classes
 
 What is method **overloading** and **overriding**?  
 **Overloading:** when two or more methods in the same class share a name, but not parameters  
 **Overriding:** When name and parameters of method are the same  
 
-
-**Recursion:**  
-	- A function which calls itself recursively
-	- Consists of a base case (stopper) and a recursive case(recurser).
+**Recursion:**
+- A function which calls itself recursively
+- Consists of a base case (stopper) and a recursive case(recurser)
 
 What's the difference between a stack and a queue?  
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
-Mixin- a class that contains methods for other classes without having to be the parent class
+What do you look for when reviewing code?
+- **B** ottlenecks
+- **U** nnecessary work
+- **D** uplicated work
 
 ----------------------------------------------------------------
 
@@ -437,7 +436,7 @@ Git is an additive version control system used to aid cooperation on projects. I
 - [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)  
 - [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)  
 
-My initial project workflow:
+My initial project workflow: :octocat:
 - git init repo in directory
 - git add files
 - git status
