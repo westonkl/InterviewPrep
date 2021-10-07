@@ -43,7 +43,7 @@ This guide is intended to provide short info snippets on a variety of coding top
 Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
 
 ## Applying
-I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.
+I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
 [best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)  
 
 [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
@@ -52,15 +52,16 @@ Other good application sites include:
 - [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE), [Crossover](https://www.crossover.com/), [Canvas](https://www.canvas.com/app/discover/jobs), [Angellist](https://angel.co/), [Smartr](https://www.smartr.me/)
 - [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
-Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.
+Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.  
 
-https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10
+[How to find Software Engineering job openings(]https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
 
 **Motivation** 
 * https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
 * https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
 
 ## Last Step
+Congratulations!!  
 [Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
@@ -73,7 +74,7 @@ Expanding your resume/portfolio:
 - SQL analysis (tableau, powerbi)
 - Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
 
-- I would suggest using the book Cracking the Coding Interview for technical practice
+- I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
@@ -85,13 +86,13 @@ Expanding your resume/portfolio:
 - https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
 ## Misc helpful links:
-[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source
+[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source **(use this!)**
 [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems
 
 [Coding Interview Help](https://github.com/jwasham/coding-interview-university)  
 [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
 
-https://github.com/Olshansk/interview#similar-repos  
+https://github.com/Olshansk/interview#readme  
 https://github.com/schmatz/cs-interview-guide  
 https://github.com/donnemartin/interactive-coding-challenges  
 https://github.com/donnemartin/system-design-primer   
@@ -135,8 +136,7 @@ Most behavioral interviews are 15-30 minutes long and are inquiries into your pe
   - Post College / Current Role  
   - Outside of work (how are you upskilling?)  
 
-Career goal  
-Unique fact about yourself  
+Two optional additions: Career goal, a unique fact about yourself  
 
 What do you know about ___ and why did you decide to apply here?  What drew you to us?
 - Research company you're applying to
@@ -144,44 +144,42 @@ What do you know about ___ and why did you decide to apply here?  What drew you 
 	- Growth potential
 	- type of work
 
-What are you looking for?
-- A company where I can spend some time at and create some meaningful impact at.
-
 What makes you a good fit for the company? 
 
-Story Time: Can you tell me about a time that you _____?   
-Nugget first: Start with a nugget that succinctly describes what your response will be about.
+What are you looking for?  
 
-**STAR** method
-- Situation / Task -> Action -> Result
+What are the things that are most important to you in a job?
+
+#### Can you tell me about a time that you ---?  
+When answering a question about a past experience it is best to use either a nugget first method or the STAR method to best tell the tale.
+> **Nugget first:** Start with a nugget that succincly describes what your response will be about.
+> 
+> **STAR** method
+> - Situation / Task -> Action -> Result
 	
 Tell me about a time where you had to persuade a group of people to make a change.
-
-Tell me about a challenging interaction with a teammate.
 
 Describe a conflict you had with a team member. How did you handle the conflict and what was the outcome? 
 
 Tell me about a time where you dealt with ambiguity.
 
+Tell me about a time where you demonstrated leadership skills.  
+
 What do you do when faced with adversity?
 
 How do you handle working under pressure?
 
-What are the things that are most important to you in a job?
+Do you enjoy working alone or on a team more?
 
-Tell me about a time where you demonstrated leadership skills.
+How would your boss describe you?
+
+Tell me your greatest strength and weakness.
 
 How do you approach a new project and technology?
 - Look at similar project examples
 - Examine why they used the technology
 - Read documentation explaining things
 - Get hands on and try tutorials and experiment
-
-Do you enjoy working alone or on a team more?
-
-How would your boss describe you?
-
-Tell me your greatest strength and weakness:
 	
 ## Questions for an interviewer:
 - What would my normal day look like?
@@ -224,7 +222,10 @@ What are the pillars of OOP?
 	- Inheritance- inheriting features of parent class
 	- Polymorphism- the ability to redefine methods for derived classes
 
-method overloading vs overriding
+What is method **overloading** and **overriding**?  
+**Overloading:** when two or more methods in the same class share a name, but not parameters  
+**Overriding:** When name and parameters of method are the same  
+
 
 **Recursion:**  
 	- A function which calls itself recursively
@@ -237,6 +238,8 @@ What's the difference between a stack and a queue?
 Mixin- a class that contains methods for other classes without having to be the parent class
 
 ----------------------------------------------------------------
+
+I am working on filling out this section, but this is most likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
 
 - Big O Notation:
 Coding-interview university github
@@ -310,6 +313,7 @@ What is the meaning of the keyword ***this*** in javascript?
 What is a **promise** and what is a **callback?**
 - A **promise** is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 - A **callback** function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
+
 https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-chain
 
 ---------------------------------------------------------------------------
@@ -460,6 +464,14 @@ What are the sql aggregate functions?
 - CASE
 - DISTINCT
 - JOINS
+
+What are the different types of joins and can you explain them?  
+
+What is a view?  
+
+What are entities and relationships?
+
+https://www.interviewbit.com/sql-interview-questions/
 
 SQL | NoSQL
 ------------ | -------------
@@ -635,6 +647,8 @@ TCP/IP
 
 ### Amazon Web Services / Cloud Data Principles
 
+I took the AWS cloud practioner ceritification and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
+
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
 **Virtual Private Cloud (VPC):****
@@ -658,7 +672,16 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 **AWS Lambda:** is a serverless compute service that lets you run code without provisioning ormanaging servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. Just upload your code as a ZIP file or container image, and Lambda allocates compute execution power and runs your code based on the incoming request or event. You can set up your code to automatically trigger from 140 AWS services or call it directly. You can write Lambda functions in any language and use both serverless and container tools, such as AWS SAM or Docker CLI, to build, test, and deploy your Functions.
 
-**Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale. 
+**Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale.  
+
+NACL |Security Group
+------------ | -------------
+NACL can be understood as the firewall for the subnet | Security group can be understood as a firewall to protect EC2 instances
+Stateless, meaning any change applied to an incoming rule isn’t automatically applied to an outgoing rule | Stateful, any changes which are applied to an incoming rule is automatically applied to an outgoing rule
+
+What are the different types of EC2 instances?  
+There 5 different types of EC2 instances: general purpose, compute-optimized, memory-optimized, storage-optimized, accelerated computing. Know each.
+
 
 ----------------------------
 
@@ -855,8 +878,8 @@ https://www.khanacademy.org/math/statistics-probability
 Binomial Theorem
 
 De Morgan’s Laws: 
-	(E U F)^c = E^cF^c
-	(EF)^c = E^c U Fc
+>	(E U F)^c = E^cF^c
+>	(EF)^c = E^c U Fc
 
 **Probability:** P(E) = (num of outcomes in E) / (num of outcomes in S)
 
