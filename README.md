@@ -2,24 +2,28 @@
 
 ## Table of Contents
 - [Purpose of this guide](#purpose-of-this-guide)
-- [Gaining Experience](#gaining-experience)
 - [Mock Interviews](#mock-interviews)
 - [Helpful Links](#misc-helpful-links)
 - [Behavioral](#behavioral)
 - [Questions for an Interviewer](#questions-for-an-interviewer)
 - [Technical Questions Overview](#technical-questions-overview)
+- [Data Structures and Algorithms](#data-structures-and-algorithms)
 - [Language Questions](#language-questions)
 	- [Python](#python)
 	- [Java](#java)
 	- [JavaScript](#javascript)
 	- [Node.js](#node-js)
 	- [Bash](#bash)
+	- [C](#c): WIP
+	- [C++](#c++): WIP
+	- [Scala](#scala): WIP
+	- [Go](#go): WIP
 - [Docker](#docker)
 - [Git](#git)
-- [React](#react)
+- [React](#react): WIP
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
-- [CI/CD](#ci-and-cd)
+- [CI/CD](#ci-and-cd): WIP
 - [API Design](#api-design)
 - [HTTP (Hypertext Transfer Protocol)](#http)
 - [AWS](#aws)
@@ -38,7 +42,7 @@
 
 :notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided. This is a work in progress. I hope you pass your interviews, become a better programmer, and land your dream job!!
 
-<img align="center" width="190" height="190" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
+<img align="center" width="180" height="180" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
 ---------------------------------
 
@@ -60,8 +64,9 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [How to find Software Engineering job openings](https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
 
 **Motivation** 
-* https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1  
-* https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
+* [How to study everyday](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
+* [How to focus on learning](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
+* :books: Atomic Habbits -James CLear
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
@@ -78,12 +83,13 @@ Expanding your resume/portfolio:
 - :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 ## Misc helpful links:
-[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source **(use this!)**
-[Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems
+[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source **(use this!)**  
+[Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems  
 
 [Coding Interview Help](https://github.com/jwasham/coding-interview-university)  
 [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
 
+**Other Helpful Repos:**  
 https://github.com/Olshansk/interview#readme  
 https://github.com/schmatz/cs-interview-guide  
 https://github.com/donnemartin/interactive-coding-challenges  
@@ -103,11 +109,11 @@ https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.m
 
 **Random Helpful Articles**
 https://raft.github.io/  
-[List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
 
 ----------------------------------------------------------------
 
 ## Mock interviews:
+Places to find another person to practice interview with:  
 https://interviewing.io/  
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
@@ -238,8 +244,9 @@ What do you look for when reviewing code?
 - **D** uplicated work
 
 ----------------------------------------------------------------
+## Data Structures and Algorithms
 
-I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
+> I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
 
 **Big O Notation: [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** :point_left: super important
 
@@ -283,14 +290,14 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Lambda** is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
 
-**__init__** is a constructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have a __init__ method associated with them. It helps in distinguishing methods and attributes of a class from local variables.
+**\_\_init\_\_** is a constructor method in Python and is automatically called to allocate memory when a new object/instance is created. All classes have an \_\_init\_\_ method associated with them. It helps in distinguishing methods and attributes of a class from local variables. This is also an example of a dunder method (double underscore) which is used to override something.  
 
 **Self** is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
 
-*args can be used to pass multiple  positional arguments
-**kwargs can be used to pass multiple  keyword/named arguments
+\*args can be used to pass multiple  positional arguments
+\*\*kwargs can be used to pass multiple  keyword/named arguments
 
 **Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects
 
@@ -437,17 +444,18 @@ Git is an additive version control system used to aid cooperation on projects. I
 
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 
-**Markdown help:**
-> [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)
-> [Mastering markdown](https://guides.github.com/features/mastering-markdown/)
-> [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
+**Markdown help:** :octocat: 
+> [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
+> [Mastering markdown](https://guides.github.com/features/mastering-markdown/)  
+> [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)  
+> [List of github  actions repos](https://github.com/sdras/awesome-actions)  
 > [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#objects) :heart_eyes:  
 
 **Helpful Videos:**
 - [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)
 
-My initial project workflow: :octocat:
+My initial project workflow:
 - git init repo in directory
 - git add files
 - git status
@@ -466,7 +474,7 @@ Format of a SQL query:
 - HAVING
 - ORDER BY
 
-What are the sql aggregate functions?
+What are the SQL aggregate functions?
 - COUNT
 - MAX/MIN
 - AVG
