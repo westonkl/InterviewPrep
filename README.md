@@ -36,7 +36,9 @@
 
 ## Purpose of this guide:
 
-:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided to become a better programmer. This is a work in progress.
+:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided. This is a work in progress. I hope you pass your interviews, become a better programmer, and land your dream job!!
+
+<img align="center" width="190" height="190" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
 ---------------------------------
 
@@ -62,29 +64,18 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 * https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7
 
 ## Last Step
-:tada: Congratulations!! :tada:  
+:tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
 [Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
-
 Expanding your resume/portfolio:  
 - [Kaggle](kaggle.com)
 - Creating a RESTful API
 - Web applications (with persistent memory)
 - SQL analysis (tableau, powerbi)
-- Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
-
+- :octocat: Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
 - :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
-
-## Favorite Youtube Creators:
-- https://www.youtube.com/c/Fireship -Random Tech Tutorials
-- https://www.youtube.com/c/hellomayuko -SWE Interview Questions
-- https://www.youtube.com/c/Reducible -SWE Interview Questions
-- https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
-- https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
-- https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
-- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
 ## Misc helpful links:
 [Leetcode](https://leetcode.com/problemset/all/) - best technical problem source **(use this!)**
@@ -126,10 +117,19 @@ https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PG
 https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=4&t=344s  
 https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=5&t=126s
 
+## Favorite Youtube Creators:
+- https://www.youtube.com/c/Fireship -Random Tech Tutorials
+- https://www.youtube.com/c/hellomayuko -SWE Interview Questions
+- https://www.youtube.com/c/Reducible -SWE Interview Questions
+- https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
+- https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
+- https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
+- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
+
 ----------------------------------------------------------------
 ## Behavioral:
 
-Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and know every part of your projects.
+> Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and know every part of your projects.
 
 **Tell me about yourself:**  
   - Current Role (your headline) 
@@ -201,7 +201,7 @@ It is important to ask questions during and at the end of an interview, try one 
 
 ## Technical Questions Overview:
 
-A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
 
 https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1   
 https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=14&t=853s  
@@ -268,6 +268,7 @@ I am working on filling out this section, but this is likely the **most importan
 # Language Questions:
 
 ## Python: 
+<img align="center" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
 
@@ -436,7 +437,7 @@ Git is an additive version control system used to aid cooperation on projects. I
 
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 
-**Markdown help:**  
+**Markdown help:**
 > [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)
 > [Mastering markdown](https://guides.github.com/features/mastering-markdown/)
 > [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)
@@ -551,11 +552,11 @@ Jenkins
 
 REST = REpresentational State Transfer
 
-**CRUD** - persistent data
-	- Create = post
-	- Read = get
-	- Update = put
-	- Delete = delete
+**CRUD** : for persistent data
+- Create = post
+- Read = get
+- Update = put
+- Delete = delete
 
 - GET to retrieve a resource;
 - PUT to change the state of or update a resource, which can be an object, file or block;
@@ -998,6 +999,8 @@ How do you deal with outliers in a dataset?
 ---------------------------------------------
 
 ## ML Prep:
+<img align="center" width="100" height="100" src="https://media2.giphy.com/media/Uu5MHCPoCabaLUYUgE/200w.webp?cid=ecf05e47map8im7jvjhwyl4r0xfd6apx38pksmtcwy4aipjd&rid=200w.webp&ct=g">
+
 https://developers.google.com/machine-learning/crash-course  
 
 https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36  
