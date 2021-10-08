@@ -20,7 +20,7 @@
 	- [Go](#go): WIP
 - [Docker](#docker)
 - [Git](#git)
-- [React](#react): WIP
+- [React](#react)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 - [CI/CD](#ci-and-cd): WIP
@@ -32,6 +32,8 @@
 - [System Design](#system-design-preparation)
 - [Statistics and Probability](#statistics-and-probability)
 - [Data](#data)
+- [Spark](#spark): WIP
+- [Hadoop](#hadoop): WIP
 - [ML Prep](#ml-prep)
 - [NLP](#nlp)
 - [TODO](#todo)
@@ -74,6 +76,8 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
+> Creating and working on meaningful personal projects is incredibly important towards demonstrating your experience.
+
 Expanding your resume/portfolio:  
 - [Kaggle](kaggle.com)
 - Creating a RESTful API
@@ -83,24 +87,21 @@ Expanding your resume/portfolio:
 - :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 ## Misc helpful links:
-[Leetcode](https://leetcode.com/problemset/all/) - best technical problem source **(use this!)**  
-[Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc) -easier problems  
-
-[Coding Interview Help](https://github.com/jwasham/coding-interview-university)  
-[Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
+- [Leetcode](https://leetcode.com/problemset/all/) - best technical problem source :point_left: **use this!!**
+- [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc): easier problems
+- [Mode (SQL)](https://mode.com/sql-tutorial/)
+- [strataScratch](https://www.stratascratch.com/)
 
 **Other Helpful Repos:**  
-https://github.com/Olshansk/interview#readme  
-https://github.com/schmatz/cs-interview-guide  
-https://github.com/donnemartin/interactive-coding-challenges  
-https://github.com/donnemartin/system-design-primer   
-
-### Data Science / Analytics links:  
-- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
-
-https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md  
+[Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos  
+[Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
+[CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books  
+[A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short  
+[Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)  
+[System Design Primer](https://github.com/donnemartin/system-design-primer)   
+[Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)  
 [Great Big Data Cookbook](https://github.com/andkret/Cookbook)  
-[Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
+[ML Interview](https://github.com/theainerd/MLInterview)  
 
 **Google Learning Resources**  
 > https://developers.google.com/learn  
@@ -109,6 +110,7 @@ https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.m
 
 **Random Helpful Articles**
 https://raft.github.io/  
+[Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 
 ----------------------------------------------------------------
 
@@ -118,10 +120,11 @@ https://interviewing.io/
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
 
-**Example Coding Interviews:**  
-https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=3  
-https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=4&t=344s  
-https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=5&t=126s
+**Example Coding Interviews:**
+[Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+[Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
+[JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
+[Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
 
 ## Favorite Youtube Creators:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
@@ -135,7 +138,8 @@ https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PG
 ----------------------------------------------------------------
 ## Behavioral:
 
-> Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and know every part of your projects.
+> Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
+<img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">  
 
 **Tell me about yourself:**  
   - Current Role (your headline) 
@@ -203,15 +207,11 @@ It is important to ask questions during and at the end of an interview, try one 
 - How long is the interviewing process?
 - What is the growth potential for me?
 
-----------------------------------------------------------
+----------------------------------
 
 ## Technical Questions Overview:
 
 > A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
-
-https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1   
-https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=14&t=853s  
-https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=13
 
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
@@ -243,7 +243,7 @@ What do you look for when reviewing code?
 - **U** nnecessary work
 - **D** uplicated work
 
-----------------------------------------------------------------
+-----------------------------
 ## Data Structures and Algorithms
 
 > I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
@@ -251,6 +251,9 @@ What do you look for when reviewing code?
 **Big O Notation: [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** :point_left: super important
 
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
+	* [Errichto Dynaimc Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
+	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
+	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
 - [Trees:](https://leetcode.com/tag/tree)
 - [Linked lists:](https://leetcode.com/tag/linked-list)	
@@ -270,7 +273,7 @@ What do you look for when reviewing code?
 
 - [SQL](https://leetcode.com/tag/database/): [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
-----------------------------------------------------------------
+---------------------------------
 
 # Language Questions:
 
@@ -296,14 +299,16 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
 
-\*args can be used to pass multiple  positional arguments
-\*\*kwargs can be used to pass multiple  keyword/named arguments
+\*args can be used to pass multiple  positional arguments  
+\*\*kwargs can be used to pass multiple  keyword/named arguments  
 
-**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects
+**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects  
 
-**PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.
+**PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
-----------------------------------------------------------------
+[Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)
+
+---------------------
 
 ## JavaScript:
 
@@ -326,11 +331,12 @@ What is a **promise** and what is a **callback?**
 - A **promise** is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 - A **callback** function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
-What does === do in JavaScript?
+What does === do in JavaScript?  
 
-https://github.com/sudheerj/javascript-interview-questions#what-is-a-prototype-chain
+[JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
+[JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)
 
----------------------------------------------------------------------------
+----------------
 
 ## Java 
 
@@ -351,7 +357,7 @@ What is a **singleton class** in java?
 
 ![JVM](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/JvmSpec7.png/220px-JvmSpec7.png)
 
----------------------------------------------------------------------------
+-------------------------------------------
 
 ## Node js
 
@@ -375,7 +381,10 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 - Node.js can collect form data
 - Node.js can add, delete, modify data in your database
 
---------------------------------------------------------------------------
+https://elemefe.github.io/node-interview/#/sections/en-us/?id=guide  
+https://www.interviewbit.com/node-js-interview-questions/
+
+------------------------------------------
 
 ## Bash
 
@@ -463,7 +472,14 @@ My initial project workflow:
 - git pull origin master (if remote branch chaged)
 - git push -u origin master
 
---------------------------------------------------
+------------------------
+
+## React
+[React.js](https://reactjs.org/) is JavaScript Library for building user interfaces
+
+https://www.interviewbit.com/react-interview-questions/
+
+-----------------------
 ## SQL and NoSQL
 
 Format of a SQL query:
@@ -565,7 +581,7 @@ REST = REpresentational State Transfer
 - Read = get
 - Update = put
 - Delete = delete
-
+  
 - GET to retrieve a resource;
 - PUT to change the state of or update a resource, which can be an object, file or block;
 - POST to create that resource; and
