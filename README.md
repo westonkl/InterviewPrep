@@ -93,15 +93,15 @@ Expanding your resume/portfolio:
 - [strataScratch](https://www.stratascratch.com/)
 
 **Other Helpful Repos:**  
-[Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos  
-[Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)  
-[CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books  
-[A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short  
-[Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)  
-[System Design Primer](https://github.com/donnemartin/system-design-primer)   
-[Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)  
-[Great Big Data Cookbook](https://github.com/andkret/Cookbook)  
-[ML Interview](https://github.com/theainerd/MLInterview)  
+- [Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos
+- [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
+- [CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books
+- [A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short
+- [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)
+- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
+- [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
+- [ML Interview](https://github.com/theainerd/MLInterview)  
 
 **Google Learning Resources**  
 > https://developers.google.com/learn  
@@ -109,7 +109,7 @@ Expanding your resume/portfolio:
 > https://developers.google.com/learn/pathways  
 
 **Random Helpful Articles**
-https://raft.github.io/  
+[Raft Article](https://raft.github.io/)  
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 
 ----------------------------------------------------------------
@@ -120,8 +120,8 @@ https://interviewing.io/
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
 
-**Example Coding Interviews:**
-[Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)
+**Example Coding Interviews:**  
+[Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
 [Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
@@ -221,7 +221,7 @@ What is an **Object** and a **Class**, what's the difference between them?
 - An **object** is a member or an "instance" of a class. An object has a state in which all of its properties have values that you either explicitly define or that are defined by default  
 
 What are the pillars of **OOP?**
-- **Abstraction- ability to hide things
+- **Abstraction**- ability to hide things
 - **Encapsulation**- binding data and functions for protection
 - **Inheritance**- inheriting features of parent class
 - **Polymorphism**- the ability to redefine methods for derived classes
@@ -247,8 +247,11 @@ What do you look for when reviewing code?
 ## Data Structures and Algorithms
 
 > I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
+  
+**Big O Notation:** :point_left: super important
+- [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** 
 
-**Big O Notation: [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** :point_left: super important
+---
 
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
 	* [Errichto Dynaimc Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
@@ -278,7 +281,7 @@ What do you look for when reviewing code?
 # Language Questions:
 
 ## Python: 
-<img align="center" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
+<img align="right" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
 
@@ -312,7 +315,9 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 ## JavaScript:
 
-JavaScript is a high level interpreted oop language that is single threaded (no parallelism). It is dynamically typed, and has first-class functions. Multiparadigm language supports: event-driven, functional, and imperative programming styles. Sets the behavior of web pages.
+<img align="right" width="50" height="50" src="https://c.tenor.com/TReUojNlZ6wAAAAi/js-javascript.giff">
+
+[JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
 
 https://www.youtube.com/watch?v=6Wzj7kxfRdI
 
@@ -331,6 +336,8 @@ What is a **promise** and what is a **callback?**
 - A **promise** is an object that may produce a single value some time in the future with either a resolved value or a reason that it’s not resolved(for example, network error). It will be in one of the 3 possible states: fulfilled, rejected, or pending.
 - A **callback** function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
+What is a first class function?
+
 What does === do in JavaScript?  
 
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
@@ -339,6 +346,8 @@ What does === do in JavaScript?
 ----------------
 
 ## Java 
+
+<img align="right" width="50" height="50" src="https://i.stack.imgur.com/8NkOQ.gif">
 
 **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
 
@@ -387,6 +396,8 @@ https://www.interviewbit.com/node-js-interview-questions/
 ------------------------------------------
 
 ## Bash
+
+<img align="right" width="50" height="50" src="https://styles.redditmedia.com/t5_2qh2d/styles/communityIcon_xagsn9nsaih61.png?width=256&s=1e4cf3a17c94aecf9c127cef47bb259162283a38">
 
 The Bourne Again SHell. It is a Unix shell and command language.  
 https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
@@ -444,7 +455,9 @@ A container is defined by its image as well as any configuration options you pro
 
 ------------------
 
-## Git
+## Git 
+<img align="right" width="50" height="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
+
 Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
 
 ![git ex](https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png)
@@ -681,7 +694,7 @@ Here is a simplified example of the initial request headers.
 
 ### Amazon Web Services / Cloud Data Principles
 
-I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
+> I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
 
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
