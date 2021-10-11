@@ -155,7 +155,7 @@ https://www.swecareers.com/mock-interviews
 Two optional additions: Career goal, a unique fact about yourself  
 
 What do you know about ___ and why did you decide to apply here?  What drew you to us?
-- Research company you're applying to
+- Research company you're applying to, look at:
 	- Work environment
 	- Growth potential
 	- type of work
@@ -216,7 +216,7 @@ How do you approach a new project and technology? :test_tube:
 
 > A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.
 
-<img align="center" width="180" height="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
+<img align="center" width="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
 
 Here is my problem solving process:
 1. Listen to the problem and take notes
@@ -259,8 +259,10 @@ What do you look for when reviewing code?
 -----------------------------
 ## Data Structures and Algorithms
 
-> I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
-  
+> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. :star:
+
+<img align="center" width="180" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
+
 - **Big O Notation:** :point_left: super important  
 Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
 	* [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
@@ -325,6 +327,8 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 **\*\*kwargs** can be used to pass multiple  keyword/named arguments  
 
 **Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects  
+
+Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and **scope**.  
 
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
@@ -499,7 +503,7 @@ Git is an additive version control system used to aid cooperation on projects. I
 - [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)
 
-My initial project workflow:
+My initial local project workflow:
 - git init repo in directory
 - git add files
 - git status
@@ -617,15 +621,14 @@ A relationship between two tables, where multiple rows in one table can be linke
 
 ## Normalization:  
 To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization". 
-https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/  
-https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798  
+[Database Design and Normalization](https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/)  
 
 There are several steps involved in normalizing a database. The steps are referred to as "Normal Forms". There are at least 7 NF. Each NF requires that the NF before it has also been satisfied. The spot between 3NF and 4NF is reserved for the BCNF (Boyce-Codd normal form), which was developed later as a slightly stronger version of the 3NF. Tables that have reached the 3NF are generally considered "normalized".  
-- 1NF: tables must not contain repeating groups of data
-- 2NF: no field should only be partially dependent on any candidate key
-- 3NF: columns should depend only upon the primary key of the table
+- **1NF:** tables must not contain repeating groups of data
+- **2NF:** no field should only be partially dependent on any candidate key
+- **3NF:** columns should depend only upon the primary key of the table
 
-[**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping.
+[**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping. [When to Denormalize](https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798)
   
 **B-Tree**  
 A self balancing tree used as a database  
@@ -645,6 +648,8 @@ Extract Transform Load is the procedure for copying data into a different system
 
 https://www.redhat.com/en/topics/devops/what-is-ci-cd  
 Jenkins
+
+[Link to top](#table-of-contents)
 
 -----------------------------------------------------
 
@@ -689,9 +694,9 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 ![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
 
 http vs https:  
-![httpvshttps](https://www.infosectrain.com/wp-content/uploads/2020/09/http-https.jpg)
+![httpvshttps](https://www.venafi.com/sites/default/files/2020-12/Difference_HTTP_HTTPS-2.png)
 
-https://www.tutorialspoint.com/http/http_overview.htm
+[Http overview][https://www.tutorialspoint.com/http/http_overview.htm]
  
 Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
  
@@ -828,18 +833,18 @@ involves having knowledge of internal data structures and algorithms for purpose
 	- Unit testing refers to tests that verify the functionality of a specific section of code, usually at the function level. In an object-oriented environment, this is usually at the class level, and the minimal unit tests include the constructors and destructors. 
 	- Unit testing might include static code analysis, data-flow analysis, metrics analysis, peer code reviews, code coverage analysis and other software testing practices.
 
-2. Integration Testing
+2. Integration Testing:  
 	Integration Testing is the process of testing the connectivity or data transfer between a couple of unit tested modules.
 	
-3. System Testing
+3. System Testing:  
 	A completely integrated system to verify that the system meets its requirements. For example, a system test might involve testing a login interface, then creating and editing an entry, plus sending or printing results, followed by summary processing or deletion (or archiving) of entries, then logoff.
 
-4. Acceptance Testing 
+4. Acceptance Testing:  
 	Operational readiness of the system to be supported and integrated. Final Step to see if it doesn’t break anything else.
 
 ## Testing types, techniques and tactics:
 
-Installation testing: self explanatory
+**Installation testing:** self explanatory
 
 **Compatibility** testing: 
 	- Testing compatibility with other applications or OS or versions.
@@ -848,11 +853,9 @@ Installation testing: self explanatory
 - Sanity testing determines whether or not to test further
 - Smoke testing consists of minimal attempts to operate the software
 
-**Regression testing:**
-	- Method for finding defects after a major code change. To find regressions (degraded or lost features). 
+**Regression testing:** Method for finding defects after a major code change. To find regressions (degraded or lost features). 
 
-**Acceptance testing:**
-	- A smoke test or acceptance testing by the customer.
+**Acceptance testing:** A smoke test or acceptance testing by the customer.
 
 **Alpha/beta testing:** user acceptance testing by the customer/ testers
 
@@ -871,7 +874,7 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 Test Driven Development: (develop tests before coding)
 - Cypress
 - jest  
-https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35
+[Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35)
 
 ------------------------------------------------
 
@@ -906,16 +909,16 @@ A **Promise** is in one of these states:
 
 Consider the standard producer-consumer problem. Assume, we have a buffer of 4096-byte length. A producer thread collects the data and writes it to the buffer. A consumer thread processes the collected data from the buffer. The objective is, both the threads should not run at the same time. 
 
+A [**mutex**](https://en.wikipedia.org/wiki/Mutual_exclusion) is a locking mechanism used to synchronize access to a resource. Only one task (can be a thread or process based on OS abstraction) can acquire the mutex. It means there is ownership associated with a mutex, and only the owner can release the lock (mutex). 
+
 Using **Mutex**: 
 - A **mutex** provides mutual exclusion, either producer or consumer can have the key (mutex) and proceed with their work. As long as the buffer is filled by the producer, the consumer needs to wait, and vice versa. 
 - At any point of time, only one thread can work with the entire buffer. The concept can be generalized using **semaphore**. 
 
+:crossed_flags: **Semaphore** is a signaling mechanism (“I am done, you can carry on” kind of signal). For example, if you are listening to songs (assume it as one task) on your mobile phone and at the same time, your friend calls you, an interrupt is triggered upon which an interrupt service routine (ISR) signals the call processing task to wake up. 
+
 Using **Semaphore**: 
 - A semaphore is a generalized mutex. In lieu of a single buffer, we can split the 4 KB buffer into four 1 KB buffers (identical resources). A semaphore can be associated with these four buffers. The consumer and producer can work on different buffers at the same time.
-
-A **mutex** is a locking mechanism used to synchronize access to a resource. Only one task (can be a thread or process based on OS abstraction) can acquire the mutex. It means there is ownership associated with a mutex, and only the owner can release the lock (mutex). 
-
-**Semaphore** is a signaling mechanism (“I am done, you can carry on” kind of signal). For example, if you are listening to songs (assume it as one task) on your mobile phone and at the same time, your friend calls you, an interrupt is triggered upon which an interrupt service routine (ISR) signals the call processing task to wake up. 
 
 -----------------------------------------------------
 
@@ -1111,8 +1114,6 @@ How do you deal with outliers in a dataset?
 
 https://developers.google.com/machine-learning/crash-course  
 
-https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36  
-
 Possible Interview Topics:
 > Statistical distributions  
 > Probability simulation  
@@ -1122,8 +1123,8 @@ Possible Interview Topics:
 > A project walkthrough  
 
 [An ML roadmap](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)   
-https://www.springboard.com/blog/machine-learning-interview-questions/  
-https://www.edureka.co/blog/interview-questions/data-science-interview-questions/  
+[51 Essential Machine Learning Questions](https://www.springboard.com/blog/machine-learning-interview-questions/)  
+[100+ Data Science Interview Questions Edureka](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)  
 
 ### Evaluation metrics:
 - Classification
@@ -1179,8 +1180,7 @@ What is the difference between **discriminative** and **generative** models?
 - **Generative**
 	- Learn distributions (ex: naive bayes)
 
-Time series:  
-	K-fold cv  
+Time series: K-fold cv  
 
 **Variance** = how scattered the predictions are from the actual value  
 High variance means overfitting  
@@ -1214,7 +1214,7 @@ Type 2 error is a false negative
 
 **Convolutional Neural Network:**
   	a Deep Learning algorithm which can take in an input image, assign importance (learnable weights and biases) to various aspects/objects in the image and be able to differentiate one from the other.  
-https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+[A comprehensive guide to CNNs](https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53)
 
 What cross-validation technique would you use on a time series dataset?  
   K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates  
@@ -1225,6 +1225,9 @@ https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
 How would you build a data pipeline?  
 
 How would you implement a recommendation system?  
+
+#### Data Science Project Ideas
+[Best Image ML competitions (video)](https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36)
 
 -------------------------------------------
 
@@ -1256,10 +1259,12 @@ BERT: https://www.kaggle.com/mdfahimreshm/bert-in-depth-understanding
 
 SPACY: https://spacy.io/
 
-[Link to top](table-of-contents)
+[Link to top](#table-of-contents)
 
 ===========================================================
-## TODO <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+<img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
+
+## TODO
 - add more images and resize them
 - add to ci/cd section and jenkins
 - add spark and kafka section
