@@ -1,4 +1,4 @@
-# Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="40">
+# Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50">
 
 ## Table of Contents
 - [Purpose of this guide](#purpose-of-this-guide)
@@ -49,7 +49,7 @@
 ---------------------------------
 
 ## Resume Help
-Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
+:page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
 
 ## Applying
 :keyboard: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
@@ -66,13 +66,13 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [How to find Software Engineering job openings](https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
 
 **Motivation** 
-* [How to study everyday](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
-* [How to focus on learning](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
+* [How to study everyday (video)](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
+* [How to focus on learning (video)](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
 * :books: Atomic Habbits -James CLear
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
-[Negotiating an offer](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
+[Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
@@ -92,7 +92,7 @@ Expanding your resume/portfolio:
 - [Mode (SQL)](https://mode.com/sql-tutorial/)
 - [strataScratch](https://www.stratascratch.com/)
 
-**Other Helpful Repos:**  
+**Other Helpful Repos:**  :octocat:
 - [Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos
 - [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
 - [CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books
@@ -115,18 +115,18 @@ Expanding your resume/portfolio:
 ----------------------------------------------------------------
 
 ## Mock interviews:
-Places to find another person to practice interview with:  
+Places to find another person to practice interview with: :sound:  
 https://interviewing.io/  
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
 
-**Example Coding Interviews:**  
+**Example Coding Interviews:** :film_projector:  
 [Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
 [Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
 
-## Favorite Youtube Creators:
+## Favorite Youtube Creators: :clapper:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
 - https://www.youtube.com/c/hellomayuko -SWE Interview Questions
 - https://www.youtube.com/c/Reducible -SWE Interview Questions
@@ -163,10 +163,8 @@ What are the things that are most important to you in a job?
 
 #### Can you tell me about a time that you ---?  
 When answering a question about a past experience it is best to use either a nugget first method or the STAR method to best tell the tale.
-> **Nugget first:** Start with a nugget that succincly describes what your response will be about.
-> 
-> **STAR** method
-> - Situation / Task -> Action -> Result
+> **Nugget first:** Start with a nugget that succincly describes what your response will be about.  
+> **STAR** method: Situation / Task -> Action -> Result
 	
 Tell me about a time where you had to persuade a group of people to make a change.
 
@@ -316,8 +314,8 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
 
-\*args can be used to pass multiple  positional arguments  
-\*\*kwargs can be used to pass multiple  keyword/named arguments  
+**\*args** can be used to pass multiple  positional arguments  
+**\*\*kwargs** can be used to pass multiple  keyword/named arguments  
 
 **Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects  
 
@@ -383,6 +381,8 @@ What is a **singleton class** in java?
 -------------------------------------------
 
 ## Node js
+
+<img align="right" width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
 
 A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
 
@@ -469,7 +469,8 @@ A container is defined by its image as well as any configuration options you pro
 
 ------------------
 
-## Git 
+## Git
+
 <img align="right" width="50" height="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
 
 Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
@@ -558,6 +559,14 @@ A key-value store generally allows for O(1) reads and writes and is often backed
 
 A document store is centered around documents (XML, JSON, binary, etc), where a document stores all information for a given object. Document stores provide APIs or a query language to query based on the internal structure of the document itself. *Note, many key-value stores include features for working with a value's metadata, blurring the lines between these two storage types.*
 - [MongoDB architecture](https://www.mongodb.com/mongodb-architecture)
+
+**Wide Column Store**
+> Abstraction: nested map
+
+A wide column store's basic unit of data is a column (name/value pair). A column can be grouped in column families (analogous to a SQL table). Super column families further group column families. You can access each column independently with a row key, and columns with the same row key form a row. Each value contains a timestamp for versioning and for conflict resolution.
+
+- [Big Table](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/chang06bigtable.pdf)
+- [Cassandra](http://docs.datastax.com/en/cassandra/3.0/cassandra/architecture/archIntro.html)
 
 **Graph Database**
 > Abstraction: graph
@@ -1083,19 +1092,19 @@ How do you deal with outliers in a dataset?
 ---------------------------------------------
 
 ## ML Prep:
-<img align="center" width="100" height="100" src="https://media2.giphy.com/media/Uu5MHCPoCabaLUYUgE/200w.webp?cid=ecf05e47map8im7jvjhwyl4r0xfd6apx38pksmtcwy4aipjd&rid=200w.webp&ct=g">
+<img align="right" width="100" height="100" src="https://media2.giphy.com/media/Uu5MHCPoCabaLUYUgE/200w.webp?cid=ecf05e47map8im7jvjhwyl4r0xfd6apx38pksmtcwy4aipjd&rid=200w.webp&ct=g">
 
 https://developers.google.com/machine-learning/crash-course  
 
 https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36  
 
 Possible Interview Topics:
-> Statistical distributions
-> Probability simulation
-> String parsing and data manipulation
-> Numpy functions and matrices
-> Pandas data munging
-> A project walkthrough
+> Statistical distributions  
+> Probability simulation  
+> String parsing and data manipulation  
+> Numpy functions and matrices  
+> Pandas data munging  
+> A project walkthrough  
 
 [An ML roadmap](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)   
 https://www.springboard.com/blog/machine-learning-interview-questions/  
@@ -1193,8 +1202,11 @@ Type 2 error is a false negative
 https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
 
 What cross-validation technique would you use on a time series dataset?  
-  K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates
+  K-folds with forward chaining. As it is inherently ordered by date and is biased towards the later dates  
 
+What is the difference between **bagging** and **boosting**?  
+https://quantdare.com/what-is-the-difference-between-bagging-and-boosting/
+  
 How would you build a data pipeline?  
 
 How would you implement a recommendation system?  
