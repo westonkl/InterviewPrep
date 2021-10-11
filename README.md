@@ -31,10 +31,15 @@
 - [Parallel Processing](#parallel-processing)
 - [System Design](#system-design-preparation)
 - [Statistics and Probability](#statistics-and-probability)
+	* [Distributions](#distributions)
+	* [Hypothesis Testing](#hypothesis-testing)
 - [Data](#data)
+	* [Analysis Types](#analysis-types)
+	* [Data Cleaning](#data-cleaning)
 - [Spark](#spark): WIP
 - [Hadoop](#hadoop): WIP
 - [ML Prep](#ml-prep)
+	* [Evaluation Metrics](#evaluation-metrics)
 - [NLP](#nlp)
 - [TODO](#todo)
 
@@ -161,7 +166,7 @@ What are you looking for?
 
 What are the things that are most important to you in a job?
 
-#### Can you tell me about a time that you ---?  
+#### Can you tell me about a time that you \_\_\_?  
 When answering a question about a past experience it is best to use either a nugget first method or the STAR method to best tell the tale.
 > **Nugget first:** Start with a nugget that succincly describes what your response will be about.  
 > **STAR** method: Situation / Task -> Action -> Result
@@ -191,7 +196,7 @@ How do you approach a new project and technology? :test_tube:
 - Get hands on and try tutorials and experiment
 	
 ## Questions for an interviewer: 
-It is important to ask questions during and at the end of an interview, try one of these :speech_balloon:
+:speech_balloon: It is important to ask questions during and at the end of an interview, try one of these:
 - What would my normal day look like?
 - Can you tell me about whom I will be working with?
 - How is mentorship approached?
@@ -210,6 +215,8 @@ It is important to ask questions during and at the end of an interview, try one 
 ## Technical Questions Overview:
 
 > A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+
+<img align="center" width="180" height="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
 
 Here is my problem solving process:
 1. Listen to the problem and take notes
@@ -269,21 +276,21 @@ Big O notation is the language we use to describe the effieciency of algorithms 
 	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
-- [Trees:](https://leetcode.com/tag/tree)
-- [Linked lists:](https://leetcode.com/tag/linked-list)	
-- [Stacks:](https://leetcode.com/tag/stack)
-- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue)
-- [Binary Search:](https://leetcode.com/tag/binary-search) [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
-- [Two Pointers:](https://leetcode.com/tag/two-pointers)
-- [Divide and Conquer:](https://leetcode.com/tag/divide-and-conquer)
-- [Hashing/dictionaries:](https://leetcode.com/tag/hash-table)
-- [Greedy Algorithms:](https://leetcode.com/tag/greedy)
-- [Backtracking:](https://leetcode.com/tag/backtracking)
+- [Trees](https://leetcode.com/tag/tree):
+- [Linked lists](https://leetcode.com/tag/linked-list):	
+- [Stacks](https://leetcode.com/tag/stack):
+- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
+- [Binary Search](https://leetcode.com/tag/binary-search): [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+- [Two Pointers](https://leetcode.com/tag/two-pointers):
+- [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
+- [Hashing/dictionaries](https://leetcode.com/tag/hash-table):
+- [Greedy Algorithms](https://leetcode.com/tag/greedy):
+- [Backtracking](https://leetcode.com/tag/backtracking):
 - Sliding Window:
-- [Union Find:](https://leetcode.com/tag/union-find)
-- [Graphing:](https://leetcode.com/tag/graph)
-- [Sorting Algorithms:](https://leetcode.com/tag/sorting) (Quick, Merge, Selection, Tim)
-- [Bit Manipulation:](https://leetcode.com/tag/bit-manipulation)
+- [Union Find](https://leetcode.com/tag/union-find):
+- [Graphing](https://leetcode.com/tag/graph):
+- [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
+- [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
 	* https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf
   
 - [SQL](https://leetcode.com/tag/database/): [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
@@ -331,7 +338,7 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
 
-https://www.youtube.com/watch?v=6Wzj7kxfRdI
+[5 Must Know Interview Questions for Javascript!(video](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
 
 What is the difference between *let* and *var*?
 - The *let* statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the *var* keyword used to define a variable globally, or locally to an entire function regardless of block scope.
@@ -618,9 +625,12 @@ There are several steps involved in normalizing a database. The steps are referr
 - 2NF: no field should only be partially dependent on any candidate key
 - 3NF: columns should depend only upon the primary key of the table
 
+[**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping.
+  
 **B-Tree**  
-A self balancing tree used as a database
-http://20bits.com/article/interview-questions-database-indexes
+A self balancing tree used as a database  
+
+[Database Indexes](http://20bits.com/article/interview-questions-database-indexes)
 
 ## ETL (Extract, Transform, Load)  
 Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.
@@ -651,6 +661,7 @@ REST = REpresentational State Transfer
 - Update = put
 - Delete = delete
   
+  
 - GET to retrieve a resource;
 - PUT to change the state of or update a resource, which can be an object, file or block;
 - POST to create that resource; and
@@ -678,7 +689,7 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 ![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
 
 http vs https:  
-![httpvshttps](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.tutorialsmate.com%2F2020%2F07%2Fhttp-vs-https.html&psig=AOvVaw11Yu_ZmorklJJ1s8OaixnV&ust=1633460155989000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjjzbW3sfMCFQAAAAAdAAAAABAK)
+![httpvshttps](https://www.infosectrain.com/wp-content/uploads/2020/09/http-https.jpg)
 
 https://www.tutorialspoint.com/http/http_overview.htm
  
@@ -748,6 +759,8 @@ Here is a simplified example of the initial request headers.
 ------------------------------------------------------
 ## AWS
 
+<img align="right" width="90" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1200px-Amazon_Web_Services_Logo.svg.png">
+
 ### Amazon Web Services / Cloud Data Principles
 
 > I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
@@ -784,6 +797,8 @@ Stateless, meaning any change applied to an incoming rule isn’t automatically 
 
 What are the different types of EC2 instances?  
 There 5 different types of EC2 instances: general purpose, compute-optimized, memory-optimized, storage-optimized, accelerated computing. Know each.
+
+Can you explain the concept of serverless?
 
 ----------------------------
 
@@ -1110,13 +1125,6 @@ Possible Interview Topics:
 https://www.springboard.com/blog/machine-learning-interview-questions/  
 https://www.edureka.co/blog/interview-questions/data-science-interview-questions/  
 
-### Precision vs recall
-- Recall is the true positive rate (pos claims vs actual num of pos)- rate of fish caught in pond
-- Precision is the positive predictive value - rate of correct predictions
-
-**F1 Score:**  
-	A weighted average of the precision and recall of a model (1 best, 0 worst)
-
 ### Evaluation metrics:
 - Classification
 	- Accuracy
@@ -1130,6 +1138,13 @@ https://www.edureka.co/blog/interview-questions/data-science-interview-questions
 	- RMSE / RMSECV
 	- MAE
 	- R^2
+
+### Precision vs recall
+- Recall is the true positive rate (pos claims vs actual num of pos)- rate of fish caught in pond
+- Precision is the positive predictive value - rate of correct predictions
+
+**F1 Score:**  
+	A weighted average of the precision and recall of a model (1 best, 0 worst)
 
 ### Supervised Algorithms:
 - Linear Regression
