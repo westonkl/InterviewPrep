@@ -36,7 +36,7 @@
 	- [Hypothesis Testing](#hypothesis-testing)
 - [Data :bar_chart:](#data)
 	- [Analysis Types](#analysis-types)
-	- [Data Cleaning](#data-cleaning)
+	- [Data Cleaning :toilet:](#data-cleaning)
 	- [Spark](#spark): WIP
 	- [Hadoop](#hadoop): WIP
 - [ML Prep :brain:](#ml-prep)
@@ -260,12 +260,12 @@ What do you look for when reviewing code?
 -----------------------------
 ## Data Structures and Algorithms
 
+<img align="right" width="110" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
+
 > :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. :star:
 
-<img align="center" width="180" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
-
 - **Big O Notation:** :point_left: super important  
-Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
+:timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
 	* [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
 	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
@@ -279,24 +279,33 @@ Big O notation is the language we use to describe the effieciency of algorithms 
 	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
+	- [Difference between bfs and dfs](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
 - [Trees](https://leetcode.com/tag/tree):
-- [Linked lists](https://leetcode.com/tag/linked-list):	
+- [Linked lists](https://leetcode.com/tag/linked-list):
+A [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers).
+	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
 - [Stacks](https://leetcode.com/tag/stack):
 - [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
-- [Binary Search](https://leetcode.com/tag/binary-search): [leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems)
+- [Binary Search](https://leetcode.com/tag/binary-search): 
+	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think
 - [Two Pointers](https://leetcode.com/tag/two-pointers):
 - [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
 - [Hashing/dictionaries](https://leetcode.com/tag/hash-table):
 - [Greedy Algorithms](https://leetcode.com/tag/greedy):
-- [Backtracking](https://leetcode.com/tag/backtracking):
+- [Backtracking](https://leetcode.com/tag/backtracking):  
+Backtracking is a technique that considers searching every possible combination for solving a computational problem. It is known for solving problems recursively one step at a time, if its not on the right 'path' it backtracks. The backtracking is a refined brute force approach which is generally used in the cases where there are possibilities of multiple solutions.
+	- [Backtracking with examples and generic solver](https://cs.lmu.edu/~ray/notes/backtracking/)
+	- https://www.interviewbit.com/courses/programming/topics/backtracking/
+	- https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
 - Sliding Window:
 - [Union Find](https://leetcode.com/tag/union-find):
 - [Graphing](https://leetcode.com/tag/graph):
 - [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
 - [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
-	* https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf
+	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
   
-- [SQL](https://leetcode.com/tag/database/): [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
+- [SQL](https://leetcode.com/tag/database/): 
+	- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
 ---------------------------------
 
@@ -545,15 +554,16 @@ What is a view?
 
 What are entities and relationships?
 
-https://www.interviewbit.com/sql-interview-questions/
+[SQl Interview Questions](https://www.interviewbit.com/sql-interview-questions/)
 
+SQL vs NoSQl:  
 SQL | NoSQL
 ------------ | -------------
 vertically scalable | horizontally scalable
 table based | document, key-value, graph or wide-column stores
 better for multi-row transactions | better for unstructured data like documents or JSON
   
-https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40  
+[7 Database Paradigms (video)](https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40)  
 
 ### NoSQL
 
@@ -1033,7 +1043,7 @@ https://www.youtube.com/watch?v=BrK7X_XlGB8&list=WL&index=10
 ------------------------------
 
 ## Distributions:
-https://en.wikipedia.org/wiki/Binomial_distribution
+[Binomial distribution](https://en.wikipedia.org/wiki/Binomial_distribution)
 
 **Probability Density Function (PDF)** := the probability of seeing a value in a certain interval equals the integral of the density function over the interval
 
@@ -1092,7 +1102,7 @@ How can you handle missing values in a dataset?
 	- It creates plausible values based on the correlations for the missing data and then averages the simulated datasets by incorporating random errors in your predictions.
 
 How do you deal with outliers in a dataset?
-- Trim them out
+- Trim them out :scissors:
 - Normalize them (log+1)
 
 ### Dataset validation
