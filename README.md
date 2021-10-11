@@ -155,7 +155,7 @@ What do you know about ___ and why did you decide to apply here?  What drew you 
 	- Growth potential
 	- type of work
 
-What makes you a good fit for the company? 
+What makes you a good fit for the company?  
 
 What are you looking for?  
 
@@ -256,12 +256,13 @@ What do you look for when reviewing code?
 
 > I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
   
-**Big O Notation:** :point_left: super important 
-BIg O notation is the language we use to describe the effieciency of algorithms(time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) is the average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
-- [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** 
-- [Big O cheat sheet](https://www.bigocheatsheet.com/)
-- [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
-  
+- **Big O Notation:** :point_left: super important  
+Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
+	* [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
+	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
+	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
+	* [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+   
 
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
 	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
@@ -540,6 +541,39 @@ table based | document, key-value, graph or wide-column stores
 better for multi-row transactions | better for unstructured data like documents or JSON
   
 https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40  
+
+### NoSQL
+
+NoSQL is a collection of data items represented in a key-value store, document store, wide column store, or a graph database. Data is denormalized, and joins are generally done in the application code. Most NoSQL stores lack true ACID transactions and favor eventual consistency.  
+
+**Key-Value Store**
+> Abstraction: hash table
+
+A key-value store generally allows for O(1) reads and writes and is often backed by memory or SSD. Data stores can maintain keys in lexicographic order, allowing efficient retrieval of key ranges. Key-value stores can allow for storing of metadata with a value.
+- [Key-value database](https://en.wikipedia.org/wiki/Key-value_database)
+- [Redis architecture](http://qnimate.com/overview-of-redis-architecture/)
+
+**Document Store**
+> Abstraction: key-value store with documents stored as values
+
+A document store is centered around documents (XML, JSON, binary, etc), where a document stores all information for a given object. Document stores provide APIs or a query language to query based on the internal structure of the document itself. *Note, many key-value stores include features for working with a value's metadata, blurring the lines between these two storage types.*
+- [MongoDB architecture](https://www.mongodb.com/mongodb-architecture)
+
+**Graph Database**
+> Abstraction: graph
+
+In a graph database, each node is a record and each arc is a relationship between two nodes. Graph databases are optimized to represent complex relationships with many foreign keys or many-to-many relationships.
+
+Graphs databases offer high performance for data models with complex relationships, such as a social network
+
+- [Neo4j](https://neo4j.com/)
+- [FlockDB](https://blog.twitter.com/2010/introducing-flockdb)
+  
+
+**BASE** is often used to describe the properties of NoSQL databases. In comparison with the CAP Theorem, BASE chooses availability over consistency.  
+- **Basically available** - the system guarantees availability.
+- **Soft state** - the state of the system may change over time, even without input.
+- **Eventual consistency** - the system will become consistent over a period of time, given that the system doesn't receive input during that period.
 
 -----------------------------------
 
