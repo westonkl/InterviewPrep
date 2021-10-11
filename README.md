@@ -211,7 +211,15 @@ It is important to ask questions during and at the end of an interview, try one 
 
 ## Technical Questions Overview:
 
-> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Try using pseudocode at the start to get yourself orientated. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+
+Here is my problem solving process:
+1. Listen to the problem and take notes
+2. Create a good complex example to walk through by hand
+3. Work out a brute force solution, then ask if they want you to implement it
+4. Optimize your solution and walk through a few examples (psuedo code if you want)
+5. Implement beautiful(efficient, simple, readable) code
+6. Try to find edge cases
 
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
@@ -234,7 +242,7 @@ What is method **overloading** and **overriding**?
 - A function which calls itself recursively
 - Consists of a base case (stopper) and a recursive case(recurser)
 
-What's the difference between a stack and a queue?  
+What's the difference between a **stack** and a **queue**?  
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
@@ -248,12 +256,16 @@ What do you look for when reviewing code?
 
 > I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you.
   
-**Big O Notation:** :point_left: super important
+**Big O Notation:** :point_left: super important 
+BIg O notation is the language we use to describe the effieciency of algorithms(time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) is the average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
 - [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)** 
-
----
+- [Big O cheat sheet](https://www.bigocheatsheet.com/)
+- [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
+  
 
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
+	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
+	- Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
 	* [Errichto Dynaimc Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
 	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
@@ -273,7 +285,8 @@ What do you look for when reviewing code?
 - [Graphing:](https://leetcode.com/tag/graph)
 - [Sorting Algorithms:](https://leetcode.com/tag/sorting) (Quick, Merge, Selection, Tim)
 - [Bit Manipulation:](https://leetcode.com/tag/bit-manipulation)
-
+	* https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf
+  
 - [SQL](https://leetcode.com/tag/database/): [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
 ---------------------------------
