@@ -1,16 +1,17 @@
 # Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50">
 
 ## Table of Contents
-- [Purpose of this guide](#purpose-of-this-guide)
-- [Mock Interviews](#mock-interviews)
-- [Helpful Links](#misc-helpful-links)
-- [Behavioral](#behavioral)
-- [Questions for an Interviewer](#questions-for-an-interviewer)
-- [Technical Questions Overview](#technical-questions-overview)
-- [Data Structures and Algorithms](#data-structures-and-algorithms)
-- [Language Questions](#language-questions)
-	- [Python](#python)
-	- [Java](#java)
+- [Purpose of this guide :clipboard:](#purpose-of-this-guide)
+- [Applying :magnet:](#applying)
+- [Helpful Links :paperclip:](#misc-helpful-links)
+	- [Mock Interview Resources :microphone:](#mock-interviews)
+- [Behavioral :telephone_receiver:](#behavioral)
+	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
+- [Technical Questions Overview :microscope:](#technical-questions-overview)
+- [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
+- [Language Questions :toolbox:](#language-questions)
+	- [Python :snake:](#python)
+	- [Java :coffee:](#java)
 	- [JavaScript](#javascript)
 	- [Node.js](#node-js)
 	- [Bash](#bash)
@@ -18,29 +19,29 @@
 	- [C++](#c++): WIP
 	- [Scala](#scala): WIP
 	- [Go](#go): WIP
-- [Docker](#docker)
-- [Git](#git)
-- [React](#react)
+- [Docker :whale:](#docker)
+- [Git :octocat:](#git)
+- [React :electron:](#react)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 - [CI/CD](#ci-and-cd): WIP
-- [API Design](#api-design)
-- [HTTP (Hypertext Transfer Protocol)](#http)
-- [AWS](#aws)
-- [Software Testing](#software-testing)
-- [Parallel Processing](#parallel-processing)
-- [System Design](#system-design-preparation)
-- [Statistics and Probability](#statistics-and-probability)
-	* [Distributions](#distributions)
-	* [Hypothesis Testing](#hypothesis-testing)
-- [Data](#data)
-	* [Analysis Types](#analysis-types)
-	* [Data Cleaning](#data-cleaning)
-- [Spark](#spark): WIP
-- [Hadoop](#hadoop): WIP
-- [ML Prep](#ml-prep)
-	* [Evaluation Metrics](#evaluation-metrics)
-- [NLP](#nlp)
+- [API Design :gear:](#api-design)
+- [HTTP (Hypertext Transfer Protocol) :shield:](#http)
+- [AWS :cloud:](#aws)
+- [Software Testing :hammer_and_wrench:](#software-testing)
+- [Parallel Processing :lock:](#parallel-processing)
+- [System Design :building_construction:](#system-design-preparation)
+- [Statistics and Probability :four_leaf_clover:](#statistics-and-probability)
+	- [Distributions](#distributions)
+	- [Hypothesis Testing](#hypothesis-testing)
+- [Data :bar_chart:](#data)
+	- [Analysis Types](#analysis-types)
+	- [Data Cleaning](#data-cleaning)
+	- [Spark](#spark): WIP
+	- [Hadoop](#hadoop): WIP
+- [ML Prep :brain:](#ml-prep)
+	* [Evaluation Metrics :dart:](#evaluation-metrics)
+- [NLP :writing_hand:](#nlp)
 - [TODO](#todo)
 
 ---------------------------------
@@ -57,7 +58,7 @@
 :page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
 
 ## Applying
-:keyboard: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
+:magnet: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
 [best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)  
 
 [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
@@ -120,7 +121,7 @@ Expanding your resume/portfolio:
 ----------------------------------------------------------------
 
 ## Mock interviews:
-Places to find another person to practice interview with: :sound:  
+Places to find another person to practice interview with: :microphone:  
 https://interviewing.io/  
 https://www.pramp.com/#/  
 https://www.swecareers.com/mock-interviews  
@@ -143,7 +144,7 @@ https://www.swecareers.com/mock-interviews
 ----------------------------------------------------------------
 ## Behavioral:
 
-> Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
+> :telephone_receiver: Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
 <img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">  
 
 **Tell me about yourself:**  
@@ -306,7 +307,7 @@ Big O notation is the language we use to describe the effieciency of algorithms 
 
 **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
 
-:spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews.
+:spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. :snake:
 
 What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
@@ -372,7 +373,7 @@ What does === do in JavaScript?
 
 <img align="right" width="50" height="50" src="https://i.stack.imgur.com/8NkOQ.gif">
 
-**Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
+:coffee: **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
 
 Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
 
@@ -768,7 +769,7 @@ Here is a simplified example of the initial request headers.
 
 ### Amazon Web Services / Cloud Data Principles
 
-> I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
+> :cloud: I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
 
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
@@ -924,7 +925,7 @@ Using **Semaphore**:
 
 ## System Design preparation:
 
-This section is more of a high level view of some important things to know about database design and software design. You may get a more in depth system design focused interview where you are asked to design a product or fix/improve one.  
+> :building_construction: This section is more of a high level view of some important things to know about database design and software design. You may get a more in depth system design focused interview where you are asked to design a product or fix/improve one.  
 [Here is a useful repo for a system design interview](https://github.com/donnemartin/system-design-primer)
 
 ![system design overview](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
