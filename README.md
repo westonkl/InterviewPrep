@@ -24,6 +24,7 @@
 - [React :electron:](#react)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
+	- [Normalization](#normalization)
 - [CI/CD](#ci-and-cd): WIP
 - [API Design :gear:](#api-design)
 - [HTTP (Hypertext Transfer Protocol) :shield:](#http)
@@ -84,7 +85,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
-> Creating and working on meaningful personal projects is incredibly important towards demonstrating your experience.
+> :star: Creating and working on meaningful personal projects is incredibly important towards demonstrating your experience.
 
 Expanding your resume/portfolio:  
 - [Kaggle](kaggle.com)
@@ -95,9 +96,9 @@ Expanding your resume/portfolio:
 - :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 **Portfolio Resources:**  
-[Build a Data Science portfolio playlist](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
-[More Data Science portfolio tips](https://www.youtube.com/playlist?list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek)
-[Software Engineering Projects and tips](https://www.youtube.com/watch?v=n4t_-NjY_Sg)
+[Build a Data Science portfolio playlist (videos)](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
+[More Data Science portfolio tips (video)](https://www.youtube.com/playlist?list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek)
+[Software Engineering Projects and tips (video)](https://www.youtube.com/watch?v=n4t_-NjY_Sg)
 
 ## Misc helpful links:
 - [Leetcode](https://leetcode.com/problemset/all/) - best technical problem source :point_left: **use this!!**
@@ -114,16 +115,18 @@ Expanding your resume/portfolio:
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
 - [Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
 - [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
-- [ML Interview](https://github.com/theainerd/MLInterview)  
-
+- [ML Interview](https://github.com/theainerd/MLInterview)
+- [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide)
+  
 **Google Learning Resources**  
 https://developers.google.com/learn  
 https://developers.google.com/machine-learning/crash-course  
 https://developers.google.com/learn/pathways  
 
-**Random Helpful Articles**  
+**Truly Random Articles**  
 [Raft Article](https://raft.github.io/)  
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
+[Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
 
 ----------------------------------------------------------------
 
@@ -260,6 +263,8 @@ What's the difference between a **stack** and a **queue**?
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
+How does a compiler work?
+
 What do you look for when reviewing code?
 - **B** ottlenecks
 - **U** nnecessary work
@@ -360,8 +365,6 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
 
-[5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
-
 What is the difference between *let* and *var*?
 - The *let* statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the *var* keyword used to define a variable globally, or locally to an entire function regardless of block scope.
 
@@ -382,7 +385,8 @@ What is a first class function?
 What does === do in JavaScript?  
 
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
-[JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)
+[JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)  
+[5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
 
 ----------------
 
@@ -641,6 +645,7 @@ A relationship between two tables, where multiple rows in one table can be linke
 ## Normalization:  
 To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization". 
 [Database Design and Normalization](https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/)  
+[Another Database Normalization walkthrough](https://www.databasestar.com/database-normalization/)  
 
 There are several steps involved in normalizing a database. The steps are referred to as "Normal Forms". There are at least 7 NF. Each NF requires that the NF before it has also been satisfied. The spot between 3NF and 4NF is reserved for the BCNF (Boyce-Codd normal form), which was developed later as a slightly stronger version of the 3NF. Tables that have reached the 3NF are generally considered "normalized".  
 - **1NF:** tables must not contain repeating groups of data
@@ -698,6 +703,7 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 **GraphQL:**
 - A query/manipulation language for your API and a runtime for fulfilling queries with existing data
+- https://graphql.guide/
 
 **OLTP vs OLAP** 
 - [link](https://techdifferences.com/difference-between-oltp-and-olap.html#:~:text=OLTP%20and%20OLAP%20both%20are,is%20an%20analytical%20processing%20system.&text=The%20basic%20difference%20between%20OLTP,online%20database%20query%20answering%20system.)
@@ -1077,6 +1083,8 @@ High bias means you are underfitting
 ----------------------------------------
 ## Data
 
+[:books: Python Data Science Handobook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
 ### Analysis types
 
 **Univariate analysis** is the simplest and easiest form of data analysis where the data being analyzed contains only one variable. 
@@ -1145,7 +1153,10 @@ How do you deal with outliers in a dataset?
 ## ML Prep:
 <img align="right" width="100" height="100" src="https://media2.giphy.com/media/Uu5MHCPoCabaLUYUgE/200w.webp?cid=ecf05e47map8im7jvjhwyl4r0xfd6apx38pksmtcwy4aipjd&rid=200w.webp&ct=g">
 
-https://developers.google.com/machine-learning/crash-course  
+[:world_map: An ML roadmap](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)   
+[Google ML crash course](https://developers.google.com/machine-learning/crash-course)  
+[Fast AI deep learning course](https://course.fast.ai/)  
+[:books: AIMA online book](http://aima.cs.berkeley.edu/)  
 
 Possible Interview Topics:
 > Statistical distributions  
@@ -1155,7 +1166,6 @@ Possible Interview Topics:
 > Pandas data munging  
 > A project walkthrough  
 
-[An ML roadmap](https://whimsical.com/CA7f3ykvXpnJ9Az32vYXva)   
 [51 Essential Machine Learning Questions](https://www.springboard.com/blog/machine-learning-interview-questions/)  
 [100+ Data Science Interview Questions Edureka](https://www.edureka.co/blog/interview-questions/data-science-interview-questions/)  
 
