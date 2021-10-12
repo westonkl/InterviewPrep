@@ -5,7 +5,7 @@
 - [Applying :magnet:](#applying)
 - [Helpful Links :paperclip:](#misc-helpful-links)
 	- [Mock Interview Resources :microphone:](#mock-interviews)
-- [Behavioral :telephone_receiver:](#behavioral)
+- [The Behavioral Interview :telephone_receiver:](#the-behavioral-interview)
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
 - [Technical Questions Overview :microscope:](#technical-questions-overview)
 - [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
@@ -30,8 +30,11 @@
 - [HTTP (Hypertext Transfer Protocol) :shield:](#http)
 - [AWS :cloud:](#aws)
 - [Software Testing :hammer_and_wrench:](#software-testing)
-- [Parallel Processing :lock:](#parallel-processing)
+- [Parallel Processing :thread:](#parallel-processing)
 - [System Design :building_construction:](#system-design-preparation)
+	- [ACID :alembic:](#acid)
+	- [CAP Theorem](#cap-theorem-for-distributed-computing)
+	- [SOLID design](#solid)
 - [Statistics and Probability :four_leaf_clover:](#statistics-and-probability)
 	- [Distributions](#distributions)
 - [Data :bar_chart:](#data)
@@ -131,7 +134,7 @@ https://developers.google.com/learn/pathways
 [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
 [A Billion Cheat Sheets on Everything](https://devhints.io/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
-[Color Gradient Generator Website](https://coolors.co/)  
+[Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)
 
 ----------------------------------------------------------------
@@ -159,7 +162,7 @@ https://www.swecareers.com/mock-interviews
 - https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
 ----------------------------------------------------------------
-## Behavioral:
+<h1 align='center'>The Behavioral Interview</h1><br>
 
 > :telephone_receiver: Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
 <img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">  
@@ -361,7 +364,7 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
-[Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)
+[Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)  
 [All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code
 
 ---------------------
@@ -418,8 +421,8 @@ What is a **singleton class** in java?
 
 <img align="center" width="400" src="https://www.scientecheasy.com/wp-content/uploads/2021/03/java-jvm-architecture.png">
 
-[Java guides by Baeldung](https://www.baeldung.com/)
-[Java interview quesitons](https://www.interviewbit.com/java-interview-questions/)
+[Java guides by Baeldung](https://www.baeldung.com/)  
+[Java interview quesitons](https://www.interviewbit.com/java-interview-questions/)  
 
 > 📓 Companies are looking for java developers with knowledge on Springboot, Maven, and Gradle
 
@@ -526,7 +529,8 @@ Git is an additive version control system used to aid cooperation on projects. I
 
 [Git book](https://git-scm.com/book/en/v2)  
 
-[Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
+[Contributing to your first open source project](https://github.com/firstcontributions/first-contributions) 
+[Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)  
 [Hacktoberfest](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
 
 **Markdown help:** :octocat: 
@@ -557,6 +561,7 @@ https://www.interviewbit.com/react-interview-questions/
 
 -----------------------
 ## SQL and NoSQL
+**SQL** is a standard querry language for storing, manipulating and retrieving data in databases.
 
 Format of a SQL query:
 - SELECT
@@ -565,6 +570,13 @@ Format of a SQL query:
 - GROUP BY
 - HAVING
 - ORDER BY
+
+**Example:-**
+```sql
+SELECT CustomerName, City 
+FROM Customers
+WHERE CustomerName='John Smith';
+```
 
 What are the SQL aggregate functions?
 - COUNT
@@ -581,7 +593,8 @@ What is a view?
 
 What are entities and relationships?
 
-[SQl Interview Questions](https://www.interviewbit.com/sql-interview-questions/)
+[SQl Interview Questions](https://www.interviewbit.com/sql-interview-questions/)  
+[SQL and Database Questions](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/2%5D.%20Technical%20Subjects/Interview%20Questions/2).%20Database%20Management%20System%20(DBMS)/_01)Top_50_DBMS_Question_and_answers.md)  
 
 SQL vs NoSQl:  
 SQL | NoSQL
@@ -649,6 +662,46 @@ Database management systems were developed to handle the following difficulties 
 5. Atomicity of updates 
 6. Concurrent access by multiple users 
 7. Security problems 
+
+## DDL:
+- DDL is short name of **Data Definition Language**, which deals with database schemas and descriptions, of how the data should reside in the database.
+   - **CREATE** 
+      - to create a database and its objects like (table, index, views, store procedure, function, and triggers)
+   - **ALTER** 
+      - alters the structure of the existing database
+   - **DROP** 
+      - delete objects from the database
+   - **TRUNCATE** 
+      - remove all records from a table, including all spaces allocated for the records are removed
+   - **RENAME** 
+      - rename an object
+
+## DML:
+- DML is short name of **Data Manipulation Language** which deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database.
+   - **SELECT** 
+      - retrieve data from a database
+   - **INSERT** 
+      - insert data into a table
+   - **UPDATE** 
+      - updates existing data within a table
+   - **DELETE** 
+      - Delete all records from a database table
+   - **MERGE** 
+      - UPSERT operation (insert or update)
+
+## DCL:
+- DCL is short name of **Data Control Language** which includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
+   - **GRANT** 
+      - allow users access privileges to the database
+   - **REVOKE** 
+      - withdraw users access privileges given by using the GRANT command
+
+## TCL:
+- TCL is short name of **Transaction Control Language** which deals with a transaction within a database.
+   - **COMMIT**
+      - commits a Transaction
+   - **ROLLBACK**
+      - rollback a transaction in case of any error occurs ● SAVEPOINT - to roll back the transaction making points within groups
 
 ## Relational Databases:
 
@@ -779,6 +832,14 @@ There are several steps involved in normalizing a database. The steps are referr
       - This is the last state in the life cycle of a transaction. 
       - After entering the committed state or aborted state, the transaction finally enters into a terminated state where its life cycle finally comes to an end.
   
+## File Structures: 
+- **Primary Index:**
+   - A primary index is an ordered file, records of fixed length with two fields. First field is the same as the primary key as a data file and the second field is a pointer to the data block, where the key is available. The average number of block accesses using index = log2 Bi + 1, where Bi = number of index blocks. 
+- **Clustering Index:** 
+   - Clustering index is created on data file whose records are physically ordered on a non-key field (called Clustering field). 
+- **Secondary Index:** 
+   - Secondary index provides secondary means of accessing a file for which primary access already exists.  
+  
 **B-Tree**  
 A self balancing tree used as a database  
 - At every level , we have Key and Data Pointer and data pointer points to either block or record. 
@@ -804,9 +865,9 @@ Extract Transform Load is the procedure for copying data into a different system
 ## CI and CD
 
 https://www.redhat.com/en/topics/devops/what-is-ci-cd  
-Jenkins
+Jenkins  
 
-[Link to top](#table-of-contents)
+[Link to top](#table-of-contents) :point_left:
 
 -----------------------------------------------------
 
