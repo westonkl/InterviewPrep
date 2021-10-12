@@ -118,6 +118,7 @@ Expanding your resume/portfolio:
 - [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
 - [ML Interview](https://github.com/theainerd/MLInterview)
 - [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide)
+- [Sites Every Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#general-coding-advice)
   
 **Google Learning Resources**  
 https://developers.google.com/learn  
@@ -127,7 +128,11 @@ https://developers.google.com/learn/pathways
 **Truly Random Articles**  
 [Raft Article](https://raft.github.io/)  
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
-[Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)
+[Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
+[A Billion Cheat Sheets on Everything](https://devhints.io/)  
+[Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
+[Color Gradient Generator Website](https://coolors.co/)  
+[Hidden Dev Tools Website](https://hiddentools.dev/)
 
 ----------------------------------------------------------------
 
@@ -357,6 +362,7 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
 [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)
+[All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code
 
 ---------------------
 
@@ -412,6 +418,10 @@ What is a **singleton class** in java?
 
 <img align="center" width="400" src="https://www.scientecheasy.com/wp-content/uploads/2021/03/java-jvm-architecture.png">
 
+[Java guides by Baeldung](https://www.baeldung.com/)
+[Java interview quesitons](https://www.interviewbit.com/java-interview-questions/)
+
+> 📓 Companies are looking for java developers with knowledge on Springboot, Maven, and Gradle
 
 -------------------------------------------
 
@@ -464,6 +474,9 @@ Example commands:
 	
 **Name:** 
 A word consisting solely of letters, numbers, and underscores, and beginning with a letter or underscore. Names are used as shell variables and function names. Also referred to as an identifier.
+
+[Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)  
+[Bash for beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
 --------------------------------------------------------------------------
 
