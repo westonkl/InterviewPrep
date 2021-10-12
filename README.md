@@ -33,9 +33,10 @@
 - [System Design :building_construction:](#system-design-preparation)
 - [Statistics and Probability :four_leaf_clover:](#statistics-and-probability)
 	- [Distributions](#distributions)
-	- [Hypothesis Testing](#hypothesis-testing)
 - [Data :bar_chart:](#data)
 	- [Analysis Types](#analysis-types)
+	- [Hypothesis Testing](#hypothesis-testing)
+		- [A/B Testing](#a/b-testing
 	- [Data Cleaning :toilet:](#data-cleaning)
 	- [Spark](#spark): WIP
 	- [Hadoop](#hadoop): WIP
@@ -114,7 +115,7 @@ Expanding your resume/portfolio:
 > https://developers.google.com/machine-learning/crash-course  
 > https://developers.google.com/learn/pathways  
 
-**Random Helpful Articles**
+**Random Helpful Articles**  
 [Raft Article](https://raft.github.io/)  
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 
@@ -397,13 +398,14 @@ The method name **main** is not a keyword in the Java language. It is simply the
 What is a **singleton class** in java?
 - A **singleton class** is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created.
 
-![JVM](https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/JvmSpec7.png/220px-JvmSpec7.png)
+<img align="center" width="400" src="https://www.scientecheasy.com/wp-content/uploads/2021/03/java-jvm-architecture.png">
+
 
 -------------------------------------------
 
 ## Node js
 
-<img align="right" width="50" height="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
+<img align="right" width="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
 
 A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
 
@@ -1023,7 +1025,9 @@ What is Bayes theorem?
 P(A|B) = P(A) P(B|A) / P(B)
 
 ----------------------------
-What is the diff between precision/specificity
+What is the diff between precision/specificity?
+
+What is a p-value?
 
 Quantile: value under which a certain percent lies
 
@@ -1081,13 +1085,18 @@ High bias means you are underfitting
 - Example – Analysing Revenue based on expenditure.
 - Multivariate analysis can be performed using Multiple regression, Factor analysis, Classification & regression trees, Cluster analysis, Principal component analysis, Dual-axis charts, etc.
 
-**A/B testing** (also known as split testing or bucket testing) is a method of comparing two versions of a webpage or app against each other to determine which one performs better. AB testing is essentially an experiment where two or more variants of a page are shown to users at random, and statistical analysis is used to determine which variation performs better for a given conversion goal.
-
-
 ### Hypothesis Testing:
 a hypothesis that is testable on the basis of observed data modelled as the realised values taken by a collection of random variables.[1] A set of data is modelled as being realised values of a collection of random variables having a joint probability distribution in some set of possible joint distributions. The hypothesis being tested is exactly that set of possible probability distributions. 
 
 A **statistical hypothesis** test is a method of [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference). An alternative hypothesis is proposed for the probability distribution of the data, either explicitly or only informally. The comparison of the two models is deemed statistically significant if, according to a threshold probability—the significance level—the data would be unlikely to occur if the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) were true. A hypothesis test specifies which outcomes of a study may lead to a rejection of the null hypothesis at a pre-specified level of significance, while using a pre-chosen measure of deviation from that hypothesis (the test statistic, or goodness-of-fit measure). The pre-chosen level of significance is the maximal allowed "false positive rate". One wants to control the risk of incorrectly rejecting a true null hypothesis.
+
+### A/B Testing
+**A/B testing** (also known as split testing or bucket testing) is a method of comparing two versions of a webpage or app against each other to determine which one performs better. AB testing is essentially an experiment where two or more variants of a page are shown to users at random, and statistical analysis is used to determine which variation performs better for a given conversion goal.
+- [Airbnb experiments and A/B testing](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
+- [When Should A/B testing not be trusted](https://www.quora.com/When-should-A-B-testing-not-be-trusted-to-make-decisions)
+- [12 Guidelines for A/B testing](https://hookedondata.org/guidelines-for-ab-testing/?utm_campaign=Data_Elixir&utm_medium=email&utm_source=Data_Elixir_194)
+- [A/B testing interview questions](https://www.tutorialspoint.com/ab_testing/ab_testing_interview_questions.htm)
+- [Pinterests metrics to create growth](http://jwegan.com/growth-hacking/27-metrics-pinterests-internal-growth-dashboard/)
 
 ## Data Cleaning:
 
@@ -1117,6 +1126,12 @@ How do you deal with outliers in a dataset?
 
 **Search Criteria Validation** 
 – This validation technique is used to offer the user accurate and related matches for their searched keywords or phrases. The main purpose of this validation method is to ensure that the user’s search queries can return the most relevant results.
+
+### Spark
+[Apache Spark](https://spark.apache.org/) is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming entire clusters with implicit data parallelism and fault tolerance.  
+
+[Data camp spark tutorial](https://www.datacamp.com/community/tutorials/apache-spark-python#gs.fMIIqxM)
+
 
 ---------------------------------------------
 
