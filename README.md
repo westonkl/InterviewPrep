@@ -36,7 +36,7 @@
 - [Data :bar_chart:](#data)
 	- [Analysis Types](#analysis-types)
 	- [Hypothesis Testing](#hypothesis-testing)
-		- [A/B Testing](#a/b-testing
+		- [A/B Testing](#ab-testing)
 	- [Data Cleaning :toilet:](#data-cleaning)
 	- [Spark](#spark): WIP
 	- [Hadoop](#hadoop): WIP
@@ -56,21 +56,22 @@
 ---------------------------------
 
 ## Resume Help
-:page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=7) and [Ken Jee](https://www.youtube.com/c/KenJee1) for the best resume advice  
+:page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice  
 
 ## Applying
 :magnet: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
-[best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)  
+- [Best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
+- [How recruiting works in tech (video)](https://www.youtube.com/watch?v=1DvPu3BEzZc)
+- [How to find Software Engineering job openings (video)](https://www.youtube.com/watch?v=KObiuTFYTkM)
 
 [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
 
 Other good application sites include:
-- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE), [Crossover](https://www.crossover.com/), [Canvas](https://www.canvas.com/app/discover/jobs), [Angellist](https://angel.co/), [Smartr](https://www.smartr.me/)
+- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE) A great resource to first take a coding multiple choice test, then with a project walk through to 'pre'-interview
+- [Angellist](https://angel.co/): the best startup search tool, [Canvas](https://www.canvas.com/app/discover/jobs), [Smartr](https://www.smartr.me/)
 - [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
 Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.  
-
-[How to find Software Engineering job openings](https://www.youtube.com/watch?v=KObiuTFYTkM&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=10)
 
 **Motivation** 
 * [How to study everyday (video)](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
@@ -79,7 +80,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
-[Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=25)  
+[Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
@@ -93,11 +94,16 @@ Expanding your resume/portfolio:
 - :octocat: Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
 - :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
+**Portfolio Resources:**  
+[Build a Data Science portfolio playlist](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
+[More Data Science portfolio tips](https://www.youtube.com/playlist?list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek)
+[Software Engineering Projects and tips](https://www.youtube.com/watch?v=n4t_-NjY_Sg)
+
 ## Misc helpful links:
 - [Leetcode](https://leetcode.com/problemset/all/) - best technical problem source :point_left: **use this!!**
 - [Codewars](https://www.codewars.com/kata/search/my-languages?q=&&beta=false&order_by=popularity%20desc): easier problems
 - [Mode (SQL)](https://mode.com/sql-tutorial/)
-- [strataScratch](https://www.stratascratch.com/)
+- [StrataScratch](https://www.stratascratch.com/)
 
 **Other Helpful Repos:**  :octocat:
 - [Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos
@@ -111,9 +117,9 @@ Expanding your resume/portfolio:
 - [ML Interview](https://github.com/theainerd/MLInterview)  
 
 **Google Learning Resources**  
-> https://developers.google.com/learn  
-> https://developers.google.com/machine-learning/crash-course  
-> https://developers.google.com/learn/pathways  
+https://developers.google.com/learn  
+https://developers.google.com/machine-learning/crash-course  
+https://developers.google.com/learn/pathways  
 
 **Random Helpful Articles**  
 [Raft Article](https://raft.github.io/)  
@@ -129,6 +135,7 @@ https://www.swecareers.com/mock-interviews
 
 **Example Coding Interviews:** :film_projector:  
 [Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
+[Google Coding Interview with a normal SWE](https://www.youtube.com/watch?v=rw4s4M3hFfs)
 [Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
@@ -353,7 +360,7 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
 
-[5 Must Know Interview Questions for Javascript!(video](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
+[5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
 
 What is the difference between *let* and *var*?
 - The *let* statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the *var* keyword used to define a variable globally, or locally to an entire function regardless of block scope.
@@ -436,8 +443,7 @@ https://www.interviewbit.com/node-js-interview-questions/
 
 <img align="right" width="50" height="50" src="https://styles.redditmedia.com/t5_2qh2d/styles/communityIcon_xagsn9nsaih61.png?width=256&s=1e4cf3a17c94aecf9c127cef47bb259162283a38">
 
-The Bourne Again SHell. It is a Unix shell and command language.  
-https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f
+The Bourne Again SHell [(Bash)](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f). It is a Unix shell and command language.  
 
 It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
 The improvements offered by Bash include:
@@ -1091,6 +1097,7 @@ a hypothesis that is testable on the basis of observed data modelled as the real
 A **statistical hypothesis** test is a method of [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference). An alternative hypothesis is proposed for the probability distribution of the data, either explicitly or only informally. The comparison of the two models is deemed statistically significant if, according to a threshold probability—the significance level—the data would be unlikely to occur if the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) were true. A hypothesis test specifies which outcomes of a study may lead to a rejection of the null hypothesis at a pre-specified level of significance, while using a pre-chosen measure of deviation from that hypothesis (the test statistic, or goodness-of-fit measure). The pre-chosen level of significance is the maximal allowed "false positive rate". One wants to control the risk of incorrectly rejecting a true null hypothesis.
 
 ### A/B Testing
+
 **A/B testing** (also known as split testing or bucket testing) is a method of comparing two versions of a webpage or app against each other to determine which one performs better. AB testing is essentially an experiment where two or more variants of a page are shown to users at random, and statistical analysis is used to determine which variation performs better for a given conversion goal.
 - [Airbnb experiments and A/B testing](https://medium.com/airbnb-engineering/experiments-at-airbnb-e2db3abf39e7)
 - [When Should A/B testing not be trusted](https://www.quora.com/When-should-A-B-testing-not-be-trusted-to-make-decisions)
