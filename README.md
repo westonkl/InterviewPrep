@@ -9,7 +9,7 @@
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
 - [Technical Questions Overview :microscope:](#technical-questions-overview)
 - [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
-- [Language Questions :toolbox:](#language-questions)
+- [Programming Languages :toolbox:](#programming-languages)
 	- [Python :snake:](#python)
 	- [Java :coffee:](#java)
 	- [JavaScript](#javascript)
@@ -113,6 +113,7 @@ Expanding your resume/portfolio:
 - [A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short
 - [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)
 - [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [The Complete FAANG Preparation](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation)
 - [Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
 - [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
 - [ML Interview](https://github.com/theainerd/MLInterview)
@@ -322,7 +323,7 @@ Backtracking is a technique that considers searching every possible combination 
 
 ---------------------------------
 
-# Language Questions:
+<h1 align='center'>Programming Languages</h1><br>
 
 ## Python: 
 <img align="right" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
@@ -513,6 +514,7 @@ Git is an additive version control system used to aid cooperation on projects. I
 [Git book](https://git-scm.com/book/en/v2)  
 
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
+[Hacktoberfest](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
 
 **Markdown help:** :octocat: 
 > [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
@@ -620,7 +622,82 @@ Graphs databases offer high performance for data models with complex relationshi
 
 -----------------------------------
 
+## Database:
+- A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+
+## Database Management System (DBMS):
+- **Database Management System (DBMS)** is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data. 
+  
+Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems. 
+1. Data redundancy and inconsistency 
+2. Difficulty in accessing data 
+3. Data isolation – multiple files and formats 
+4. Integrity problems 
+5. Atomicity of updates 
+6. Concurrent access by multiple users 
+7. Security problems 
+
 ## Relational Databases:
+
+### ER diagram: 
+- ER diagram or Entity Relationship diagram is a conceptual model that gives the graphical representation of the logical structure of the database. 
+- It shows all the constraints and relationships that exist among the different components. 
+- An ER diagram is mainly composed of following three components- Entity Sets, Attributes and Relationship Set. 
+
+- Roll_no is a primary key that can identify each entity uniquely.
+- Thus, by using a student's roll number, a student can be identified uniquely. 
+
+### Entity Set: 
+An entity set is a set of the same type of entities. 
+- Strong Entity Set: 
+   - A strong entity set is an entity set that contains sufficient attributes to uniquely identify all its entities. 
+   - In other words, a primary key exists for a strong entity set. 
+   - Primary key of a strong entity set is represented by underlining it. 
+- Weak Entity Set: 
+   - A weak entity set is an entity set that does not contain sufficient attributes to uniquely identify its entities. 
+   - In other words, a primary key does not exist for a weak entity set. 
+   - However, it contains a partial key called a discriminator. 
+   - Discriminator can identify a group of entities from the entity set. 
+   - Discriminator is represented by underlining with a dashed line. 
+   
+#### Relationship: 
+A relationship is defined as an association among several entities. 
+- **Unary Relationship Set -**
+   -  Unary relationship set is a relationship set where only one entity set participates in a relationship set. 
+- **Binary Relationship Set -**
+   -  Binary relationship set is a relationship set where two entity sets participate in a relationship set. 
+- **Ternary Relationship Set -**
+   -  Ternary relationship set is a relationship set where three entity sets participate in a relationship set. 
+- **N-ary Relationship Set -**
+   -  N-ary relationship set is a relationship set where ‘n’ entity sets participate in a relationship set. 
+
+### Attributes: 
+Attributes are the descriptive properties which are owned by each entity of an Entity Set. 
+- **Types of Attributes:** 
+  - **Simple Attributes -**
+     -  Simple attributes are those attributes which cannot be divided further. Ex. Age 
+  - **Composite Attributes -**
+     -  Composite attributes are those attributes which are composed of many other simple attributes. Ex. Name, Address 
+  - **Multi Valued Attributes -**
+     -  Multi valued attributes are those attributes which can take more than one value for a given entity from an entity set. Ex. Mobile No, Email ID
+  - **Derived Attributes -**
+     -  Derived attributes are those attributes which can be derived from other attribute(s). Ex. Age can be derived from DOB. 
+  - **Key Attributes -**
+     -  Key attributes are those attributes which can identify an entity uniquely in an entity set. Ex. Roll No. 
+- The set of all those attributes which can be functionally determined from an attribute set is called a **closure of that attribute set** 
+
+### Constraints: 
+- Relational constraints are the restrictions imposed on the database contents and operations. They ensure the correctness of data in the database. 
+   - **Domain Constraint -**
+      -  Domain constraint defines the domain or set of values for an attribute. It specifies that the value taken by the attribute must be the atomic value from its domain. 
+   - **Tuple Uniqueness Constraint -**
+      -  Tuple Uniqueness constraint specifies that all the tuples must be necessarily unique in any relation. 
+   - **Key Constraint -**
+      -  All the values of the primary key must be unique. The value of the primary key must not be null. 
+   - **Entity Integrity Constraint -**
+      -  Entity integrity constraint specifies that no attribute of primary key must contain a null value in any relation.
+   - **Referential Integrity Constraint -**
+      -  It specifies that all the values taken by the foreign key must either be available in the relation of the primary key or be null. 
 
 **Primary Key (PK):**  
 A column with a unique value for each row. Although not all database management systems (DBMS) require you to put a PK into each table, from a design perspective a PK is a requirement. No table should be without one.
@@ -654,8 +731,51 @@ There are several steps involved in normalizing a database. The steps are referr
 
 [**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping. [When to Denormalize](https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798)
   
+## Transaction: 
+- Transaction is a single logical unit of work formed by a set of operations. 
+ 
+**Operations in Transaction:** 
+  - **Read Operation -**
+     - Read(A) instruction will read the value of ‘A’ from the database and will store it in the buffer in main memory. 
+  - **Write Operation –**
+     - Write(A) will write the updated value of ‘A’ from the buffer to the database. 
+
+**Transaction States:** 
+   - **Active State –** 
+     - This is the first state in the life cycle of a transaction. 
+     - A transaction is called in an active state as long as its instructions are getting executed. 
+     - All the changes made by the transaction now are stored in the buffer in main memory. 
+
+   - **Partially Committed State –** 
+      - After the last instruction of the transaction has been executed, it enters into a partially committed state. 
+      - After entering this state, the transaction is considered to be partially committed.
+      - It is not considered fully committed because all the changes made by the transaction are still stored in the buffer in main memory. 
+      
+   - **Committed State –** 
+      - After all the changes made by the transaction have been successfully stored into the database, it enters into a committed state. 
+      - Now, the transaction is considered to be fully committed. 
+   
+   - **Failed State –** 
+      - When a transaction is getting executed in the active state or partially committed state and some failure occurs due to which it becomes impossible to continue the execution, it enters into a failed state. 
+      
+   - **Aborted State –** 
+      - After the transaction has failed and entered into a failed state, all the changes made by it have to be undone. 
+      - To undo the changes made by the transaction, it becomes necessary to roll back the transaction. 
+      - After the transaction has rolled back completely, it enters into an aborted state. 
+   - **Terminated State –** 
+      - This is the last state in the life cycle of a transaction. 
+      - After entering the committed state or aborted state, the transaction finally enters into a terminated state where its life cycle finally comes to an end.
+  
 **B-Tree**  
 A self balancing tree used as a database  
+- At every level , we have Key and Data Pointer and data pointer points to either block or record. 
+
+**Properties of B-Trees:** 
+- Root of B-tree can have children between **2** and **P**, where P is Order of tree. 
+- **Order of tree –** Maximum number of children a node can have. 
+- Internal node can have children between **⌈ P/2 ⌉** and **P** 
+- Internal node can have keys between **⌈ P/2 ⌉ – 1** and **P-1**
+
 
 [Database Indexes](http://20bits.com/article/interview-questions-database-indexes)
 
