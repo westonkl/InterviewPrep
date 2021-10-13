@@ -49,7 +49,7 @@
 - [NLP :writing_hand:](#nlp)
 - [TODO](#todo)
 
----------------------------------
+-------------
 
 ## Purpose of this guide:
 
@@ -57,7 +57,7 @@
 
 <img align="center" width="180" height="180" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
----------------------------------
+--------------
 
 ## Resume Help
 :page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice.  
@@ -85,9 +85,9 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 * :books: Atomic Habbits by James Clear
 
 ## How to Land a SWE Internship
-[Mayuko how to land a SWE internship](https://www.youtube.com/watch?v=LECIcEqHP-4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
-[Nicholas how to land a SWE internship](https://www.youtube.com/watch?v=DUZbHbntY4c&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
-[Tina Ultimate Guide to a Data Science internship](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+[Mayuko how to land a SWE internship (video)](https://www.youtube.com/watch?v=LECIcEqHP-4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
+[Nicholas how to land a SWE internship (video)](https://www.youtube.com/watch?v=DUZbHbntY4c&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
+[Tina Ultimate Guide to a Data Science internship (video)](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
@@ -129,11 +129,6 @@ Expanding your resume/portfolio:
 - [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide)
 - [Sites Every Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#general-coding-advice)
   
-**Google Learning Resources**  
-https://developers.google.com/learn  
-https://developers.google.com/machine-learning/crash-course  
-https://developers.google.com/learn/pathways  
-
 **Truly Random Articles**  
 [Raft Article](https://raft.github.io/)  
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
@@ -141,10 +136,11 @@ https://developers.google.com/learn/pathways
 [A Billion Cheat Sheets on Everything](https://devhints.io/)  
 [How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
+[Google Learning](https://developers.google.com/learn)  
 [Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)
 
-----------------------------------------------------------------
+-----------------
 
 ## Mock interviews:
 Places to find another person to practice interview with: :microphone:  
@@ -168,7 +164,7 @@ Places to find another person to practice interview with: :microphone:
 - https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
 - https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
-----------------------------------------------------------------
+----------------------
 <h1 align='center'>The Behavioral Interview</h1><br>
 
 > :telephone_receiver: Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
@@ -178,7 +174,7 @@ Places to find another person to practice interview with: :microphone:
   - Current Role (your headline) 
   - College  
   - Post College / Current Role  
-  - Outside of work (how are you upskilling?)  
+  - Outside of work (how are you upskilling)  
 
 Two optional additions: Career goal, a unique fact about yourself  
 
@@ -238,7 +234,7 @@ How do you approach a new project and technology? :test_tube:
 - How long is the interviewing process?
 - What is the growth potential for me?
 
-----------------------------------
+-------------------
 
 ## Technical Questions Overview:
 
@@ -257,7 +253,7 @@ Here is my problem solving process:
 6. Try to find edge cases
 ```
 
-[5 Problem Solving Tips for Cracking Coding Interviews](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+[5 Problem Solving Tips for Cracking Coding Interviews (video)](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
@@ -295,7 +291,7 @@ Can you explain declarative vs imperative programming?
 - **U** nnecessary work
 - **D** uplicated work
 
------------------------------
+---------------
 ## Data Structures and Algorithms
 
 <img align="right" width="110" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
@@ -468,11 +464,11 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)  
 [Bash for beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
 
---------------------------------------------------------------------------
+-----------------
 
 <h1 align='center'>Tools</h1><br>
 
-------------------
+----------------
 
 ## Git
 
@@ -496,8 +492,8 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 > [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#objects) :heart_eyes:  
 
 **Helpful Videos:**
-- [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)
-- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+- [100 second git summary (video)](https://www.youtube.com/watch?v=hwP7WQkmECE)
+- [Learn git in 15 min (video)](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 My initial local project workflow:
 ```
@@ -573,9 +569,9 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 [Node interview questions](https://www.interviewbit.com/node-js-interview-questions/)
 
 ## React
-[React.js](https://reactjs.org/) is JavaScript Library for building user interfaces
+[:atom: React.js](https://reactjs.org/) is JavaScript Library for building user interfaces
 
-https://www.interviewbit.com/react-interview-questions/
+[React interview questions](https://www.interviewbit.com/react-interview-questions/)
 
 -----------------------
 ## SQL and NoSQL
@@ -612,7 +608,7 @@ What is a view?
 What are entities and relationships?
 
 [SQl Interview Questions](https://www.interviewbit.com/sql-interview-questions/)  
-[SQL and Database Questions](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/2%5D.%20Technical%20Subjects/Interview%20Questions/2).%20Database%20Management%20System%20(DBMS)/_01)Top_50_DBMS_Question_and_answers.md)  
+[SQL and Database Questions](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/tree/master/2%5D.%20Technical%20Subjects/2%5D.%20Database%20Management%20System%20(DBMS))  
 
 SQL vs NoSQl:  
 SQL | NoSQL
@@ -622,7 +618,7 @@ table based | document, key-value, graph or wide-column stores
 better for multi-row transactions | better for unstructured data like documents or JSON
   
 [7 Database Paradigms (video)](https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40)  
-
+  
 ### NoSQL
 
 NoSQL is a collection of data items represented in a key-value store, document store, wide column store, or a graph database. Data is denormalized, and joins are generally done in the application code. Most NoSQL stores lack true ACID transactions and favor eventual consistency.  
@@ -654,7 +650,6 @@ A wide column store's basic unit of data is a column (name/value pair). A column
 In a graph database, each node is a record and each arc is a relationship between two nodes. Graph databases are optimized to represent complex relationships with many foreign keys or many-to-many relationships.
 
 Graphs databases offer high performance for data models with complex relationships, such as a social network
-
 - [Neo4j](https://neo4j.com/)
 - [FlockDB](https://blog.twitter.com/2010/introducing-flockdb)
   
@@ -882,7 +877,7 @@ Extract Transform Load is the procedure for copying data into a different system
 ----------------------------
 
 ## CI and CD
-:rocket:
+:rocket:  
 https://www.redhat.com/en/topics/devops/what-is-ci-cd  
 Jenkins  
 
@@ -1108,7 +1103,7 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 Test Driven Development: (develop tests before coding)
 - [Cypress](https://www.cypress.io/)
 - [Jest](https://jestjs.io/)
-- [Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+- [Test Driven Development (video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ------------------------------------------------
 
@@ -1216,6 +1211,7 @@ This principle states that Clients should not be forced to depend upon interface
 This principle states that each small piece of knowledge (code) may only occur exactly once in the entire system. This helps us to write scalable, maintainable and reusable code.
 
 -------------------------------------------
+[Link to top](#table-of-contents) :point_left:
 
 ## Statistics and Probability 
 https://www.khanacademy.org/math/statistics-probability
