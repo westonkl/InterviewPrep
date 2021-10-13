@@ -484,7 +484,8 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 --------------------------------------------------------------------------
 
 ## Docker
-Docker is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container. https://docs.docker.com/get-started/overview/#the-docker-daemon
+> :whale: Docker is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container.  
+https://docs.docker.com/get-started/overview/#the-docker-daemon
 
 ![Docker](https://docs.docker.com/engine/images/architecture.svg)
 
@@ -561,7 +562,7 @@ https://www.interviewbit.com/react-interview-questions/
 
 -----------------------
 ## SQL and NoSQL
-**SQL** is a standard querry language for storing, manipulating and retrieving data in databases.
+> **SQL** is a standard querry language for storing, manipulating and retrieving data in databases.
 
 Format of a SQL query:
 - SELECT
@@ -786,7 +787,7 @@ This is in fact the only "real" type of relationship in a relational database.
 A relationship between two tables, where multiple rows in one table can be linked to multiple rows in another table. This type is "artificial" in a a way, because this kind of relationship can not be created directly between tables. To accomplish this type of relationship you need to create a third table; an intermediary table that contains FKs to both parents, linked via a set of 1:N relationships.
 
 ## Normalization:  
-To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization". 
+To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization".  
 [Database Design and Normalization](https://www.dreamincode.net/forums/topic/179103-relational-database-design-normalization/)  
 [Another Database Normalization walkthrough](https://www.databasestar.com/database-normalization/)  
 
@@ -795,7 +796,8 @@ There are several steps involved in normalizing a database. The steps are referr
 - **2NF:** no field should only be partially dependent on any candidate key
 - **3NF:** columns should depend only upon the primary key of the table
 
-[**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping. [When to Denormalize](https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798)
+[**Denormalization**](https://en.wikipedia.org/wiki/Denormalization) is the process of improving the read speed in a database at the expense of write performance, by adding redundant copies of data and by grouping.  
+[When to Denormalize](https://dba.stackexchange.com/questions/4622/when-should-you-denormalize/15798#15798)
   
 ## Transaction: 
 - Transaction is a single logical unit of work formed by a set of operations. 
@@ -892,8 +894,10 @@ REST = REpresentational State Transfer
 
 **Persistence** is said to be ["orthogonal"](https://en.wikipedia.org/wiki/Orthogonality#Computer_science) or "transparent" when it is implemented as an intrinsic property of the execution environment of a program. An orthogonal persistence environment does not require any specific actions by programs running in it to retrieve or save their state.
 
-**Non-orthogona**l persistence requires data to be written and read to and from storage using specific instructions in a program, resulting in the use of persist as a transitive verb: On completion, the program persists the data.
+**Non-orthogonal** persistence requires data to be written and read to and from storage using specific instructions in a program, resulting in the use of persist as a transitive verb: On completion, the program persists the data.
 The advantage of orthogonal persistence environments is simpler and less error-prone programs
+
+**SOAP** (formerly an acronym for Simple Object Access Protocol) is a messaging protocol specification for exchanging structured information in the implementation of web services in computer networks. It uses XML Information Set for its message format, and relies on application layer protocols, most often Hypertext Transfer Protocol (HTTP)  
 
 **GraphQL:**
 - A query/manipulation language for your API and a runtime for fulfilling queries with existing data
@@ -912,10 +916,9 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
 
-http vs https:  
-![httpvshttps](https://www.venafi.com/sites/default/files/2020-12/Difference_HTTP_HTTPS-2.png)
+![http vs https](https://www.venafi.com/sites/default/files/2020-12/Difference_HTTP_HTTPS-2.png)
 
-[Http overview][https://www.tutorialspoint.com/http/http_overview.htm]
+[Http overview](https://www.tutorialspoint.com/http/http_overview.htm)
  
 Caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
  
@@ -1092,8 +1095,8 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 
 Test Driven Development: (develop tests before coding)
 - Cypress
-- jest  
-[Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35)
+- jest
+- [Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35)
 
 ------------------------------------------------
 
@@ -1105,14 +1108,12 @@ Both processes and threads are independent sequences of execution. The typical d
 ### Process
 Each [process](https://en.wikipedia.org/wiki/Process_(computing)) provides the resources needed to execute a program. A process has a virtual address space, executable code, open handles to system objects, a security context, a unique process identifier, environment variables, a priority class, minimum and maximum working set sizes, and at least one thread of execution. Each process is started with a single thread, often called the primary thread, but can create additional threads from any of its threads.
 
-### Thread
-A thread is an entity within a process that can be scheduled for execution. All threads of a process share its virtual address space and system resources. In addition, each thread maintains exception handlers, a scheduling priority, thread local storage, a unique thread identifier, and a set of structures the system will use to save the thread context until it is scheduled. The thread context includes the thread's set of machine registers, the kernel stack, a thread environment block, and a user stack in the address space of the thread's process. Threads can also have their own security context, which can be used for impersonating clients.
-
-Concurrency:
-https://en.wikipedia.org/wiki/Concurrency_(computer_science)
-
-Daemon:
-https://en.wikipedia.org/wiki/Daemon_(computing)
+### Thread 
+:thread: A thread is an entity within a process that can be scheduled for execution. All threads of a process share its virtual address space and system resources. In addition, each thread maintains exception handlers, a scheduling priority, thread local storage, a unique thread identifier, and a set of structures the system will use to save the thread context until it is scheduled. The thread context includes the thread's set of machine registers, the kernel stack, a thread environment block, and a user stack in the address space of the thread's process. Threads can also have their own security context, which can be used for impersonating clients.
+  
+Concurrency: https://en.wikipedia.org/wiki/Concurrency_(computer_science)
+  
+Daemon: https://en.wikipedia.org/wiki/Daemon_(computing)
 
 ### ASYNC Await
 - Async makes a function return a Promise
@@ -1135,9 +1136,9 @@ Using **Mutex**:
 - At any point of time, only one thread can work with the entire buffer. The concept can be generalized using **semaphore**. 
 
 :crossed_flags: **Semaphore** is a signaling mechanism (“I am done, you can carry on” kind of signal). For example, if you are listening to songs (assume it as one task) on your mobile phone and at the same time, your friend calls you, an interrupt is triggered upon which an interrupt service routine (ISR) signals the call processing task to wake up. 
-
-Using **Semaphore**: 
-- A semaphore is a generalized mutex. In lieu of a single buffer, we can split the 4 KB buffer into four 1 KB buffers (identical resources). A semaphore can be associated with these four buffers. The consumer and producer can work on different buffers at the same time.
+  
+Using **Semaphore**:
+- A **semaphore** is a generalized mutex. In lieu of a single buffer, we can split the 4 KB buffer into four 1 KB buffers (identical resources). A semaphore can be associated with these four buffers. The consumer and producer can work on different buffers at the same time.
 
 -----------------------------------------------------
 
@@ -1148,7 +1149,7 @@ Using **Semaphore**:
 
 ![system design overview](https://camo.githubusercontent.com/e45e39c36eebcc4c66e1aecd4e4145112d8e88e3/687474703a2f2f692e696d6775722e636f6d2f6a6a3341354e382e706e67)
 
-### ACID
+### ACID :alembic:
 - Atomicity - each transaction is a single unit (fails or succeeds completely)
 - Consistency - a transaction can only bring the database from one valid state to another
 - Isolation - all transactions in a concurrent stream get executed fully
@@ -1277,7 +1278,7 @@ High bias means you are underfitting
 ----------------------------------------
 ## Data
 
-[:books: Python Data Science Handobook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+[:books: Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 
 ### Analysis types
 
@@ -1339,7 +1340,7 @@ How do you deal with outliers in a dataset?
 ### Spark
 [Apache Spark](https://spark.apache.org/) is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming entire clusters with implicit data parallelism and fault tolerance.  
 
-[Data camp spark tutorial](https://www.datacamp.com/community/tutorials/apache-spark-python#gs.fMIIqxM)
+[Data camp Spark tutorial](https://www.datacamp.com/community/tutorials/apache-spark-python#gs.fMIIqxM)
 
 
 ---------------------------------------------
