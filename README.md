@@ -9,19 +9,19 @@
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
 - [Technical Questions Overview :microscope:](#technical-questions-overview)
 - [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
-- [Programming Languages :toolbox:](#programming-languages)
+- [Programming Languages :scroll:](#programming-languages)
 	- [Python :snake:](#python)
 	- [Java :coffee:](#java)
 	- [JavaScript](#javascript)
-	- [Node.js](#node-js)
 	- [Bash](#bash)
 	- [C](#c): WIP
 	- [C++](#c++): WIP
 	- [Scala](#scala): WIP
-	- [Go](#go): WIP
-- [Docker :whale:](#docker)
-- [Git :octocat:](#git)
-- [React :electron:](#react)
+- [Tools :toolbox:]()
+	- [Git :octocat:](#git)
+	- [Docker :whale:](#docker)
+	- [Node.js](#node-js)
+	- [React :electron:](#react)
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 	- [Normalization](#normalization)
@@ -285,12 +285,12 @@ What's the difference between a **stack** and a **queue**?
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
 How does a compiler work?
-
+  
 Can you explain dynamic vs static typing and strong vs weak typing?
-
+  
 Can you explain declarative vs imperative programming?
-
-What do you look for when reviewing code?
+  
+:stethoscope: What do you look for when reviewing code?
 - **B** ottlenecks
 - **U** nnecessary work
 - **D** uplicated work
@@ -442,35 +442,6 @@ What is a **singleton class** in java?
 
 > 📓 Companies are looking for java developers with knowledge on Springboot, Maven, and Gradle
 
--------------------------------------------
-
-## Node js
-
-<img align="right" width="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
-
-A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
-
-Here is how PHP or ASP handles a file request:
-1. Sends the task to the computer's file system.
-2. Waits while the file system opens and reads the file.
-3. Returns the content to the client.
-4. Ready to handle the next request.
-
-Here is how Node.js handles a file request:
-1. Sends the task to the computer's file system.
-2. Ready to handle the next request.
-3. When the file system has opened and read the file, the server returns the content to the client.  
-Node.js eliminates the waiting, and simply continues with the next request.
-
-Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
-- Node.js can generate dynamic page content
-- Node.js can create, open, read, write, delete, and close files on the server
-- Node.js can collect form data
-- Node.js can add, delete, modify data in your database
-
-[Node interview repo](https://elemefe.github.io/node-interview/#/sections/en-us/?id=guide)  
-[Node interview questions](https://www.interviewbit.com/node-js-interview-questions/)
-
 ------------------------------------------
 
 ## Bash
@@ -499,39 +470,7 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 
 --------------------------------------------------------------------------
 
-## Docker
-> :whale: [Docker](https://docs.docker.com/get-started/overview/#the-docker-daemon) is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container.  
-
-![Docker](https://docs.docker.com/engine/images/architecture.svg)
-
-**Docker architecture**  
-Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, which lets you work with applications consisting of a set of containers.
-
-**The Docker daemon**  
-The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
-
-**The Docker client**  
-The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
-
-**Docker registries**  
-A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
-
-When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
-
-**Docker objects**  
-When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects.
-
-**Images**  
-An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.
-
-You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
-
-**Containers**  
-A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
-
-By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
-
-A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
+<h1 align='center'>Tools</h1><br>
 
 ------------------
 
@@ -569,7 +508,69 @@ My initial local project workflow:
 - git pull origin master (if remote branch chaged)
 - git push -u origin master
 ```
+
+## Docker
+> :whale: [Docker](https://docs.docker.com/get-started/overview/#the-docker-daemon) is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container.  
+
+![Docker](https://docs.docker.com/engine/images/architecture.svg)
+
+**Docker architecture**  
+Docker uses a client-server architecture. The Docker client talks to the Docker daemon, which does the heavy lifting of building, running, and distributing your Docker containers. The Docker client and daemon can run on the same system, or you can connect a Docker client to a remote Docker daemon. The Docker client and daemon communicate using a REST API, over UNIX sockets or a network interface. Another Docker client is Docker Compose, which lets you work with applications consisting of a set of containers.
+
+**The Docker daemon**  
+The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+
+**The Docker client**  
+The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
+
+**Docker registries**  
+A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
+
+When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
+
+**Docker objects**  
+When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects.
+
+**Images**  
+An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.
+
+You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
+
+**Containers**  
+A container is a runnable instance of an image. You can create, start, stop, move, or delete a container using the Docker API or CLI. You can connect a container to one or more networks, attach storage to it, or even create a new image based on its current state.
+
+By default, a container is relatively well isolated from other containers and its host machine. You can control how isolated a container’s network, storage, or other underlying subsystems are from other containers or from the host machine.
+
+A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
+
 ------------------------
+
+## Node js
+
+<img align="right" width="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
+
+A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
+
+Here is how PHP or ASP handles a file request:
+1. Sends the task to the computer's file system.
+2. Waits while the file system opens and reads the file.
+3. Returns the content to the client.
+4. Ready to handle the next request.
+
+Here is how Node.js handles a file request:
+1. Sends the task to the computer's file system.
+2. Ready to handle the next request.
+3. When the file system has opened and read the file, the server returns the content to the client.  
+Node.js eliminates the waiting, and simply continues with the next request.
+
+Node.js runs single-threaded, non-blocking, asynchronous programming, which is very memory efficient.
+- Node.js can generate dynamic page content
+- Node.js can create, open, read, write, delete, and close files on the server
+- Node.js can collect form data
+- Node.js can add, delete, modify data in your database
+
+[Node interview repo](https://elemefe.github.io/node-interview/#/sections/en-us/?id=guide)  
+[Node interview questions](https://www.interviewbit.com/node-js-interview-questions/)
 
 ## React
 [React.js](https://reactjs.org/) is JavaScript Library for building user interfaces
@@ -1520,4 +1521,6 @@ SPACY: https://spacy.io/
 - add spark and kafka section
 - add Hadoop Section
 - add springboot and maven to Java
-- add react section
+- add to react section
+- add scala, c, c++, go
+- add messaging services section ie redis, redux, rabbitmq
