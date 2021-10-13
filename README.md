@@ -80,7 +80,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 **Motivation** 
 * [How to study everyday (video)](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
 * [How to focus on learning (video)](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
-* :books: Atomic Habbits -James CLear
+* :books: Atomic Habbits by James Clear
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
@@ -91,12 +91,11 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 > :star: Creating and working on meaningful personal projects is incredibly important towards demonstrating your experience.
 
 Expanding your resume/portfolio:  
-- [Kaggle](kaggle.com)
+- :brain: [Kaggle](kaggle.com)
 - Creating a RESTful API
 - Web applications (with persistent memory)
-- SQL analysis (tableau, powerbi)
+- :bar_chart: SQL analysis (tableau, powerbi)
 - :octocat: Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
-- :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 **Portfolio Resources:**  
 [Build a Data Science portfolio playlist (videos)](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
@@ -236,7 +235,8 @@ How do you approach a new project and technology? :test_tube:
 
 ## Technical Questions Overview:
 
-> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.
+> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.  
+> :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 <img align="center" width="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
 
@@ -276,6 +276,10 @@ What's the difference between a **stack** and a **queue**?
 - Queues use first-in, first-out (FIFO) (think of a pipe)
 
 How does a compiler work?
+
+Can you explain dynamic vs static typing and strong vs weak typing?
+
+Can you explain declarative vs imperative programming?
 
 What do you look for when reviewing code?
 - **B** ottlenecks
@@ -454,8 +458,8 @@ Node.js runs single-threaded, non-blocking, asynchronous programming, which is v
 - Node.js can collect form data
 - Node.js can add, delete, modify data in your database
 
-https://elemefe.github.io/node-interview/#/sections/en-us/?id=guide  
-https://www.interviewbit.com/node-js-interview-questions/
+[Node interview repo](https://elemefe.github.io/node-interview/#/sections/en-us/?id=guide)  
+[Node interview questions](https://www.interviewbit.com/node-js-interview-questions/)
 
 ------------------------------------------
 
