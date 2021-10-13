@@ -100,7 +100,7 @@ Expanding your resume/portfolio:
 
 **Portfolio Resources:**  
 [Build a Data Science portfolio playlist (videos)](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
-[More Data Science portfolio tips (video)](https://www.youtube.com/playlist?list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek)
+[More Data Science portfolio tips (video)](https://www.youtube.com/playlist?list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek)  
 [Software Engineering Projects and tips (video)](https://www.youtube.com/watch?v=n4t_-NjY_Sg)
 
 ## Misc helpful links:
@@ -655,7 +655,7 @@ Graphs databases offer high performance for data models with complex relationshi
 - A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
 
 ## Database Management System (DBMS):
-- **Database Management System (DBMS)** is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data. 
+- **Database Management System** is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data. 
   
 Database management systems were developed to handle the following difficulties of typical File-processing systems supported by conventional operating systems. 
 1. Data redundancy and inconsistency 
@@ -667,7 +667,7 @@ Database management systems were developed to handle the following difficulties 
 7. Security problems 
 
 ## DDL:
-- DDL is short name of **Data Definition Language**, which deals with database schemas and descriptions, of how the data should reside in the database.
+- DDL is short for **Data Definition Language**, which deals with database schemas and descriptions, of how the data should reside in the database.
    - **CREATE** 
       - to create a database and its objects like (table, index, views, store procedure, function, and triggers)
    - **ALTER** 
@@ -680,7 +680,7 @@ Database management systems were developed to handle the following difficulties 
       - rename an object
 
 ## DML:
-- DML is short name of **Data Manipulation Language** which deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database.
+- DML is short for **Data Manipulation Language** which deals with data manipulation and includes most common SQL statements such SELECT, INSERT, UPDATE, DELETE, etc., and it is used to store, modify, retrieve, delete and update data in a database.
    - **SELECT** 
       - retrieve data from a database
    - **INSERT** 
@@ -693,14 +693,14 @@ Database management systems were developed to handle the following difficulties 
       - UPSERT operation (insert or update)
 
 ## DCL:
-- DCL is short name of **Data Control Language** which includes commands such as GRANT and mostly concerned with rights, permissions and other controls of the database system.
+- DCL is short for **Data Control Language** and is mostly concerned with rights, permissions and other controls of the database system.
    - **GRANT** 
       - allow users access privileges to the database
    - **REVOKE** 
       - withdraw users access privileges given by using the GRANT command
 
 ## TCL:
-- TCL is short name of **Transaction Control Language** which deals with a transaction within a database.
+- TCL is short for **Transaction Control Language** which deals with a transaction within a database.
    - **COMMIT**
       - commits a Transaction
    - **ROLLBACK**
@@ -712,7 +712,8 @@ Database management systems were developed to handle the following difficulties 
 - ER diagram or Entity Relationship diagram is a conceptual model that gives the graphical representation of the logical structure of the database. 
 - It shows all the constraints and relationships that exist among the different components. 
 - An ER diagram is mainly composed of following three components- Entity Sets, Attributes and Relationship Set. 
-
+  
+  
 - Roll_no is a primary key that can identify each entity uniquely.
 - Thus, by using a student's roll number, a student can be identified uniquely. 
 
@@ -769,13 +770,15 @@ Attributes are the descriptive properties which are owned by each entity of an E
       -  It specifies that all the values taken by the foreign key must either be available in the relation of the primary key or be null. 
 
 **Primary Key (PK):**  
-A column with a unique value for each row. Although not all database management systems (DBMS) require you to put a PK into each table, from a design perspective a PK is a requirement. No table should be without one.
+A column with a unique value for each row.  
+Although not all database management systems (DBMS) require you to put a PK into each table, from a design perspective a PK is a requirement. No table should be without one.
 
 **Foreign Key (FK):**  
 These define relationships between tables. When you want a row in one table to be linked to a row in another table, you place a FK column in the child table and use the value of the parent row's PK as the value of the FK field.
 
 **Composite Key:**  
-This is a key that is made up of more than one column. This is typically used when you want to prevent a table from using the same combination of values twice. For example, in a table that lists item prizes for shops, you would only want each shop to have a single price for each item. So, you create a FK for the shop and a FK for the item, and then you create a composite PK out of those two columns. This would cause the DBMS to forcefully restrict entries that would create rows where the combined values of these fields are duplicated. - This type of key is commonly used in N:M relationships.
+This is a key that is made up of more than one column.  
+This is typically used when you want to prevent a table from using the same combination of values twice. For example, in a table that lists item prizes for shops, you would only want each shop to have a single price for each item. So, you create a FK for the shop and a FK for the item, and then you create a composite PK out of those two columns. This would cause the DBMS to forcefully restrict entries that would create rows where the combined values of these fields are duplicated. - This type of key is commonly used in N:M relationships.
 
 **One-To-One (1:1) relationship:**  
 A relationship between two tables, where a single row in one table is linked to a single row in another table.  
@@ -786,7 +789,8 @@ A relationship between two tables, where multiple rows in a child table can be l
 This is in fact the only "real" type of relationship in a relational database.
 
 **Many-To-Many (N:M) relationship:**  
-A relationship between two tables, where multiple rows in one table can be linked to multiple rows in another table. This type is "artificial" in a a way, because this kind of relationship can not be created directly between tables. To accomplish this type of relationship you need to create a third table; an intermediary table that contains FKs to both parents, linked via a set of 1:N relationships.
+A relationship between two tables, where multiple rows in one table can be linked to multiple rows in another table.  
+This type is "artificial" in a a way, because this kind of relationship can not be created directly between tables. To accomplish this type of relationship you need to create a third table; an intermediary table that contains FKs to both parents, linked via a set of 1:N relationships.
 
 ## Normalization:  
 To help us properly design our tables we have a set of guidelines which, if followed properly, will help reduce the redundancy and chance of data corruption. We call this "Normalization".  
@@ -818,12 +822,10 @@ There are several steps involved in normalizing a database. The steps are referr
 
    - **Partially Committed State –** 
       - After the last instruction of the transaction has been executed, it enters into a partially committed state. 
-      - After entering this state, the transaction is considered to be partially committed.
       - It is not considered fully committed because all the changes made by the transaction are still stored in the buffer in main memory. 
       
    - **Committed State –** 
       - After all the changes made by the transaction have been successfully stored into the database, it enters into a committed state. 
-      - Now, the transaction is considered to be fully committed. 
    
    - **Failed State –** 
       - When a transaction is getting executed in the active state or partially committed state and some failure occurs due to which it becomes impossible to continue the execution, it enters into a failed state. 
@@ -833,7 +835,6 @@ There are several steps involved in normalizing a database. The steps are referr
       - To undo the changes made by the transaction, it becomes necessary to roll back the transaction. 
       - After the transaction has rolled back completely, it enters into an aborted state. 
    - **Terminated State –** 
-      - This is the last state in the life cycle of a transaction. 
       - After entering the committed state or aborted state, the transaction finally enters into a terminated state where its life cycle finally comes to an end.
   
 ## File Structures: 
@@ -1070,8 +1071,7 @@ involves having knowledge of internal data structures and algorithms for purpose
 
 **Installation testing:** self explanatory
 
-**Compatibility testing:** 
-	- Testing compatibility with other applications or OS or versions.
+**Compatibility testing:** Testing compatibility with other applications or OS or versions.
 	
 **Smoke** and **Sanity** testing: 
 - Sanity testing determines whether or not to test further
@@ -1085,9 +1085,9 @@ involves having knowledge of internal data structures and algorithms for purpose
 
 **Functional** vs **non-functional** testing: test if it fits specifications vs performance and scalability
 
-**Continuous** testing: using automated tests as part of the delivery pipeline
+**Continuous testing:** using automated tests as part of the delivery pipeline
 
-**Destructive** testing: attempts to cause the software to fail
+**Destructive testing:** attempts to cause the software to fail
 
 Talk to me about which debuggers/testing software you have used in order to fix programming errors?  
 
@@ -1183,7 +1183,7 @@ This principle states that there should never be more than one reason for a clas
 - Ex: An Account class is responsible for managing Current and Saving Account but a CurAccount and a SavingAccount classes are specialized. Hence both are responsible for a single purpose only.
 
 ### Open/Closed Principle (OCP)
-This principle states that software entities (classes, modules, functions, etc.) should be open for extension but closed for modification. The "closed" part of the rule states that once a module has been developed and tested, the code should only be changed to correct bugs. The "open" part says that you should be able to extend existing code in order to introduce new functionality.
+This principle states that software entities **(classes, modules, functions, etc.) should be open for extension but closed for modification.** The "closed" part of the rule states that once a module has been developed and tested, the code should only be changed to correct bugs. The "open" part says that you should be able to extend existing code in order to introduce new functionality.
 - Ex: A PaymentGateway base class contains all basic payment related properties and methods. This class can be extended by different PaymentGateway classes for different payment gateway vendors to achieve their functionalities. Hence it is open for extension but closed for modification.
 
 ### Liskov Substitution Principle (LSP)
@@ -1281,19 +1281,19 @@ High bias means you are underfitting
 ### Analysis types
 
 **Univariate analysis** is the simplest and easiest form of data analysis where the data being analyzed contains only one variable. 
-- Example - Studying the heights of players in the NBA.
+- Example: Studying the heights of players in the NBA.
 - Univariate analysis can be described using Central Tendency, Dispersion, Quartiles, Bar charts, Histograms, Pie charts, and Frequency distribution tables.
 
 **Bivariate analysis** involves the analysis of two variables to find causes, relationships, and correlations between the variables. 
-- Example – Analyzing the sale of ice creams based on the temperature outside.
+- Example: Analyzing the sale of ice creams based on the temperature outside.
 - The bivariate analysis can be explained using Correlation coefficients, Linear regression, Logistic regression, Scatter plots, and Box plots.
 
 **Multivariate analysis** involves the analysis of three or more variables to understand the relationship of each variable with the other variables. 
-- Example – Analysing Revenue based on expenditure.
+- Example: Analysing Revenue based on expenditure.
 - Multivariate analysis can be performed using Multiple regression, Factor analysis, Classification & regression trees, Cluster analysis, Principal component analysis, Dual-axis charts, etc.
 
 ### Hypothesis Testing:
-a hypothesis that is testable on the basis of observed data modelled as the realised values taken by a collection of random variables.[1] A set of data is modelled as being realised values of a collection of random variables having a joint probability distribution in some set of possible joint distributions. The hypothesis being tested is exactly that set of possible probability distributions. 
+a hypothesis that is testable on the basis of observed data modelled as the realised values taken by a collection of random variables. A set of data is modelled as being realised values of a collection of random variables having a joint probability distribution in some set of possible joint distributions. The hypothesis being tested is exactly that set of possible probability distributions. 
 
 A **statistical hypothesis** test is a method of [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference). An alternative hypothesis is proposed for the probability distribution of the data, either explicitly or only informally. The comparison of the two models is deemed statistically significant if, according to a threshold probability—the significance level—the data would be unlikely to occur if the [null hypothesis](https://en.wikipedia.org/wiki/Null_hypothesis) were true. A hypothesis test specifies which outcomes of a study may lead to a rejection of the null hypothesis at a pre-specified level of significance, while using a pre-chosen measure of deviation from that hypothesis (the test statistic, or goodness-of-fit measure). The pre-chosen level of significance is the maximal allowed "false positive rate". One wants to control the risk of incorrectly rejecting a true null hypothesis.
 
@@ -1320,7 +1320,7 @@ How can you handle missing values in a dataset?
 
 How do you deal with outliers in a dataset?
 - Trim them out :scissors:
-- Normalize them (log+1)
+- Normalize them (log+1) :mountain: 
 
 ### Dataset validation
 **Field Level Validation** 
@@ -1391,7 +1391,7 @@ Possible Interview Topics:
 - AdaBoost and Gradient boosting
 	- XGBoost
 	- CatBoost
-	-  LightGBM
+	- LightGBM
 - Neural Networks
 	- Convolutional
 	- Recurrent (RNN)
@@ -1467,7 +1467,9 @@ How would you implement a recommendation system?
 -------------------------------------------
 
 ### NLP
-    
+> :open_book: NLP stands for [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing), it pertains to the processing of large amounts of 'words' to extract information and insights.  
+> Challenges in natural language processing frequently involve [speech recognition](https://en.wikipedia.org/wiki/Speech_recognition), [natural language understanding](https://en.wikipedia.org/wiki/Natural-language_understanding), and [natural language generation](https://en.wikipedia.org/wiki/Natural-language_generation).
+
 Statistical: Part of Speech tagging, decision trees  
 Neural Networks: word embeddings, NER, bert  
 
