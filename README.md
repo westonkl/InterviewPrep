@@ -148,7 +148,7 @@ Places to find another person to practice interview with: :microphone:
   
 **Example Coding Interviews:** :film_projector:  
 [Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
-[Google Coding Interview with a normal SWE](https://www.youtube.com/watch?v=rw4s4M3hFfs)
+[Google Coding Interview with a normal SWE](https://www.youtube.com/watch?v=rw4s4M3hFfs)  
 [Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
@@ -166,7 +166,7 @@ Places to find another person to practice interview with: :microphone:
 <h1 align='center'>The Behavioral Interview</h1><br>
 
 > :telephone_receiver: Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
-<img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">  
+<img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">
 
 **Tell me about yourself:**  
   - Current Role (your headline) 
