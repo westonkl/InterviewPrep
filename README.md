@@ -32,7 +32,7 @@
 - [Software Testing :hammer_and_wrench:](#software-testing)
 - [Parallel Processing :thread:](#parallel-processing)
 - [System Design :building_construction:](#system-design-preparation)
-	- [ACID :alembic:](#acid)
+	- [ACID :alembic:](#acid-alembic)
 	- [CAP Theorem](#cap-theorem-for-distributed-computing)
 	- [SOLID design](#solid)
 - [Statistics and Probability :four_leaf_clover:](#statistics-and-probability)
@@ -133,6 +133,7 @@ https://developers.google.com/learn/pathways
 [Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
 [A Billion Cheat Sheets on Everything](https://devhints.io/)  
+[How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
 [Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)
@@ -141,10 +142,10 @@ https://developers.google.com/learn/pathways
 
 ## Mock interviews:
 Places to find another person to practice interview with: :microphone:  
-https://interviewing.io/  
-https://www.pramp.com/#/  
-https://www.swecareers.com/mock-interviews  
-
+- https://interviewing.io/
+- https://www.pramp.com/#/
+- https://www.swecareers.com/mock-interviews
+  
 **Example Coding Interviews:** :film_projector:  
 [Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
 [Google Coding Interview with a normal SWE](https://www.youtube.com/watch?v=rw4s4M3hFfs)
@@ -240,12 +241,14 @@ How do you approach a new project and technology? :test_tube:
 <img align="center" width="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
 
 Here is my problem solving process:
+```
 1. Listen to the problem and take notes
 2. Create a good complex example to walk through by hand
 3. Work out a brute force solution, then ask if they want you to implement it
 4. Optimize your solution and walk through a few examples (psuedo code if you want)
-5. Implement beautiful(efficient, simple, readable) code
+5. Implement beautiful (efficient, simple, readable) code
 6. Try to find edge cases
+```
 
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
@@ -293,7 +296,6 @@ What do you look for when reviewing code?
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
 	* [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
    
-
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
 	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
 	- Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
@@ -461,7 +463,7 @@ https://www.interviewbit.com/node-js-interview-questions/
 
 <img align="right" width="50" height="50" src="https://styles.redditmedia.com/t5_2qh2d/styles/communityIcon_xagsn9nsaih61.png?width=256&s=1e4cf3a17c94aecf9c127cef47bb259162283a38">
 
-The Bourne Again SHell [(Bash)](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f). It is a Unix shell and command language.  
+The Bourne Again SHell [(Bash)](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f) is a Unix shell and command language.  
 
 It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
 The improvements offered by Bash include:
@@ -484,8 +486,7 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 --------------------------------------------------------------------------
 
 ## Docker
-> :whale: Docker is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container.  
-https://docs.docker.com/get-started/overview/#the-docker-daemon
+> :whale: [Docker](https://docs.docker.com/get-started/overview/#the-docker-daemon) is an open platform for developing, shipping, and running applications. Docker provides the ability to package and run an application in a loosely isolated environment called a container.  
 
 ![Docker](https://docs.docker.com/engine/images/architecture.svg)
 
@@ -530,8 +531,8 @@ Git is an additive version control system used to aid cooperation on projects. I
 
 [Git book](https://git-scm.com/book/en/v2)  
 
-[Contributing to your first open source project](https://github.com/firstcontributions/first-contributions) 
-[Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)  
+[Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
+[Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)   
 [Hacktoberfest](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
 
 **Markdown help:** :octocat: 
@@ -546,13 +547,14 @@ Git is an additive version control system used to aid cooperation on projects. I
 - [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)
 
 My initial local project workflow:
+```
 - git init repo in directory
 - git add files
 - git status
 - git commit -m "asdf"
 - git pull origin master (if remote branch chaged)
 - git push -u origin master
-
+```
 ------------------------
 
 ## React
@@ -1051,24 +1053,24 @@ It can be applied to all levels of software testing, usually used at higher leve
 involves having knowledge of internal data structures and algorithms for purposes of designing tests while executing those tests at the user, or black-box level.
 
 ## Testing Levels: 
-1. Unit Testing
+**1. Unit Testing**
 	- Unit testing refers to tests that verify the functionality of a specific section of code, usually at the function level. In an object-oriented environment, this is usually at the class level, and the minimal unit tests include the constructors and destructors. 
 	- Unit testing might include static code analysis, data-flow analysis, metrics analysis, peer code reviews, code coverage analysis and other software testing practices.
 
-2. Integration Testing:  
+**2. Integration Testing:**  
 	Integration Testing is the process of testing the connectivity or data transfer between a couple of unit tested modules.
 	
-3. System Testing:  
+**3. System Testing:**  
 	A completely integrated system to verify that the system meets its requirements. For example, a system test might involve testing a login interface, then creating and editing an entry, plus sending or printing results, followed by summary processing or deletion (or archiving) of entries, then logoff.
 
-4. Acceptance Testing:  
+**4. Acceptance Testing:**  
 	Operational readiness of the system to be supported and integrated. Final Step to see if it doesn’t break anything else.
 
 ## Testing types, techniques and tactics:
 
 **Installation testing:** self explanatory
 
-**Compatibility** testing: 
+**Compatibility testing:** 
 	- Testing compatibility with other applications or OS or versions.
 	
 **Smoke** and **Sanity** testing: 
@@ -1088,14 +1090,10 @@ involves having knowledge of internal data structures and algorithms for purpose
 **Destructive** testing: attempts to cause the software to fail
 
 Talk to me about which debuggers/testing software you have used in order to fix programming errors?  
-- Python assert()
-- VS Code
-- Pypy
-- Mypy
 
 Test Driven Development: (develop tests before coding)
-- Cypress
-- jest
+- [Cypress](https://www.cypress.io/)
+- [Jest](https://jestjs.io/)
 - [Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35)
 
 ------------------------------------------------
@@ -1341,7 +1339,6 @@ How do you deal with outliers in a dataset?
 [Apache Spark](https://spark.apache.org/) is an open-source unified analytics engine for large-scale data processing. Spark provides an interface for programming entire clusters with implicit data parallelism and fault tolerance.  
 
 [Data camp Spark tutorial](https://www.datacamp.com/community/tutorials/apache-spark-python#gs.fMIIqxM)
-
 
 ---------------------------------------------
 
