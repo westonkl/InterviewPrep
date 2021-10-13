@@ -25,7 +25,7 @@
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 	- [Normalization](#normalization)
-- [CI/CD](#ci-and-cd): WIP
+- [CI/CD :rocket:](#ci-and-cd): WIP
 - [API Design :gear:](#api-design)
 - [HTTP (Hypertext Transfer Protocol) :shield:](#http)
 - [AWS :cloud:](#aws)
@@ -42,7 +42,7 @@
 	- [Hypothesis Testing](#hypothesis-testing)
 		- [A/B Testing](#ab-testing)
 	- [Data Cleaning :toilet:](#data-cleaning)
-	- [Spark](#spark): WIP
+	- [Spark :sparkles:](#spark): WIP
 	- [Hadoop](#hadoop): WIP
 - [ML Prep :brain:](#ml-prep)
 	* [Evaluation Metrics :dart:](#evaluation-metrics)
@@ -60,19 +60,21 @@
 ---------------------------------
 
 ## Resume Help
-:page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice  
+:page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice.  
+General guidelines include keeping it to one page, demonstrating impact at past positions, and [demonstrating knowledge](gaining-experience) of tools and languages. 
 
 ## Applying
 :magnet: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
 - [Best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
 - [How recruiting works in tech (video)](https://www.youtube.com/watch?v=1DvPu3BEzZc)
 - [How to find Software Engineering job openings (video)](https://www.youtube.com/watch?v=KObiuTFYTkM)
-
-[Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are extremely competitive. Consider using [Indeed](https://www.indeed.com/) if you are strugging.  
-
-Other good application sites include:
-- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE) A great resource to first take a coding multiple choice test, then with a project walk through to 'pre'-interview
-- [Angellist](https://angel.co/): the best startup search tool, [Canvas](https://www.canvas.com/app/discover/jobs), [Smartr](https://www.smartr.me/)
+  
+Good application sites include:
+- [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are quite competitive.
+- Consider using [Indeed](https://www.indeed.com/)
+- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE): A great resource to first take a coding multiple choice test, then with a project walk through to 'pre'-interview
+- [Angellist](https://angel.co/): the best startup search tool
+- [Canvas](https://www.canvas.com/app/discover/jobs), [Smartr](https://www.smartr.me/), [The Muse](https://www.themuse.com/)
 - [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
 Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.  
@@ -81,6 +83,11 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 * [How to study everyday (video)](https://www.youtube.com/watch?v=kICh_d6tHQk&list=WL&index=1)
 * [How to focus on learning (video)](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
 * :books: Atomic Habbits by James Clear
+
+## How to Land a SWE Internship
+[Mayuko how to land a SWE internship](https://www.youtube.com/watch?v=LECIcEqHP-4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
+[Nicholas how to land a SWE internship](https://www.youtube.com/watch?v=DUZbHbntY4c&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
+[Tina Ultimate Guide to a Data Science internship](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ## Last Step
 :tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
@@ -250,6 +257,8 @@ Here is my problem solving process:
 6. Try to find edge cases
 ```
 
+[5 Problem Solving Tips for Cracking Coding Interviews](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
 
@@ -291,7 +300,7 @@ What do you look for when reviewing code?
 
 <img align="right" width="110" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
 
-> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. :star:
+> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. I have also sorted these based on their frequency/utility in technical interviews. :star:
 
 - **Big O Notation:** :point_left: super important  
 :timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
@@ -303,7 +312,7 @@ What do you look for when reviewing code?
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
 	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
 	- Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
-	* [Errichto Dynaimc Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
+	* [Errichto Dynamic Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
 	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
@@ -315,7 +324,7 @@ A [linked list](https://www.tutorialspoint.com/python_data_structure/python_link
 - [Stacks](https://leetcode.com/tag/stack):
 - [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
 - [Binary Search](https://leetcode.com/tag/binary-search): 
-	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think
+	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
 - [Two Pointers](https://leetcode.com/tag/two-pointers):
 - [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
 - [Hashing/dictionaries](https://leetcode.com/tag/hash-table):
@@ -326,7 +335,8 @@ Backtracking is a technique that considers searching every possible combination 
 	- https://www.interviewbit.com/courses/programming/topics/backtracking/
 	- https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
 - Sliding Window:
-- [Union Find](https://leetcode.com/tag/union-find):
+- [Union Find](https://leetcode.com/tag/union-find): 
+	- [Union Find in 5 minutes](https://www.youtube.com/watch?v=ayW5B2W9hfo)
 - [Graphing](https://leetcode.com/tag/graph):
 - [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
 - [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
@@ -529,15 +539,15 @@ A container is defined by its image as well as any configuration options you pro
 
 <img align="right" width="50" height="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
 
-Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
+> Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
 
 ![git ex](https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png)
 
-[Git book](https://git-scm.com/book/en/v2)  
+[:open_book: Git book](https://git-scm.com/book/en/v2): note its really a website  
 
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 [Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)   
-[Hacktoberfest](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
+[Hacktoberfest :jack_o_lantern:](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
 
 **Markdown help:** :octocat: 
 > [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
@@ -548,7 +558,7 @@ Git is an additive version control system used to aid cooperation on projects. I
 
 **Helpful Videos:**
 - [100 second git summary](https://www.youtube.com/watch?v=hwP7WQkmECE)
-- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=3&t=305s)
+- [Learn git in 15 min](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 My initial local project workflow:
 ```
@@ -858,8 +868,7 @@ A self balancing tree used as a database
 - **Order of tree –** Maximum number of children a node can have. 
 - Internal node can have children between **⌈ P/2 ⌉** and **P** 
 - Internal node can have keys between **⌈ P/2 ⌉ – 1** and **P-1**
-
-
+  
 [Database Indexes](http://20bits.com/article/interview-questions-database-indexes)
 
 ## ETL (Extract, Transform, Load)  
@@ -872,7 +881,7 @@ Extract Transform Load is the procedure for copying data into a different system
 ----------------------------
 
 ## CI and CD
-
+:rocket:
 https://www.redhat.com/en/topics/devops/what-is-ci-cd  
 Jenkins  
 
@@ -1098,7 +1107,7 @@ Talk to me about which debuggers/testing software you have used in order to fix 
 Test Driven Development: (develop tests before coding)
 - [Cypress](https://www.cypress.io/)
 - [Jest](https://jestjs.io/)
-- [Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=35)
+- [Test Driven Development(video)](https://www.youtube.com/watch?v=Jv2uxzhPFl4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ------------------------------------------------
 
@@ -1232,6 +1241,10 @@ De Morgan’s Laws:
 	
 What is Bayes theorem?  
 P(A|B) = P(A) P(B|A) / P(B)
+  
+**Bayes Theorem:**  
+[Bayes theorem, the geometry of changing beliefs (video)](https://www.youtube.com/watch?v=HZGCoVF3YvM&list=WL&index=1)  
+[A visual guide to Bayesian thinking (video)](https://www.youtube.com/watch?v=BrK7X_XlGB8&list=WL&index=1)  
 
 ----------------------------
 What is the diff between precision/specificity?
@@ -1245,13 +1258,9 @@ Dispersion -> Variance: average of the squared deviation from the mean
 
 [Standard deviation](https://www.mathsisfun.com/data/standard-deviation.html) = variance
 
-https://www.youtube.com/watch?v=zRUliXuwJCQ&list=WL&index=9  
+[How to Learn Statistics for Data Science As A Self Starter (video)](https://www.youtube.com/watch?v=zRUliXuwJCQ&list=WL&index=1)  
 
-https://www.youtube.com/watch?v=mBCiKUzwdMs&list=WL&index=88
-
-https://www.youtube.com/watch?v=HZGCoVF3YvM&list=WL&index=11  
-
-https://www.youtube.com/watch?v=BrK7X_XlGB8&list=WL&index=10  
+[How to Learn Probability Distributions (video)](https://www.youtube.com/watch?v=mBCiKUzwdMs&list=WL&index=3)
 
 ------------------------------
 
@@ -1466,7 +1475,7 @@ How would you build a data pipeline?
 How would you implement a recommendation system?  
 
 #### Data Science Project Ideas
-[Best Image ML competitions (video)](https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=36)
+[Best Image ML competitions (video)](https://www.youtube.com/watch?v=1-myowrUhok&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 -------------------------------------------
 
