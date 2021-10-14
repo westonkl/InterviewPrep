@@ -138,7 +138,9 @@ Expanding your resume/portfolio:
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
 [Google Learning](https://developers.google.com/learn)  
 [Color Gradient Generator Website :art:](https://coolors.co/)  
-[Hidden Dev Tools Website](https://hiddentools.dev/)
+[Hidden Dev Tools Website](https://hiddentools.dev/)  
+[Simple Icons](https://simpleicons.org)  
+[Shield Badge Creator](https://shields.io) :shield: 
 
 -----------------
 
@@ -553,7 +555,9 @@ A word consisting solely of letters, numbers, and underscores, and beginning wit
 > [List of great github profile readmes](https://github.com/codeSTACKr/awesome-github-profile-readme)  
 > [List of github  actions repos](https://github.com/sdras/awesome-actions)  
 > [Emoji Cheatsheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md#objects) :heart_eyes:  
-
+> [Simple Icons](https://simpleicons.org)  
+> [Shield Badge Creator](https://shields.io) :shield: 
+  
 **Helpful Videos:**
 - [100 second git summary (video)](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Learn git in 15 min (video)](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
