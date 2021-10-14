@@ -15,7 +15,7 @@
 	- [JavaScript](#javascript)
 	- [Bash](#bash)
 	- [C](#c):
-	- [C++](#c\+\+):
+	- [C++](#c-1):
 	- [Scala](#scala): WIP
 - [Tools :toolbox:]()
 	- [Git :octocat:](#git)
@@ -472,10 +472,11 @@ note [Cython exists](https://cython.org/) and is v cool
 
 -----------
 ## C++
-<img align="right" width="60" src="https://res.cloudinary.com/practicaldev/image/fetch/s--xVCufn18--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5nnkrcc3kixypm642opg.gif">
+<img align="right" width="80" src="https://res.cloudinary.com/practicaldev/image/fetch/s--xVCufn18--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5nnkrcc3kixypm642opg.gif">
 
 > [C\+\+](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose language with OOP, generic and functional features. I has access to low-level memory manipulation and is an extension of C ("C with classes").  
-> The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as "a light-weight abstraction programming language designed for building and using efficient and elegant abstractions"; and "offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages."
+> C++ has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings.   
+> Stroustrup describes C++ as "a light-weight abstraction programming language designed for building and using efficient and elegant abstractions"; and "offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages."
   
 As in C, C++ supports four types of memory management: static storage duration objects, thread storage duration objects, automatic storage duration objects, and dynamic storage duration objects.  
 
@@ -487,6 +488,19 @@ int main()
     std::cout << "Hello, world!\n";
 }
 ```
+----------
+## Scala
+<img align="right" width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Scala-full-color.svg/220px-Scala-full-color.svg.png">
+
+> [Scala](https://en.wikipedia.org/wiki/Scala_(programming_language)) is a strong statically typed general-purpose programming language which supports both object-oriented programming and functional programming. Designed to be concise, many of Scala's design decisions are aimed to address criticisms of Java
+
+imo its shorter but more complicated Java code. It can perform faster than Java with tail recursion.
+``` scala
+ object HelloWorld extends App {
+   println("Hello, World!")
+ }
+```
+
 ----------
 
 ## Bash
