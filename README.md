@@ -14,8 +14,8 @@
 	- [Java :coffee:](#java)
 	- [JavaScript](#javascript)
 	- [Bash](#bash)
-	- [C](#c): WIP
-	- [C++](#c++): WIP
+	- [C](#c):
+	- [C++](#c\+\+):
 	- [Scala](#scala): WIP
 - [Tools :toolbox:]()
 	- [Git :octocat:](#git)
@@ -84,7 +84,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 * [How to focus on learning (video)](https://www.youtube.com/watch?v=wlCz8nkDNqo&list=WL&index=7)
 * :books: Atomic Habbits by James Clear
 
-## How to Land a SWE Internship
+## How to Land a SWE Internship :climbing:
 [Mayuko how to land a SWE internship (video)](https://www.youtube.com/watch?v=LECIcEqHP-4&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
 [Nicholas how to land a SWE internship (video)](https://www.youtube.com/watch?v=DUZbHbntY4c&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
 [Tina Ultimate Guide to a Data Science internship (video)](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
@@ -279,15 +279,15 @@ What is method **overloading** and **overriding**?
 What's the difference between a **stack** and a **queue**?  
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
-
-How does a compiler work?
   
 What is the [call stack](https://en.wikipedia.org/wiki/Call_stack)?  
-[Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
+- also look into: [Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
   
 Can you explain dynamic vs static typing and strong vs weak typing?
   
 Can you explain declarative vs imperative programming?
+  
+Compiled vs interpreted?
   
 :stethoscope: What do you look for when reviewing code?
 - **B** ottlenecks
@@ -307,7 +307,7 @@ Can you explain declarative vs imperative programming?
 	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
 	* [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
-   
+------------   
 - [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
 	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
 	- Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
@@ -316,11 +316,11 @@ Can you explain declarative vs imperative programming?
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
 	- [Difference between bfs and dfs](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
-- [Trees](https://leetcode.com/tag/tree):
+- [Trees :deciduous_tree:](https://leetcode.com/tag/tree):
 - [Linked lists](https://leetcode.com/tag/linked-list):
 A [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers).
 	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
-- [Stacks](https://leetcode.com/tag/stack):
+- [Stacks](https://leetcode.com/tag/stack) :pancakes::
 - [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
 - [Binary Search](https://leetcode.com/tag/binary-search): 
 	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
@@ -339,8 +339,8 @@ Backtracking is a technique that considers searching every possible combination 
 - [Graphing](https://leetcode.com/tag/graph):
 - [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
 - [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
-	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
-  
+	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)  
+====  
 - [SQL](https://leetcode.com/tag/database/): 
 	- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
@@ -443,7 +443,7 @@ What is a **singleton class** in java?
 
 -----------
 ## C
-<img align="right" width="50" height="50" src="https://media1.giphy.com/media/PiWfijeEeJEI0uB7j6/giphy.gif">  
+<img align="right" width="50" src="https://media1.giphy.com/media/PiWfijeEeJEI0uB7j6/giphy.gif">  
 
 > [C](https://en.wikipedia.org/wiki/C_(programming_language)) is a statically and weakly typed, general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion. It is an imperative procedural language designed to be compiled to provide low-level access to memeory and language constructs and thus machine instructions.
 
@@ -457,11 +457,37 @@ C provides three distinct ways to allocate memory for objects:
 - [Automatic memory allocation:](https://en.wikipedia.org/wiki/Automatic_memory_allocation) temporary objects can be stored on the [stack](https://en.wikipedia.org/wiki/Call_stack), and this space is automatically freed and reusable after the block in which they are declared is exited.
 - [Dynamic memory allocation:](https://en.wikipedia.org/wiki/Dynamic_memory_allocation) blocks of memory of arbitrary size can be requested at run-time using library functions such as malloc from a region of memory called the [heap](https://en.wikipedia.org/wiki/Dynamic_memory_allocation); these blocks persist until subsequently freed for reuse by calling the library function realloc or free
 
+```c
+# include <stdio.h>
+
+int main(void)
+{
+    printf("hello, world\n");
+}
+```
+
 [C tutorial](https://www.tutorialspoint.com/cprogramming/index.htm)
 
 note [Cython exists](https://cython.org/) and is v cool
 
 -----------
+## C++
+<img align="right" width="60" src="https://res.cloudinary.com/practicaldev/image/fetch/s--xVCufn18--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_66%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5nnkrcc3kixypm642opg.gif">
+
+> [C\+\+](https://en.wikipedia.org/wiki/C%2B%2B) is a general-purpose language with OOP, generic and functional features. I has access to low-level memory manipulation and is an extension of C ("C with classes").  
+> The C++ language has two main components: a direct mapping of hardware features provided primarily by the C subset, and zero-overhead abstractions based on those mappings. Stroustrup describes C++ as "a light-weight abstraction programming language designed for building and using efficient and elegant abstractions"; and "offering both hardware access and abstraction is the basis of C++. Doing it efficiently is what distinguishes it from other languages."
+  
+As in C, C++ supports four types of memory management: static storage duration objects, thread storage duration objects, automatic storage duration objects, and dynamic storage duration objects.  
+
+```c++
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello, world!\n";
+}
+```
+----------
 
 ## Bash
 
