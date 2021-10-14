@@ -348,7 +348,7 @@ Backtracking is a technique that considers searching every possible combination 
 ## Python: 
 <img align="right" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
 
-**Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
+> **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
 
 :spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. :snake:
 
@@ -385,7 +385,7 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 <img align="right" width="50" height="50" src="https://c.tenor.com/TReUojNlZ6wAAAAi/js-javascript.giff">
 
-[JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
+> [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
 
 What is the difference between *let* and *var*?
 - The *let* statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the *var* keyword used to define a variable globally, or locally to an entire function regardless of block scope.
@@ -416,7 +416,7 @@ What does === do in JavaScript?
 
 <img align="right" width="50" height="50" src="https://i.stack.imgur.com/8NkOQ.gif">
 
-:coffee: **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
+> :coffee: **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
 
 Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
 
@@ -444,7 +444,7 @@ What is a **singleton class** in java?
 
 <img align="right" width="50" height="50" src="https://styles.redditmedia.com/t5_2qh2d/styles/communityIcon_xagsn9nsaih61.png?width=256&s=1e4cf3a17c94aecf9c127cef47bb259162283a38">
 
-The Bourne Again SHell [(Bash)](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f) is a Unix shell and command language.  
+> The Bourne Again SHell [(Bash)](https://www.gnu.org/software/bash/manual/bash.html#What-is-Bash_003f) is a Unix shell and command language.  
 
 It offers functional improvements over sh for both programming and interactive use. In addition, most sh scripts can be run by Bash without modification.
 The improvements offered by Bash include:
@@ -545,7 +545,7 @@ A container is defined by its image as well as any configuration options you pro
 
 <img align="right" width="50" src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg">
 
-A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
+> A backend JavaScript runtime environment which can execute javaScript outside of a web browser. Node lets you use command line tools and for server-side scripting where dynamic web page content is produced before the page is sent to the user’s browser.
 
 Here is how PHP or ASP handles a file request:
 1. Sends the task to the computer's file system.
@@ -608,7 +608,10 @@ What is a view?
 What are entities and relationships?
 
 [SQl Interview Questions](https://www.interviewbit.com/sql-interview-questions/)  
-[SQL and Database Questions](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/tree/master/2%5D.%20Technical%20Subjects/2%5D.%20Database%20Management%20System%20(DBMS))  
+  
+https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation/blob/master/2%5D.%20Technical%20Subjects/Interview%20Questions/2).%20Database%20Management%20System%20(DBMS)/_01)Top_50_DBMS_Question_and_answers.md  
+
+------
 
 SQL vs NoSQl:  
 SQL | NoSQL
@@ -617,7 +620,7 @@ vertically scalable | horizontally scalable
 table based | document, key-value, graph or wide-column stores
 better for multi-row transactions | better for unstructured data like documents or JSON
   
-[7 Database Paradigms (video)](https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=40)  
+[7 Database Paradigms (video)](https://www.youtube.com/watch?v=W2Z7fbCLSTw&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)  
   
 ### NoSQL
 
@@ -662,7 +665,7 @@ Graphs databases offer high performance for data models with complex relationshi
 -----------------------------------
 
 ## Database:
-- A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
+> A database is a collection of related data which represents some aspect of the real world. A database system is designed to be built and populated with data for a certain task.
 
 ## Database Management System (DBMS):
 - **Database Management System** is a software for storing and retrieving users' data while considering appropriate security measures. It consists of a group of programs which manipulate the database. The DBMS accepts the request for data from an application and instructs the operating system to provide the specific data. In large systems, a DBMS helps users and other third-party software to store and retrieve data. 
@@ -868,22 +871,28 @@ A self balancing tree used as a database
 [Database Indexes](http://20bits.com/article/interview-questions-database-indexes)
 
 ## ETL (Extract, Transform, Load)  
-Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.
+Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.  
+[Databricks ETL](https://databricks.com/glossary/extract-transform-load)  
 
 ## MapReduce
 
 ## Data Pipeline
+[Hazelcast a data pipeline](https://hazelcast.com/glossary/data-pipeline/)
 
 ----------------------------
 
 ## CI and CD
-:rocket:  
-https://www.redhat.com/en/topics/devops/what-is-ci-cd  
-Jenkins  
+> :rocket: CI and CD are two acronyms frequently used in modern development practices and DevOps. CI stands for continuous integration, a fundamental DevOps best practice where developers frequently merge code changes into a central repository where automated builds and tests run. But CD can either mean continuous delivery or continuous deployment. 
+
+[Redhat what is ci/cd](https://www.redhat.com/en/topics/devops/what-is-ci-cd)  
+[Atlassian ci vs cd](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+![cicd](https://wac-cdn.atlassian.com/dam/jcr:b2a6d1a7-1a60-4c77-aa30-f3eb675d6ad6/ci%20cd%20asset%20updates%20.007.png?cdnVersion=1849)  
+
+[Jenkins](https://www.jenkins.io/)  
 
 [Link to top](#table-of-contents) :point_left:
 
------------------------------------------------------
+--------------------
 
 ## API Design:
 
