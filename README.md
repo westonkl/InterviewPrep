@@ -304,7 +304,8 @@ Compiled vs interpreted?
 > :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. I have also sorted these based on their frequency/utility in technical interviews. :star:
 
 - **Big O Notation:** :point_left: super important  
-:timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
+:timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario.  
+For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
 	* [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
 	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
@@ -341,8 +342,8 @@ Backtracking is a technique that considers searching every possible combination 
 - [Graphing](https://leetcode.com/tag/graph):
 - [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
 - [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
-	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)  
-====  
+	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
+  ====  
 - [SQL](https://leetcode.com/tag/database/): 
 	- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
@@ -381,6 +382,10 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
+```python
+print('Hello World!')
+```
+
 [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)  
 [All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code
 
@@ -411,6 +416,10 @@ What is a first class function?
 
 What does === do in JavaScript?  
 
+```javascript
+console.log("Hello World!");
+```
+
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
 [JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)  
 [5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
@@ -437,6 +446,14 @@ What is a **singleton class** in java?
 - A **singleton class** is a class that can have only one object (an instance of the class) at a time. After the first time, if we try to instantiate the Singleton class, the new variable also points to the first instance created.
 
 <img align="center" width="400" src="https://www.scientecheasy.com/wp-content/uploads/2021/03/java-jvm-architecture.png">
+
+```java
+public class HelloWorldApp {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); // Prints the string to the console.
+    }
+}
+```
 
 [Java guides by Baeldung](https://www.baeldung.com/)  
 [Java interview quesitons](https://www.interviewbit.com/java-interview-questions/)  
@@ -520,11 +537,16 @@ The improvements offered by Bash include:
 - indexed arrays of unlimited size,
 - integer arithmetic in any base from two to sixty-four.  
 
-Example commands:
-	Cd, break, continue, exec.
 	
 **Name:** 
 A word consisting solely of letters, numbers, and underscores, and beginning with a letter or underscore. Names are used as shell variables and function names. Also referred to as an identifier.
+
+```bash
+nano hello.sh
+#!/bin/bash
+echo "Hello World"
+./hello-world.sh
+```
 
 [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)  
 [Bash for beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/)
@@ -947,8 +969,6 @@ A self balancing tree used as a database
 ## ETL (Extract, Transform, Load)  
 Extract Transform Load is the procedure for copying data into a different system. We do this to gather and clean data and transfer the data into an easily stored and queryable form.  
 [Databricks ETL](https://databricks.com/glossary/extract-transform-load)  
-
-## MapReduce
 
 ## Data Pipeline
 [Hazelcast a data pipeline](https://hazelcast.com/glossary/data-pipeline/)
