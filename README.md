@@ -25,7 +25,7 @@
 - [SQL / NoSQL](#sql-and-nosql)
 - [Relational Databases](#relational-databases)
 	- [Normalization](#normalization)
-- [CI/CD :rocket:](#ci-and-cd): WIP
+- [CI/CD :rocket:](#ci-and-cd)
 - [API Design :gear:](#api-design)
 - [HTTP (Hypertext Transfer Protocol) :shield:](#http)
 - [AWS :cloud:](#aws)
@@ -282,6 +282,9 @@ What's the difference between a **stack** and a **queue**?
 
 How does a compiler work?
   
+What is the [call stack](https://en.wikipedia.org/wiki/Call_stack)?  
+[Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
+  
 Can you explain dynamic vs static typing and strong vs weak typing?
   
 Can you explain declarative vs imperative programming?
@@ -416,7 +419,7 @@ What does === do in JavaScript?
 
 <img align="right" width="50" height="50" src="https://i.stack.imgur.com/8NkOQ.gif">
 
-> :coffee: **Java** is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
+> :coffee: [**Java**](https://en.wikipedia.org/wiki/Java_(programming_language)) is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA)
 
 Unlike C++, Java does not support operator overloading or multiple inheritance for classes, though multiple inheritance is supported for interfaces.
 
@@ -438,7 +441,27 @@ What is a **singleton class** in java?
 
 > 📓 Companies are looking for java developers with knowledge on Springboot, Maven, and Gradle
 
-------------------------------------------
+-----------
+## C
+<img align="right" width="50" height="50" src="https://media1.giphy.com/media/PiWfijeEeJEI0uB7j6/giphy.gif">  
+
+> [C](https://en.wikipedia.org/wiki/C_(programming_language)) is a statically and weakly typed, general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion. It is an imperative procedural language designed to be compiled to provide low-level access to memeory and language constructs and thus machine instructions.
+
+C uses [pointers](https://en.wikipedia.org/wiki/Pointer_(computer_programming)) to 'point' toward an address or location of an object/function in memory.
+  
+**Memory management**  
+One of the most important functions of a programming language is to provide facilities for managing memory and the objects that are stored in memory. 
+  
+C provides three distinct ways to allocate memory for objects:
+- [Static memory allocation:](https://en.wikipedia.org/wiki/Static_memory_allocation) space for the object is provided in the binary at compile-time; these objects have an extent (or lifetime) as long as the binary which contains them is loaded into memory.
+- [Automatic memory allocation:](https://en.wikipedia.org/wiki/Automatic_memory_allocation) temporary objects can be stored on the [stack](https://en.wikipedia.org/wiki/Call_stack), and this space is automatically freed and reusable after the block in which they are declared is exited.
+- [Dynamic memory allocation:](https://en.wikipedia.org/wiki/Dynamic_memory_allocation) blocks of memory of arbitrary size can be requested at run-time using library functions such as malloc from a region of memory called the [heap](https://en.wikipedia.org/wiki/Dynamic_memory_allocation); these blocks persist until subsequently freed for reuse by calling the library function realloc or free
+
+[C tutorial](https://www.tutorialspoint.com/cprogramming/index.htm)
+
+note [Cython exists](https://cython.org/) and is v cool
+
+-----------
 
 ## Bash
 
@@ -539,7 +562,14 @@ By default, a container is relatively well isolated from other containers and it
 
 A container is defined by its image as well as any configuration options you provide to it when you create or start it. When a container is removed, any changes to its state that are not stored in persistent storage disappear.
 
-------------------------
+Docker Swarm: emphasizes ease of use, making it most suitable for simple applications that are quick to deploy and easy to manage. Manages multiple containers.
+ 
+------
+[Kubernetes](https://kubernetes.io/) is an open-source system for automating deployment, scaling, and management of containerized applications. Manages multiple containers
+  
+[Kubernetes vs Docker Swarm](https://www.bmc.com/blogs/kubernetes-vs-docker-swarm/)
+
+------------------
 
 ## Node js
 
