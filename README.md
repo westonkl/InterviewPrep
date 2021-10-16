@@ -296,6 +296,10 @@ Compiled vs interpreted?
 - **B** ottlenecks
 - **U** nnecessary work
 - **D** uplicated work
+  
+[What is the difference between divide and conquer and dynamic programming?](https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming)  
+
+https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
 
 ---------------
 ## Data Structures and Algorithms
@@ -305,38 +309,44 @@ Compiled vs interpreted?
 > :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. I have also sorted these based on their frequency/utility in technical interviews. :star:
 
 - **Big O Notation:** :point_left: super important  
-:timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario.  
+:timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. 
 For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst case, and O(nlogn) on average. Big O roughly describes calcuations in an iteration, dropping constants and non-dominants.
 	* [Coding-interview university](https://github.com/jwasham/coding-interview-university#algorithmic-complexity--big-o--asymptotic-analysis)
 	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
 	* [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
------------- 
+----------
 - [Arrays/Lists/Strings:](https://leetcode.com/tag/array/)
 	- [Two Pointers](https://leetcode.com/tag/two-pointers):
 	- Sliding Window:
-- Recursion:  
-Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
-- [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
+	- [Hashing/Dictionaries](https://leetcode.com/tag/hash-table):
+		- A hash table is a data structure that maps keys to values for highly efficient lookup
+- [Recursion:](https://en.wikipedia.org/wiki/Recursion_(computer_science)) 
+Recursive solutions (mentioned above) are good for writing simple code, but can be very space inefficient. They can all be implemented iteratively.
+	- Know how to efficiently solve Fibbonacci
+- [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search): 
 	- [Difference between bfs and dfs](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
-- [Trees :deciduous_tree:](https://leetcode.com/tag/tree):
-- [Linked lists](https://leetcode.com/tag/linked-list):
-A [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers).
+- [Trees :deciduous_tree:](https://leetcode.com/tag/tree): 
+	- Note: learn binary tree traversal
+- [Linked lists](https://leetcode.com/tag/linked-list): 
+A linked list is a data structure that represents a sequence of nodes. A singly [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers). A doubly linked list gives each node pointers to both the next node and the previous node.
 	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
 - [Stacks](https://leetcode.com/tag/stack) :pancakes::
-- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
+- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue): Queues(FIFO)
 -----
 - [Binary Search](https://leetcode.com/tag/binary-search): 
 	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
-- [Dynamic Programming](https://leetcode.com/tag/dynamic-programming):  
-Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
+- [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
+Divide and Conquer works by dividing the problem into sub-problems, conquer each sub-problem recursively and combine these solutions. Dynamic programming is its extension.
+- [Dynamic Programming](https://leetcode.com/tag/dynamic-programming): 
+Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later(memoization). (ie solving recursive problems iteratively and/or with caching)
 	* [Errichto Dynamic Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)     
 	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
-- [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
-- [Hashing/Dictionaries](https://leetcode.com/tag/hash-table):
-- [Greedy Algorithms](https://leetcode.com/tag/greedy):
-- [Backtracking](https://leetcode.com/tag/backtracking):  
-Backtracking is a technique that considers searching every possible combination for solving a computational problem. It is known for solving problems recursively one step at a time, if its not on the right 'path' it backtracks. The backtracking is a refined brute force approach which is generally used in the cases where there are possibilities of multiple solutions.
+	* [Unique paths](https://www.youtube.com/watch?v=fEcyKrdIkho): my favorite DP problem
+- [Greedy Algorithms](https://leetcode.com/tag/greedy): 
+Chooses the closest optimum is chose at each step to achieve the best solution.
+- [Backtracking](https://leetcode.com/tag/backtracking): 
+Backtracking is a technique that considers searching every possible combination for solving a computational problem. It is known for solving problems recursively one step at a time; if its not on the right 'path' it backtracks. Backtracking is a refined brute force approach which is generally used when there are possibilities of multiple solutions.
 	- [Backtracking with examples and generic solver](https://cs.lmu.edu/~ray/notes/backtracking/)
 	- https://www.interviewbit.com/courses/programming/topics/backtracking/
 	- https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
@@ -345,8 +355,9 @@ Backtracking is a technique that considers searching every possible combination 
 - [Graphing](https://leetcode.com/tag/graph):
 - [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)  
 You aren't likely to be asked to implement these, but knowledge of their runtimes is useful
-- [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
+- [Bit Manipulation](https://leetcode.com/tag/bit-manipulation): CTCI places these in high importance, but I do not think they are asked that often
 	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
+	
 ----  
 - [SQL](https://leetcode.com/tag/database/):  
 Interviewing for data science and data analytics roles, I have found sql questions thrown in. They will tell you if its in the interview.
