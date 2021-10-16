@@ -14,9 +14,9 @@
 	- [Java :coffee:](#java)
 	- [JavaScript](#javascript)
 	- [Bash](#bash)
-	- [C](#c):
-	- [C++](#c-1):
-	- [Scala](#scala): WIP
+	- [C](#c)
+	- [C++](#c-1)
+	- [Scala](#scala)
 - [Tools :toolbox:]()
 	- [Git :octocat:](#git)
 	- [Docker :whale:](#docker)
@@ -131,12 +131,13 @@ Expanding your resume/portfolio:
   
 **Truly Random Articles**  
 [Raft Article](https://raft.github.io/)  
-[Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
 [A Billion Cheat Sheets on Everything](https://devhints.io/)  
 [How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
 [Google Learning](https://developers.google.com/learn)  
+
+**Dev Tool Websites**
 [Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)  
 [Simple Icons](https://simpleicons.org)  
@@ -255,7 +256,7 @@ Here is my problem solving process:
 6. Try to find edge cases
 ```
 
-[5 Problem Solving Tips for Cracking Coding Interviews (video)](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
+[5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)
 
 #### General Technical 'Trivia' and Fundamentals
 > I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
@@ -310,13 +311,12 @@ For example, quick sort will run in O(n) time on a sorted array, O(n^2) worst ca
 	* [Big O cheat sheet](https://www.bigocheatsheet.com/)
 	* [Python Time Complexity](https://wiki.python.org/moin/TimeComplexity)
 	* [Top Coder Computational Complexity](https://www.topcoder.com/thrive/articles/Computational%20Complexity%20part%20one)
-------------   
-- [Dynamic Programming](https://leetcode.com/tag/dynamic-programming) + Recursion:
-	- Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
-	- Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
-	* [Errichto Dynamic Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)   
-	* [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)  
-	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
+------------ 
+- [Arrays/Lists/Strings:](https://leetcode.com/tag/array/)
+	- [Two Pointers](https://leetcode.com/tag/two-pointers):
+	- Sliding Window:
+- Recursion:  
+Recursion mentioned above can be very space inefficient, but they can all be implemented iteratively. Recursion is good for writing simple code.
 - [BFS](https://leetcode.com/tag/breadth-first-search) and [DFS](https://leetcode.com/tag/depth-first-search):
 	- [Difference between bfs and dfs](https://www.geeksforgeeks.org/difference-between-bfs-and-dfs/)
 - [Trees :deciduous_tree:](https://leetcode.com/tag/tree):
@@ -325,26 +325,31 @@ A [linked list](https://www.tutorialspoint.com/python_data_structure/python_link
 	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
 - [Stacks](https://leetcode.com/tag/stack) :pancakes::
 - [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue):
+-----
 - [Binary Search](https://leetcode.com/tag/binary-search): 
 	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
-- [Two Pointers](https://leetcode.com/tag/two-pointers):
+- [Dynamic Programming](https://leetcode.com/tag/dynamic-programming):  
+Dynamic programming is mostly the process of finding overlapping subproblems and caching results for later.
+	* [Errichto Dynamic Programming Lecture 1](https://www.youtube.com/watch?v=YBSt1jYwVfU&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)     
+	* [5 Simple Steps for Solving Dynamic Programming Problems](https://www.youtube.com/watch?v=aPQY__2H3tE&list=WL&index=1)
 - [Divide and Conquer](https://leetcode.com/tag/divide-and-conquer):
-- [Hashing/dictionaries](https://leetcode.com/tag/hash-table):
+- [Hashing/Dictionaries](https://leetcode.com/tag/hash-table):
 - [Greedy Algorithms](https://leetcode.com/tag/greedy):
 - [Backtracking](https://leetcode.com/tag/backtracking):  
 Backtracking is a technique that considers searching every possible combination for solving a computational problem. It is known for solving problems recursively one step at a time, if its not on the right 'path' it backtracks. The backtracking is a refined brute force approach which is generally used in the cases where there are possibilities of multiple solutions.
 	- [Backtracking with examples and generic solver](https://cs.lmu.edu/~ray/notes/backtracking/)
 	- https://www.interviewbit.com/courses/programming/topics/backtracking/
 	- https://www.hackerearth.com/practice/basic-programming/recursion/recursion-and-backtracking/tutorial/
-- Sliding Window:
 - [Union Find](https://leetcode.com/tag/union-find): 
 	- [Union Find in 5 minutes](https://www.youtube.com/watch?v=ayW5B2W9hfo)
 - [Graphing](https://leetcode.com/tag/graph):
-- [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)
+- [Sorting Algorithms](https://leetcode.com/tag/sorting): (Quick, Merge, Selection, Tim)  
+You aren't likely to be asked to implement these, but knowledge of their runtimes is useful
 - [Bit Manipulation](https://leetcode.com/tag/bit-manipulation):
 	- [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/main/extras/cheat%20sheets/bits-cheat-sheet.pdf)
-  ====  
-- [SQL](https://leetcode.com/tag/database/): 
+----  
+- [SQL](https://leetcode.com/tag/database/):  
+Interviewing for data science and data analytics roles, I have found sql questions thrown in. They will tell you if its in the interview.
 	- [Mode (SQL)](https://mode.com/sql-tutorial/), [strataScratch](https://www.stratascratch.com/)
 
 ---------------------------------
@@ -1389,7 +1394,8 @@ High bias means you are underfitting
 ----------------------------------------
 ## Data
 
-[:books: Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+[:books: Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)  
+[Linkedin Data Analytics help](https://business.linkedin.com/talent-solutions/resources/interviewing-talent/data-analyst)  
 
 ### Analysis types
 
