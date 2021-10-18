@@ -403,7 +403,8 @@ print('Hello World!')
 ```
 
 [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)  
-[All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code
+[All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code  
+[Google python style guide](https://google.github.io/styleguide/pyguide.html)  
 
 ---------------------
 
@@ -586,6 +587,8 @@ echo "Hello World"
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 [Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)   
 [Hacktoberfest :jack_o_lantern:](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
+[Scikitlearn contribution guide](https://scikit-learn.org/dev/developers/contributing.html#contributing-code)  
+[How to write a good commit message](https://chris.beams.io/posts/git-commit/) :heart_eyes:  
 
 **Markdown help:** :octocat: 
 > [Markdown Cheatsheet (general)](https://wordpress.com/support/markdown-quick-reference/)  
