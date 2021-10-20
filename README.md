@@ -8,7 +8,7 @@
 - [The Behavioral Interview :telephone_receiver:](#the-behavioral-interview)
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
 - [Technical Questions Overview :microscope:](#technical-questions-overview)
-- [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
+	- [Data Structures and Algorithms :crossed_swords:](#data-structures-and-algorithms)
 - [Programming Languages :scroll:](#programming-languages)
 	- [Python :snake:](#python)
 	- [Java :coffee:](#java)
@@ -47,17 +47,16 @@
 - [ML Prep :brain:](#ml-prep)
 	* [Evaluation Metrics :dart:](#evaluation-metrics)
 - [NLP :writing_hand:](#nlp)
-- [TODO](#todo)
+- [TODO](#todo): this is a WIP
 
 -------------
 
 ## Purpose of this guide:
+<img align="right" height="150" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
-:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process. I have attempted to shorten guides to provide a quick studying experience, but some topics deserve a deeper dive through links provided. This is a work in progress. I hope you pass your interviews, become a better programmer, and land your dream job!!
-
-<img align="center" width="180" height="180" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
-
---------------
+:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process.  
+I have attempted to shorten guides to provide a quick studying experience and to ask questions, but some topics deserve a deeper dive through links provided. :warning: This is a work in progress, feel free to contributute.  
+:climbing: I hope you pass your interviews, become a better programmer, and land your dream job!!
 
 ## Resume Help
 :page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice.  
@@ -90,7 +89,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [Tina Ultimate Guide to a Data Science internship (video)](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ## Last Step
-:tada: Congratulations!! :tada:  <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
+:tada: Congratulations!! <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
 [Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
@@ -130,14 +129,14 @@ Expanding your resume/portfolio:
 - [Sites Every Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#general-coding-advice)
   
 **Truly Random Articles**  
+[How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Raft Article](https://raft.github.io/)  
 [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
 [A Billion Cheat Sheets on Everything](https://devhints.io/)  
-[How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
 [Google Learning](https://developers.google.com/learn)  
 
-**Dev Tool Websites**
+**Dev Tool Websites**  
 [Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)  
 [Simple Icons](https://simpleicons.org)  
