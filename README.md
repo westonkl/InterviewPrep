@@ -4,6 +4,7 @@
 - [Purpose of this guide :clipboard:](#purpose-of-this-guide)
 - [Applying :magnet:](#applying)
 - [Helpful Links :paperclip:](#misc-helpful-links)
+	- [Other Helpful Repos: :octocat:](other-helpful-repos-octocat)
 	- [Mock Interview Resources :microphone:](#mock-interviews)
 - [The Behavioral Interview :telephone_receiver:](#the-behavioral-interview)
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
@@ -45,7 +46,7 @@
 	- [Spark :sparkles:](#spark): WIP
 	- [Hadoop](#hadoop): WIP
 - [ML Prep :brain:](#ml-prep)
-	* [Evaluation Metrics :dart:](#evaluation-metrics)
+	- [Evaluation Metrics :dart:](#evaluation-metrics)
 - [NLP :writing_hand:](#nlp)
 - [TODO](#todo): this is a WIP
 
@@ -54,7 +55,7 @@
 ## Purpose of this guide:
 <img align="right" height="150" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
-:notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process.  
+:open_book: This guide is intended to provide short info snippets on a variety of coding topics and the interview process.  
 :warning: This is a work in progress, feel free to contributute.  
 :climbing: I hope you pass your interviews, become a better programmer, and land your dream job!!
 
@@ -114,17 +115,17 @@ Expanding your resume/portfolio:
 - [Mode (SQL)](https://mode.com/sql-tutorial/)
 - [StrataScratch](https://www.stratascratch.com/)
 
-**Other Helpful Repos:**  :octocat:
+#### Other Helpful Repos: :octocat:
 - [Coding Interview Help](https://github.com/jwasham/coding-interview-university)
 - [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
 - [CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books
 - [A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short
 - [Interactive Coding Challenges](https://github.com/donnemartin/interactive-coding-challenges)
-- [System Design Primer](https://github.com/donnemartin/system-design-primer)
+- [System Design Primer](https://github.com/donnemartin/system-design-primer) :building_construction:
 - [The Complete FAANG Preparation](https://github.com/AkashSingh3031/The-Complete-FAANG-Preparation)
 - [Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
-- [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
-- [ML Interview](https://github.com/theainerd/MLInterview)
+- [Great Big Data Cookbook](https://github.com/andkret/Cookbook) 
+- [ML Interview](https://github.com/theainerd/MLInterview) :brain:
 - [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide) :whale:
 - [Sites Every Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#general-coding-advice)
 - [Build Your Own X](https://github.com/danistefanovic/build-your-own-x)
@@ -316,7 +317,7 @@ https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overvie
 <img align="right" width="100" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
 
 > :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor.  
-> I have sorted these based on their frequency/utility in technical interviews. :star:
+> I have sorted these based on their frequency/utility in technical interviews.
 
 - **Big O Notation:** :point_left: super important  
 :timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. 
