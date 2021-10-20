@@ -55,12 +55,13 @@
 <img align="right" height="150" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
 :notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process.  
-I have attempted to shorten guides to provide a quick studying experience and to ask questions, but some topics deserve a deeper dive through links provided. :warning: This is a work in progress, feel free to contributute.  
+I have attempted to shorten guides to provide a quick studying experience and to ask questions, but some topics deserve a deeper dive through links provided.  
+:warning: This is a work in progress, feel free to contributute.  
 :climbing: I hope you pass your interviews, become a better programmer, and land your dream job!!
 
 ## Resume Help
 :page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice.  
-General guidelines include keeping it to one page, demonstrating impact at past positions, and [demonstrating knowledge](gaining-experience) of tools and languages. 
+General guidelines include: keeping it to one page, demonstrating impact at past positions, fitting your skills to a job, and [demonstrating knowledge](gaining-experience) of tools and languages. 
 
 ## Applying
 :magnet: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
@@ -132,15 +133,15 @@ Expanding your resume/portfolio:
 [How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
 [Raft Article](https://raft.github.io/)  
 [Code Review Best Practices](https://www.kevinlondon.com/2015/05/05/code-review-best-practices.html)  
-[A Billion Cheat Sheets on Everything](https://devhints.io/)  
 [Expectations of a Junior Developer](http://blog.thefirehoseproject.com/posts/expectations-of-a-junior-developer/)  
+[A Billion Cheat Sheets on Everything](https://devhints.io/)  
 [Google Learning](https://developers.google.com/learn)  
 
 **Dev Tool Websites**  
 [Color Gradient Generator Website :art:](https://coolors.co/)  
 [Hidden Dev Tools Website](https://hiddentools.dev/)  
 [Simple Icons](https://simpleicons.org)  
-[Shield Badge Creator](https://shields.io) :shield: 
+[Shield Badge Creator](https://shields.io)
 
 -----------------
 
@@ -169,8 +170,11 @@ Places to find another person to practice interview with: :microphone:
 ----------------------
 <h1 align='center'>The Behavioral Interview</h1><br>
 
-> :telephone_receiver: Most behavioral interviews are 15-30 minutes long and are inquiries into your personality and experience. They may throw in some 'trivia' questions on things they are looking for. Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
-<img align="center" width="180" height="180" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">
+<img align="right" height="170" src="https://media3.giphy.com/media/ES4Vcv8zWfIt2/200w.webp?cid=ecf05e47k6p6wo3scebqr4uv4xgkx9dj7nemk8dsd4prpb21&rid=200w.webp&ct=g">
+
+> :telephone_receiver: Most behavioral interviews are short inquiries into your experience and character.  
+> They may throw in some technical 'trivia' questions on things they are looking for.  
+> Some behavioral interviews also involve walking through a past project or two. Make sure to maintain good documentation and understand every part of your past projects.
 
 **Tell me about yourself:**  
   - Current Role (your headline) 
@@ -240,10 +244,13 @@ How do you approach a new project and technology? :test_tube:
 
 ## Technical Questions Overview:
 
-> A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems. It is integral to talk to the intervier about the problem and your thought process. Understanding Big-O notation will also help you in the interview and to be a better programmer.  
-> :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
+<img align="right" width="170" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
 
-<img align="center" width="180" src="https://media3.giphy.com/media/tn3kTJo4P4y1G/200.webp?cid=ecf05e47z1dyfdba3nld6oshwfb35xzkv5bszqkrviye4x1e&rid=200.webp&ct=g">
+> :microscope: A technical interview usually consists of solving two problems infront of another engineer on a whiteboard or through a take home assessment with 3+ problems.  
+> It is integral to talk to the interviewer through the problem and your thought process.  
+> Understanding Big-O notation will also help you in the interview and to be a better programmer.  
+> Learn your [data structures and algorithms!!](#data-structures-and-algorithms)  
+> :books: I would suggest using the book Cracking the Coding Interview and [Leetcode](https://leetcode.com/problemset/all/) for technical practice
 
 Here is my problem solving process:
 ```
@@ -303,9 +310,10 @@ https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overvie
 ---------------
 ## Data Structures and Algorithms
 
-<img align="right" width="110" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
+<img align="right" width="100" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
 
-> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor. I have also sorted these based on their frequency/utility in technical interviews. :star:
+> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor.  
+> I have sorted these based on their frequency/utility in technical interviews. :star:
 
 - **Big O Notation:** :point_left: super important  
 :timer_clock: Big O notation is the language we use to describe the effieciency of algorithms (time and space complexity). It usually is used to describe the expected scenario. 
