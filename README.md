@@ -4,7 +4,7 @@
 - [Purpose of this guide :clipboard:](#purpose-of-this-guide)
 - [Applying :magnet:](#applying)
 - [Helpful Links :paperclip:](#misc-helpful-links)
-	- [Other Helpful Repos: :octocat:](other-helpful-repos-octocat)
+	- [Other Helpful Repos :octocat:](#other-helpful-repos-octocat)
 	- [Mock Interview Resources :microphone:](#mock-interviews)
 - [The Behavioral Interview :telephone_receiver:](#the-behavioral-interview)
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
@@ -149,7 +149,7 @@ Expanding your resume/portfolio:
 
 -----------------
 
-## Mock interviews:
+#### Mock interviews:
 Places to find another person to practice interview with: :microphone:  
 - https://interviewing.io/
 - https://www.pramp.com/#/
@@ -195,8 +195,6 @@ What do you know about ___ and why did you decide to apply here?  What drew you 
 	- type of work
 
 What makes you a good fit for the company?  
-
-What are you looking for?  
 
 What are the things that are most important to you in a job?
 
@@ -293,8 +291,7 @@ What's the difference between a **stack** and a **queue**?
 - Stacks "pop" data off the stack, using last-in first out (LIFO) (ex: books/pancakes)
 - Queues use first-in, first-out (FIFO) (think of a pipe)
   
-What is the [call stack](https://en.wikipedia.org/wiki/Call_stack)?  
-- also look into: [Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
+What is the [call stack](https://en.wikipedia.org/wiki/Call_stack)? also look into: [Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
   
 Can you explain dynamic vs static typing and strong vs weak typing?
   
@@ -311,7 +308,7 @@ Compiled vs interpreted?
 
 https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
 
----------------
+------------
 ## Data Structures and Algorithms
 
 <img align="right" width="100" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
@@ -414,7 +411,7 @@ print('Hello World!')
 ```
 
 [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)  
-[All hail Stephan Pockman](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code  
+[All hail Stefan Pochmann](https://leetcode.com/StefanPochmann/) :point_left: the king of pythonic code  
 [Google python style guide](https://google.github.io/styleguide/pyguide.html)  
 
 ---------------------
@@ -1246,6 +1243,7 @@ Test Driven Development: (develop tests before coding)
 
 ## Parallel Processing:
 > Multiple processes done in separate memory locations
+
 Both processes and threads are independent sequences of execution. The typical difference is that threads (of the same process) run in a shared memory space, while processes run in separate memory spaces.
 - A [Fork](https://en.wikipedia.org/wiki/Fork_(system_call)) is when a process creates a copy of itself.
 
@@ -1323,6 +1321,7 @@ Candidate design features for software reuse include:
 - Stability under changing requirements
 
 ## SOLID
+> Five design principles intended to make software designs more understandable, flexible, and maintainable
 
 ### Single Responsibility Principle (SRP)
 This principle states that there should never be more than one reason for a class to change. This means that you should design your classes in such a way that each class should have a single purpose.
