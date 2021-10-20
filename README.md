@@ -55,7 +55,6 @@
 <img align="right" height="150" src="https://media0.giphy.com/media/xT9DPIBYf0pAviBLzO/200w.webp?cid=ecf05e47wp3u03qd5ypxxp7zal7yp7fq8m5mvulj0dwk0huw&rid=200w.webp&ct=g">
 
 :notebook_with_decorative_cover: This guide is intended to provide short info snippets on a variety of coding topics and the interview process.  
-I have attempted to shorten guides to provide a quick studying experience and to ask questions, but some topics deserve a deeper dive through links provided.  
 :warning: This is a work in progress, feel free to contributute.  
 :climbing: I hope you pass your interviews, become a better programmer, and land your dream job!!
 
@@ -116,7 +115,7 @@ Expanding your resume/portfolio:
 - [StrataScratch](https://www.stratascratch.com/)
 
 **Other Helpful Repos:**  :octocat:
-- [Coding Interview Help](https://github.com/jwasham/coding-interview-university): lots of videos
+- [Coding Interview Help](https://github.com/jwasham/coding-interview-university)
 - [Related Interview Help Flash Cards](https://github.com/jwasham/computer-science-flash-cards)
 - [CS Guide](https://github.com/Olshansk/interview#readme): lots of articles and books
 - [A CS Interview Guide](https://github.com/schmatz/cs-interview-guide): very short
@@ -126,8 +125,12 @@ Expanding your resume/portfolio:
 - [Data Science Interview Resources](https://github.com/cdeweyx/DS-Career-Resources/blob/master/Interview-Resources.md)
 - [Great Big Data Cookbook](https://github.com/andkret/Cookbook)
 - [ML Interview](https://github.com/theainerd/MLInterview)
-- [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide)
+- [DevOPs Guide](https://github.com/Tikam02/DevOps-Guide) :whale:
 - [Sites Every Programmer Should Visit](https://github.com/sdmg15/Best-websites-a-programmer-should-visit#general-coding-advice)
+- [Build Your Own X](https://github.com/danistefanovic/build-your-own-x)
+- [Learning Roadmaps](https://github.com/liuchong/awesome-roadmaps) :world_map:
+- [Project Based Learning](https://github.com/practical-tutorials/project-based-learning)
+- [Free Programming Books](https://github.com/EbookFoundation/free-programming-books) :books:
   
 **Truly Random Articles**  
 [How a browser works](https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/)  
@@ -447,6 +450,7 @@ console.log("Hello World!");
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
 [JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)  
 [5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
+[30 Seconds of Code](https://www.30secondsofcode.org/)  
 
 ----------------
 
