@@ -584,6 +584,7 @@ echo "Hello World"
 
 [:open_book: Git book](https://git-scm.com/book/en/v2): note its really a website  
 
+**Guides to contributing to open source:**  
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
 [Blog how to make your first contribution](https://dev.to/codesandboxio/how-to-make-your-first-open-source-contribution-2oim)   
 [Hacktoberfest :jack_o_lantern:](https://github.blog/2021-10-07-githubs-guide-hacktoberfest-2021/)  
@@ -1126,10 +1127,12 @@ Here is a simplified example of the initial request headers.
 
 > :cloud: I took the [AWS cloud practioner ceritification](https://aws.amazon.com/certification/certified-cloud-practitioner/?trk=ps_a134p000006gXRtAAM&trkCampaign=GLBL-FY21-TrainCert-Certification_PaidSearch&sc_channel=PS&sc_campaign=FY21-TrainCert-Certification_PaidSearch&sc_publisher=Google&sc_category=Training%20and%20Certification&sc_country=US&sc_geo=NAMER&sc_outcome=acq&sc_detail=aws%20cloud%20practitioner%20certification&sc_content=Cloud%20Practitioner%20Solution_exact&sc_matchtype=e&sc_segment=508672713544&sc_medium=TC-P|PS-GO|Brand|Desktop|AW|Training%20and%20Certification|Certification|US|EN|Text|xx|B2I&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification&ef_id=EAIaIQobChMIut-plvi48wIVmIjICh0E6AobEAAYAiAAEgJ7EPD_BwE:G:s&s_kwcid=AL!4422!3!508672713544!e!!g!!aws%20cloud%20practitioner%20certification) and [passed](https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6847536534841802752?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B4YYhEMILRXCVKvM4uhpanw%3D%3D) after two days of studying mainly using resources provided by AWS. This is the easiest AWS certification, but there are a lot of general pieces of knowledge needed to pass it.
 
+**What the Cloud is:** servers that are accessed over the internet, and the software and databases that run on those servers.  
+
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
 **Virtual Private Cloud (VPC):****
-a plot of virtual space within the Amazon Cloud to work within. A user or account may have many VPCs, but must have at least one VPC to act as a designated workspace to house your AWS cloud resources. VPC is a backbone principle of AWS cloud architecture, and they can connect to one another to create complex private and public networks. VPC has 4 main subcomponents – SUBNET, INTERNET GATEWAY, ROUTE, TABLE, NETWORK ACCESS CONTROL LIST (NACL).
+a plot of virtual space within the Amazon Cloud to work within. A user or account may have many VPCs, but must have at least one VPC to act as a designated workspace to house your AWS cloud resources. VPC is a backbone principle of AWS cloud architecture, and they can connect to one another to create complex private and public networks. VPC has 4 main subcomponents – SUBNET, INTERNET GATEWAY, ROUTE TABLE, NETWORK ACCESS CONTROL LIST (NACL). A subnet is a network inside an IP network. 
 
 **Elastic Compute Cloud (EC2):** a scalable computing capacity or virtual machine (VM) powered by AWS. A backbone resource of AWS that supports application hosting, remote network logins and gateways, database hosting and more.
 
