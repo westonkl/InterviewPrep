@@ -1140,16 +1140,19 @@ Here is a simplified example of the initial request headers.
 
 **Serverless:** an AWS architectural design principle based, where developers focus on the applications that they want to put into AWS resources, and serverless solutions such as AWS Lambda will then interpret the application and provision the compute and storage power required for execution.
 
-**Virtual Private Cloud (VPC):****
-a plot of virtual space within the Amazon Cloud to work within. A user or account may have many VPCs, but must have at least one VPC to act as a designated workspace to house your AWS cloud resources. VPC is a backbone principle of AWS cloud architecture, and they can connect to one another to create complex private and public networks. VPC has 4 main subcomponents – SUBNET, INTERNET GATEWAY, ROUTE TABLE, NETWORK ACCESS CONTROL LIST (NACL). A subnet is a network inside an IP network. 
+**Virtual Private Cloud (VPC):**
+a plot of virtual space within the Amazon Cloud to work within. A user or account may have many VPCs, but must have at least one VPC to act as a designated workspace to house your AWS cloud resources. VPC is a backbone principle of AWS cloud architecture, and they can connect to one another to create private and public networks.  
+VPC has 4 main subcomponents 
+- SUBNET: a network inside an IP network. 
+- INTERNET GATEWAY: connection between your VPC and the internet
+- ROUTE TABLE: contains a set of rules, called routes, that are used to determine where network traffic from your subnet or gateway is directed.
+- NETWORK ACCESS CONTROL LIST (NACL)
 
 **Elastic Compute Cloud (EC2):** a scalable computing capacity or virtual machine (VM) powered by AWS. A backbone resource of AWS that supports application hosting, remote network logins and gateways, database hosting and more.
 
 **Simple Storage Service (S3):** has a simple web services interface that you can use to store and retrieve any amount of data, at any time, from anywhere on the web. This data is stored in buckets, and you pay as you go for the size of storage you need. S3 is not able to be queried like a database and is not designed for frequent or mass request access. S3 buckets can be used to house the files such as HTML, JS, and CSS for a static web site, and then host that static website.
 
 **Relational Database Service (RDS):** RDS makes it easy to set up, operate, and scale a relational database in the cloud. It provides cost-efficient and resizable capacity while automating time-consuming administration tasks such as hardware provisioning, database setup, patching and backups. It frees you to focus on your applications so you can give them the fast performance, high availability, security and compatibility they need. Amazon RDS is available on several database instance types - optimized for memory, performance or I/O - and provides you with six database engines to choose from, including Aurora, PostgreSQL, MySQL, MariaDB, Oracle Database, and SQL Server.
-
-**Amazon Aurora:** is a MySQL/PostgreSQL compatible relational database built for the cloud. Aurora is up to 5x faster than standard MySQL databases and 3x faster than standard PostgreSQL databases. Aurora is fully managed by Amazon (RDS), which automates time-consuming administration tasks like hardware provisioning, database setup, patching, and backups. Aurora features a distributed, fault-tolerant, self-healing storage system that auto-scales up to 128TB per database instance. It delivers high performance and availability with up to 15 low-latency read replicas, point-in-time recovery, continuous backup to Amazon S3, and replication across 3(AZs).
 
 **Elastic Block Store (EBS):** is a block-storage service designed for use with Amazon Elastic Compute Cloud (EC2) for both throughput and transaction intensive workloads at scale. A broad range of workloads, such as relational and non-relational databases, enterprise applications, containerized applications, big data analytics engines, file systems, and media workflows are deployed on Amazon EBS. You may only mount one EC2 to an EBS at a time. Designed for mission-critical systems, EBS volumes are replicated within an Availability Zone (AZ) and can easily scale to petabytes of data. Also, you can use EBS Snapshots with automated lifecycle policies to back up your volumes in S3, while ensuring geographic protection of your data and business continuity.
 
@@ -1161,7 +1164,7 @@ a plot of virtual space within the Amazon Cloud to work within. A user or accoun
 
 **AWS Lambda:** is a serverless compute service that lets you run code without provisioning ormanaging servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes. Just upload your code as a ZIP file or container image, and Lambda allocates compute execution power and runs your code based on the incoming request or event. You can set up your code to automatically trigger from 140 AWS services or call it directly. You can write Lambda functions in any language and use both serverless and container tools, such as AWS SAM or Docker CLI, to build, test, and deploy your Functions.
 
-**Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly and easily build, train, and deploy machine learning models at any scale.  
+**Amazon SageMaker:** is a fully-managed service that enables data scientists and developers to quickly build, train, and deploy machine learning models at any scale.  
 
 NACL |Security Group
 ------------ | -------------
@@ -1170,6 +1173,12 @@ Stateless, meaning any change applied to an incoming rule isn’t automatically 
 
 What are the different types of EC2 instances?  
 There 5 different types of EC2 instances: general purpose, compute-optimized, memory-optimized, storage-optimized, accelerated computing. Know each.
+
+**IaaS:** Infastructure as a Service -using virtual resources  
+**PaaS:** Platform as a Service -a platform for an end user to manage applications  
+**SaaS:** Software as a Service -on demand software  
+**FaaS:** Function as a Service -manage functions  
+**DaaS:** Data as a Service  
 
 Can you explain the concept of serverless?
 
