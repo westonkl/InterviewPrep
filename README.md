@@ -1189,12 +1189,19 @@ There 5 different types of EC2 instances: general purpose, compute-optimized, me
 **FaaS:** Function as a Service -manage functions  
 **DaaS:** Data as a Service  
 
+What are the **5 pillars** of the AWS framework?  
+- Operational Excellence
+- Security
+- Reliability
+- Performance Efficiency
+- Cost Optimization
+  
 Can you explain the concept of serverless?
 
 ----------------------------
 
 ## Software Testing:
-There are many approaches available in [software testing](https://en.wikipedia.org/wiki/Software_testing). Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as [dynamic testing](https://en.wikipedia.org/wiki/Dynamic_testing)(validation)
+:hammer_and_wrench: There are many approaches available in [software testing](https://en.wikipedia.org/wiki/Software_testing). Reviews, walkthroughs, or inspections are referred to as static testing(verification), whereas executing programmed code with a given set of test cases is referred to as [dynamic testing](https://en.wikipedia.org/wiki/Dynamic_testing)(validation)
 
 Automation Testing: Selenium and Katalon Studio
 
