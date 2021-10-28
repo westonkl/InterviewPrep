@@ -610,9 +610,9 @@ echo "Hello World"
 
 > Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
 
-![git ex](https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png)
+ <img align="right" height="230" src="https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png">
 
-[:open_book: Git book](https://git-scm.com/book/en/v2): note its really a website  
+[:open_book: Git book](https://git-scm.com/book/en/v2): a really helpful website  
 
 **Guides to contributing to open source:**  
 [Contributing to your first open source project](https://github.com/firstcontributions/first-contributions)  
@@ -1087,9 +1087,9 @@ The advantage of orthogonal persistence environments is simpler and less error-p
 
 ([HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP)) is an [application-layer](https://en.wikipedia.org/wiki/Application_Layer) protocol for transmitting hypermedia documents, such as HTML. It was designed for communication between web browsers and web servers, but it can also be used for other purposes. HTTP follows a classical [client-server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), with a client opening a connection to make a request, then waiting until it receives a response. HTTP is a [stateless protocol](https://en.wikipedia.org/wiki/Stateless_protocol), meaning that the server does not keep any data (state) between two requests. Though often based on a TCP/IP layer, it can be used on any reliable [transport layer](https://en.wikipedia.org/wiki/Transport_Layer), that is, a protocol that doesn't lose messages silently like UDP does. RUDP — the reliable update of UDP — is a suitable alternative.
 
-![http](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png)
+<img align="right" height="250" src="https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview/http-layers.png">
 
-![http vs https](https://www.venafi.com/sites/default/files/2020-12/Difference_HTTP_HTTPS-2.png)
+<img align="center" height="150" src="https://www.venafi.com/sites/default/files/2020-12/Difference_HTTP_HTTPS-2.png">
 
 [Http overview](https://www.tutorialspoint.com/http/http_overview.htm)
  
@@ -1146,7 +1146,8 @@ Here is a simplified example of the initial request headers.
 
 ## TCP/IP
 
-## Model View Controller (MVC)    
+## Model View Controller (MVC)
+<img align="right" height="230" src="https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png">
 
 - Model
 	- The central component of the pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic and rules of the application. It receives user input from the controller.
@@ -1154,7 +1155,6 @@ Here is a simplified example of the initial request headers.
 	- Any representation of information such as a chart, diagram or table.
 - Controller
 	- Accepts input and converts it to commands for the model or view  
-![mvc](https://developer.mozilla.org/en-US/docs/Glossary/MVC/model-view-controller-light-blue.png)
 
 ------------------------------------------------------
 ## AWS
