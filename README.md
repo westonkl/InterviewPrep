@@ -386,7 +386,7 @@ Interviewing for data science and data analytics roles, I have found sql questio
 
 :spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. 
 
-Python has the following data types built-in by default, in these categories:  
+**Python** has the following **data types** built-in by default, in these categories:  
 Text Type:	```str```  
 Numeric Types:	```int, float, complex```  
 Sequence Types:	```list, tuple, range```  
@@ -419,13 +419,16 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
 
-<img align="right" width="300" height="220" src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519">
+<img align="right" width="310" src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519">
 
 **How is memory managed in Python?**  
-Memory management in Python is handled by the Python Memory Manager. All Python objects are stored in a private heapspace dedicated to Python, which is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space. Python has an in-built garbage collection to recycle the unused memory for the private heap space.  
+Memory management in Python is handled by the Python Memory Manager. All Python objects are stored in a private heapspace dedicated to Python, which is inaccessible to the programmer. Though, Python does provide some core API functions to work upon the private heap space. Python has an in-built garbage collection to recycle the unused memory for the private heap space.  
 
 ```python
-print('Hello World!')
+class hi:
+   def helloWorld():
+	print('Hello World!')
+   helloWorld()
 ```
 
 [Python Interview Questions](https://www.interviewbit.com/python-interview-questions/)  
@@ -728,11 +731,19 @@ Format of a SQL query:
 - HAVING
 - ORDER BY
 
-**Example:-**
+**Example:**
 ```sql
 SELECT CustomerName, City 
 FROM Customers
 WHERE CustomerName='John Smith';
+```
+  
+**Left join example:**
+```sql
+SELECT Customers.CustomerName, Orders.OrderID
+FROM Customers
+LEFT JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+ORDER BY Customers.CustomerName;
 ```
 
 What are the SQL aggregate functions?
@@ -928,7 +939,7 @@ Attributes are the descriptive properties which are owned by each entity of an E
 **Primary Key (PK):**  
 A column with a unique value for each row.  
 Although not all database management systems (DBMS) require you to put a PK into each table, from a design perspective a PK is a requirement. No table should be without one.
-
+  
 **Foreign Key (FK):**  
 These define relationships between tables. When you want a row in one table to be linked to a row in another table, you place a FK column in the child table and use the value of the parent row's PK as the value of the FK field.
 
