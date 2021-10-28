@@ -386,6 +386,15 @@ Interviewing for data science and data analytics roles, I have found sql questio
 
 :spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. 
 
+Python has the following data types built-in by default, in these categories:  
+Text Type:	```str```  
+Numeric Types:	```int, float, complex```  
+Sequence Types:	```list, tuple, range```  
+Mapping Type:	```dict```  
+Set Types:	```set, frozenset```  
+Boolean Type:	```bool```  
+Binary Types:	```bytes, bytearray, memoryview```  
+
 What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
 - **Lists** are mutable - changeable
