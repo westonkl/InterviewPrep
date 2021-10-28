@@ -293,11 +293,15 @@ What's the difference between a **stack** and a **queue**?
   
 What is the [call stack](https://en.wikipedia.org/wiki/Call_stack)? also look into: [Memory Management](https://en.wikipedia.org/wiki/Memory_management#DYNAMIC)
   
-Can you explain dynamic vs static typing and strong vs weak typing?
+Can you explain **dynamic vs static typing and strong vs weak typing?**  
+**Static** - Data Types are checked before execution.  
+**Dynamic** - Data Types are checked during execution.  
+In a **strongly-typed** language, such as Python, "1" + 2 will result in a type error since these languages don't allow for "type-coercion" (implicit conversion of data types). On the other hand, a **weakly-typed language**, such as Javascript, will simply output "12" as result.  
   
 Can you explain declarative vs imperative programming?
   
-Compiled vs interpreted?
+**Compiled vs interpreted?**  
+An **Interpreted language** executes its statements line by line. Languages such as Python, Javascript, R, PHP, and Ruby are prime examples of Interpreted languages. Programs written in an interpreted language runs directly from the source code, with no intermediary compilation step.
   
 :stethoscope: What do you look for when reviewing code?
 - **B** ottlenecks
@@ -340,7 +344,7 @@ Recursive solutions (mentioned above) are good for writing simple code, but can 
 A linked list is a data structure that represents a sequence of nodes. A singly [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers). A doubly linked list gives each node pointers to both the next node and the previous node.
 	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
 - [Stacks](https://leetcode.com/tag/stack) :pancakes::
-- [Heaps / Priority Queues:](https://leetcode.com/tag/heap-priority-queue): Queues(FIFO)
+- [Heaps / Priority Queues](https://leetcode.com/tag/heap-priority-queue): Queues(FIFO)
 -----
 - [Binary Search](https://leetcode.com/tag/binary-search): 
 	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
@@ -378,9 +382,9 @@ Interviewing for data science and data analytics roles, I have found sql questio
 ## Python: 
 <img align="right" width="50" height="50" src="https://media2.giphy.com/media/KAq5w47R9rmTuvWOWa/200.webp?cid=ecf05e47hdcr00jhebditkzbcaqzdz21zscu1k45jdhirjvg&rid=200.webp&ct=g">  
 
-> **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
+> :snake: **Python** is a high-level, interpreted, dynamically typed, general-purpose programming language.  
 
-:spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. :snake:
+:spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. 
 
 What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
@@ -397,14 +401,19 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
 
-**\*args** can be used to pass multiple  positional arguments  
-**\*\*kwargs** can be used to pass multiple  keyword/named arguments  
+**\*args** can be used to pass multiple positional arguments  
+**\*\*kwargs** can be used to pass multiple keyword/named arguments  
 
-**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects  
+**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects. Note arguments are passed by reference.  
 
 Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and **scope**.  
 
 **PEP8:** Python Enhancement Proposal. It is a set of rules that specify how to format Python code for maximum readability.  
+
+<img align="right" width="300" height="220" src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519">
+
+**How is memory managed in Python?**  
+Memory management in Python is handled by the Python Memory Manager. All Python objects are stored in a private heapspace dedicated to Python, which is inaccessible to the programmer. Though, python does provide some core API functions to work upon the private heap space. Python has an in-built garbage collection to recycle the unused memory for the private heap space.  
 
 ```python
 print('Hello World!')
