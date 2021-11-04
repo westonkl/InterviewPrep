@@ -410,8 +410,8 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
 
-**\*args** can be used to pass multiple positional arguments  
-**\*\*kwargs** can be used to pass multiple keyword/named arguments  
+**\*args** can be used to pass multiple positional arguments -passed as a tuple 
+**\*\*kwargs** can be used to pass multiple keyword/named arguments  -passed as a dictionary
 
 **Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects. Note arguments are passed by reference.  
 
@@ -460,7 +460,12 @@ What is a **promise** and what is a **callback?**
 
 What is a first class function?
 
-What does === do in JavaScript?  
+What does === do in JavaScript?
+- checks strict equality: if two operands are different types returns false
+```javascript
+console.log('1' ===  1);
+// expected output: false
+```
 
 ```javascript
 console.log("Hello World!");
