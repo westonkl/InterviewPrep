@@ -409,9 +409,9 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 **Self** is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables
 
 **Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
-
-**\*args** can be used to pass multiple positional arguments -passed as a tuple 
-**\*\*kwargs** can be used to pass multiple keyword/named arguments  -passed as a dictionary
+  
+**\*args** can be used to pass multiple positional arguments -passed as a tuple  
+**\*\*kwargs** can be used to pass multiple keyword/named arguments  -passed as a dictionary  
 
 **Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects. Note arguments are passed by reference.  
 
@@ -441,7 +441,8 @@ class hi:
 
 <img align="right" width="50" height="50" src="https://c.tenor.com/TReUojNlZ6wAAAAi/js-javascript.giff">
 
-> [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles. JavaScript sets the behavior of web pages.
+> [JavaScript](https://www.javascript.com/) is a high level dynamically typed interpreted oop language that is single threaded. Multiparadigm language supports: event-driven, functional, and imperative programming styles.  
+> *JavaScript sets the behavior of web pages.*
 
 What is the difference between *let* and *var*?
 - The *let* statement declares a block scope local variable. Hence the variables defined with let keyword are limited in scope to the block, statement, or expression on which it is used. Whereas variables declared with the *var* keyword used to define a variable globally, or locally to an entire function regardless of block scope.
@@ -459,7 +460,7 @@ What is a **promise** and what is a **callback?**
 - A **callback** function is a function passed into another function as an argument. This function is invoked inside the outer function to complete an action.
 
 What is a first class function?
-
+  
 What does === do in JavaScript?
 - checks strict equality: if two operands are different types returns false
 ```javascript
@@ -467,8 +468,20 @@ console.log('1' ===  1);
 // expected output: false
 ```
 
+JavaScript embedded in HTML:
 ```javascript
-console.log("Hello World!");
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Hello World Example</title>
+    <script>
+        alert('Hello, World!');
+    </script>
+</head>
+<body>
+</body>
+</html>
 ```
 
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
