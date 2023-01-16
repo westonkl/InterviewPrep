@@ -485,7 +485,8 @@ JavaScript embedded in HTML:
 [JavaScript Interview Questions](https://www.interviewbit.com/javascript-interview-questions/)  
 [JavaScript Interview Questions and Answers](https://github.com/sudheerj/javascript-interview-questions/)  
 [5 Must Know Interview Questions for Javascript (video)](https://www.youtube.com/watch?v=6Wzj7kxfRdI)  
-[30 Seconds of Code](https://www.30secondsofcode.org/)  
+[30 Seconds of Code](https://www.30secondsofcode.org/)
+[Awesome Interview Questions](https://github.com/DopplerHQ/awesome-interview-questions)
 
 ----------------
 
