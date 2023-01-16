@@ -27,7 +27,7 @@
 - [Relational Databases](#relational-databases)
 	- [Normalization](#normalization)
 - [CI/CD :rocket:](#ci-and-cd)
-- [API Design :gear:](#api-design)
+- [API Design](#api-design)
 - [HTTP](#http)
 - [AWS :cloud:](#aws)
 - [Software Testing :hammer_and_wrench:](#software-testing)
@@ -63,8 +63,7 @@
 :page_with_curl: Look up [Mayuko](https://www.youtube.com/watch?v=J5gy9iqjwXM) and [Ken Jee](https://www.youtube.com/watch?v=DM1eE_Coh6g&list=PL2zq7klxX5ARnFpk83JauioZb5zyxNZek) for the best resume advice.  
 General guidelines include: keeping it to one page, demonstrating impact at past positions, fitting your skills to a job, and [demonstrating knowledge](gaining-experience) of tools and languages. 
 
-## Applying
-:magnet: I recommend applying to as many places that fit your resume/skillset as possible and as early as possible.  
+## Applying 
 - [Best times to apply](https://betterprogramming.pub/the-software-engineering-application-timeline-f0b064927a1f)
 - [How recruiting works in tech (video)](https://www.youtube.com/watch?v=1DvPu3BEzZc)
 - [How to find Software Engineering job openings (video)](https://www.youtube.com/watch?v=KObiuTFYTkM)
@@ -72,10 +71,9 @@ General guidelines include: keeping it to one page, demonstrating impact at past
 Good application sites include:
 - [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are quite competitive.
 - Consider using [Indeed](https://www.indeed.com/)
-- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE): A great resource to first take a coding multiple choice test, then with a project walk through to 'pre'-interview
+- [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE): A resource to 'pre'-interview
 - [Wellfound](https://angel.co/): the best startup search tool
 - [Canvas](https://www.canvas.com/app/discover/jobs), [Smartr](https://www.smartr.me/), [The Muse](https://www.themuse.com/)
-- [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
 Try to add keywords to your linkedin profile, and make sure it is kept up to date. Recruiters will come to you and it is a great way to get a foot in the door. Pay attention to job descriptions and try to learn the skills and technologies to make yourself relevant to the field you would like to get into. Additionally reaching out through a well thought out message to a recruiter or manager may help you get an interview.  
 
@@ -90,9 +88,9 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [Tina Ultimate Guide to a Data Science internship (video)](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ## Last Step
-:tada: Congratulations!! :tada:
+:tada: Congratulations!! :tada:  
 [Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948)  
-[Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
+[Levels.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
 ## Gaining Experience:
 > :star: Creating and working on meaningful personal projects is incredibly important towards demonstrating your experience.
@@ -102,7 +100,7 @@ Expanding your resume/portfolio:
 - Creating a RESTful API
 - Web applications (with persistent memory)
 - :bar_chart: SQL analysis (tableau, powerbi)
-- :octocat: Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects - look for good first issue tags
+- :octocat: Contributing to [open source](https://github.com/firstcontributions/first-contributions) projects
 
 **Portfolio Resources:**  
 [Build a Data Science portfolio playlist (videos)](https://www.youtube.com/watch?v=1aXk2RViq3c&list=PL2zq7klxX5AQ3Dkl7113VO9t1rm3e4FLA)  
@@ -158,16 +156,8 @@ Places to find another person to practice interview with: :microphone:
 **Example Coding Interviews:** :film_projector:  
 [Nick White Java Leetcode Playlist](https://www.youtube.com/playlist?list=PLU_sdQYzUj2keVENTP0a5rdykRSgg9Wp-)  
 [Google Coding Interview with a normal SWE](https://www.youtube.com/watch?v=rw4s4M3hFfs)  
-[Medium Google Coding Interview With Ben Awad](https://www.youtube.com/watch?v=4tYoVx0QoN0&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [JavaScript interview with a Google engineer](https://www.youtube.com/watch?v=10WnvBk9sZc&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)  
 [Python interview with a Google engineer: Coin Change](https://www.youtube.com/watch?v=HWW-jA6YjHk&list=PLIin1ELTMmjYqKAYlb8Ll41c4Dl8PGgTD&index=1)
-
-## Favorite Youtube Creators: :clapper:
-- https://www.youtube.com/c/Fireship -Random Tech Tutorials
-- https://www.youtube.com/c/hellomayuko -SWE Interview Questions
-- https://www.youtube.com/c/Reducible -SWE Interview Questions
-- https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
-- https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
 ----------------------
 <h1 align='center'>The Behavioral Interview</h1><br>
@@ -621,7 +611,7 @@ echo "Hello World"
 
 <img align="right" width="50" height="50" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png">
 
-> Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge through commits.    
+> Git is an additive version control system used to aid cooperation on projects. It is usually used in conjunction with [Github](https://github.com/). Git and Github are almost ubiquitiously used by tech companies and is extremely useful to learn. Github is a great place to host your portfolio and demonstrate your knowledge.    
 
  <img align="right" height="230" src="https://tutorialslink.com/Article_img/Blog_image/a0f60344-2db5-4f1c-bde7-2abd7fe8b96c.png">
 
@@ -647,13 +637,14 @@ echo "Hello World"
 - [100 second git summary (video)](https://www.youtube.com/watch?v=hwP7WQkmECE)
 - [Learn git in 15 min (video)](https://www.youtube.com/watch?v=USjZcfj8yxE&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
-My initial local project workflow:
+My general initial local project workflow:
 ```
 - git init repo in directory
+- git switch -c <branch-name>
 - git add files
 - git status
 - git commit -m "asdf"
-- git pull origin master (if remote branch chaged)
+- git fetch origin master
 - git push -u origin master
 ```
 
@@ -1699,19 +1690,12 @@ Extract subjective information usually from a set of documents, often using onli
 
 BERT: https://www.kaggle.com/mdfahimreshm/bert-in-depth-understanding
 
-SPACY: https://spacy.io/
-
 [Link to top](#table-of-contents)
 
 ===========================================================
 <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50">
 
 ## TODO
-- add more images and resize them
-- add to ci/cd section and jenkins
-- add spark and kafka section
-- add Hadoop Section
-- add springboot and maven to Java
-- add to react section
-- add scala, c, c++, go
+- add spark and kafka and hadoop section
+- add Go and Rust
 - add messaging services section ie redis, redux, rabbitmq
