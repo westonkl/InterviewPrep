@@ -1,11 +1,11 @@
 # Interview Prep <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50">
 
 ## Table of Contents
-- [Purpose of this guide :clipboard:](#purpose-of-this-guide)
-- [Applying :magnet:](#applying)
+- [Purpose of this guide](#purpose-of-this-guide)
+- [Applying](#applying)
 - [Helpful Links :paperclip:](#misc-helpful-links)
 	- [Other Helpful Repos :octocat:](#other-helpful-repos-octocat)
-	- [Mock Interview Resources :microphone:](#mock-interviews)
+	- [Mock Interview Resources](#mock-interviews)
 - [The Behavioral Interview :telephone_receiver:](#the-behavioral-interview)
 	- [Questions for an Interviewer :speech_balloon:](#questions-for-an-interviewer)
 - [Technical Questions Overview :microscope:](#technical-questions-overview)
@@ -28,7 +28,7 @@
 	- [Normalization](#normalization)
 - [CI/CD :rocket:](#ci-and-cd)
 - [API Design :gear:](#api-design)
-- [HTTP (Hypertext Transfer Protocol) :shield:](#http)
+- [HTTP](#http)
 - [AWS :cloud:](#aws)
 - [Software Testing :hammer_and_wrench:](#software-testing)
 - [Parallel Processing :thread:](#parallel-processing)
@@ -166,8 +166,6 @@ Places to find another person to practice interview with: :microphone:
 - https://www.youtube.com/c/Fireship -Random Tech Tutorials
 - https://www.youtube.com/c/hellomayuko -SWE Interview Questions
 - https://www.youtube.com/c/Reducible -SWE Interview Questions
-- https://www.youtube.com/channel/UC2UXDak6o7rBm23k3Vv5dww -Data Science Creator Tina Huang
-- https://www.youtube.com/c/KenJee1 -Data Science Creator Ken Jee
 - https://www.youtube.com/c/3blue1brown -Math Creator 3blue1brown
 - https://www.youtube.com/c/AbhishekThakurAbhi -Best ML competitor Abhishek Thakur
 
@@ -308,8 +306,6 @@ An **Interpreted language** executes its statements line by line. Languages such
 - **D** uplicated work
   
 [What is the difference between divide and conquer and dynamic programming?](https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming)  
-
-https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overview.htm
 
 ------------
 ## Data Structures and Algorithms
