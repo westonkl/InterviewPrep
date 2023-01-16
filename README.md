@@ -73,7 +73,7 @@ Good application sites include:
 - [Linkedin](https://www.linkedin.com/feed/) has expensive job postings so mostly big companies are posting and they are quite competitive.
 - Consider using [Indeed](https://www.indeed.com/)
 - [Tripe Byte](https://triplebyte.com/?ref=ga_20180823_search_brand_t1&gclid=EAIaIQobChMI77a43rS28wIVh4zICh2DVA58EAAYASAAEgJGA_D_BwE): A great resource to first take a coding multiple choice test, then with a project walk through to 'pre'-interview
-- [Angellist](https://angel.co/): the best startup search tool
+- [Wellfound](https://angel.co/): the best startup search tool
 - [Canvas](https://www.canvas.com/app/discover/jobs), [Smartr](https://www.smartr.me/), [The Muse](https://www.themuse.com/)
 - [Pathrise](https://www.pathrise.com/), [Sharpest minds](https://www.sharpestminds.com/landing-a-data-job-the-course)  
 
@@ -90,7 +90,7 @@ Try to add keywords to your linkedin profile, and make sure it is kept up to dat
 [Tina Ultimate Guide to a Data Science internship (video)](https://www.youtube.com/watch?v=kO_LUVkKdJM&list=PLIin1ELTMmjYRmbQo_fYwU2vWtaK5CXxp&index=1)
 
 ## Last Step
-:tada: Congratulations!! <img align="center" width="50" height="50" src="https://media0.giphy.com/media/PxqXdxK85QWmk/200.webp?cid=ecf05e47k5ofp5ul94jnl7sdjw0da5gi1zv4fyfvizqxum42&rid=200.webp&ct=g)">  
+:tada: Congratulations!! :tada:
 [Negotiating an offer (video)](https://www.youtube.com/watch?v=u9BoG1n1948)  
 [Level.fyi](https://www.levels.fyi/?compare=Google,Facebook,Microsoft&track=Software%20Engineer)
 
@@ -185,8 +185,7 @@ Places to find another person to practice interview with: :microphone:
   - College  
   - Post College / Current Role  
   - Outside of work (how are you upskilling)  
-
-Two optional additions: Career goal, a unique fact about yourself  
+  - optionally: Career goal and/or a unique fact about yourself  
 
 What do you know about ___ and why did you decide to apply here?  What drew you to us?
 - Research company you're applying to, look at:
@@ -266,8 +265,8 @@ Here is my problem solving process:
 
 [5 Problem Solving Tips for Cracking Coding Interview Questions](https://www.youtube.com/watch?v=GBuHSRDGZBY&list=WL&index=1)
 
-#### General Technical 'Trivia' and Fundamentals
-> I have found technical trivia sometimes thrown into behavioral interviews these are some of them. They are also important to know for coding.
+#### Fundamentals and General Technical 'Trivia'
+> I have found technical trivia sometimes thrown into behavioral interviews; these are some of them.
 
 What is an **Object** and a **Class**, what's the difference between them?  
 - A **class** is a template for objects. A class defines object properties and behaviors, including a valid range of values, and a default value  
@@ -315,9 +314,7 @@ https://www.tutorialspoint.com/data_structures_algorithms/data_structure_overvie
 ------------
 ## Data Structures and Algorithms
 
-<img align="right" width="100" src="https://miro.medium.com/max/800/1*bOxDNmWX_nL4W4qB-ey0VQ.gif">
-
-> :star: I am working on filling out this section, but this is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor.  
+> :star: This is likely the **most important** section for a technical interview. Mastering your data structures and algorithms will help you solve any problem thrown at you. It may help to implement each, but understanding how each will help you solve a problem is the most important factor.  
 > I have sorted these based on their frequency/utility in technical interviews.
 
 - **Big O Notation:** :point_left: super important  
@@ -343,8 +340,8 @@ Recursive solutions (mentioned above) are good for writing simple code, but can 
 - [Linked lists](https://leetcode.com/tag/linked-list): 
 A linked list is a data structure that represents a sequence of nodes. A singly [linked list](https://www.tutorialspoint.com/python_data_structure/python_linked_lists.htm) is a sequence of data elements, which are connected together via links (pointers). A doubly linked list gives each node pointers to both the next node and the previous node.
 	- [Leetcode Linkedlist lesson](https://leetcode.com/explore/learn/card/linked-list/)
-- [Stacks](https://leetcode.com/tag/stack) :pancakes::
-- [Heaps / Priority Queues](https://leetcode.com/tag/heap-priority-queue): Queues(FIFO)
+- [Stacks](https://leetcode.com/tag/stack) :pancakes:: Last in first out (LIFO)
+- [Heaps / Priority Queues](https://leetcode.com/tag/heap-priority-queue): Queues(FIFO), [pydocs heapq](https://docs.python.org/3/library/heapq.html)
 -----
 - [Binary Search](https://leetcode.com/tag/binary-search): 
 	- [Binary search Leetcode article](https://leetcode.com/discuss/general-discussion/786126/python-powerful-ultimate-binary-search-template-solved-many-problems): binary search is more useful than you think :zap:
@@ -386,7 +383,7 @@ Interviewing for data science and data analytics roles, I have found sql questio
 
 :spiral_notepad: [Python](https://www.w3schools.com/python/) is my go to technical interview language as it is beatiful, pythonic, and relatively easy. I highly recommend you learn it and use it in your interviews. 
 
-**Python** has the following **data types** built-in by default, in these categories:  
+**Python** has the following [**data types**](https://docs.python.org/3.11/library/stdtypes.html) built-in by default, in these categories:  
 Text Type:	```str```  
 Numeric Types:	```int, float, complex```  
 Sequence Types:	```list, tuple, range```  
@@ -397,10 +394,10 @@ Binary Types:	```bytes, bytearray, memoryview```
 
 What are **lists** and **tuples** and what are their differences?:  
 - Both sequence data types (can hold multiple types)
-- **Lists** are mutable - changeable
+- **Lists** are mutable (changeable)
 - **Tuples** are immutable
 
-Understanding [list comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp) and [slicing](https://www.w3schools.com/python/python_strings_slicing.asp) will make your life a lot easier.
+Understanding [list comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp) and [slicing](https://www.w3schools.com/python/python_strings_slicing.asp) will make your life a lot easier. As well as https://docs.python.org/3/library/itertools.html
 
 **Lambda** is an anonymous function in Python that can accept any number of arguments, but can only have a single expression. It is generally used in situations requiring an anonymous function for a short time period.
 
@@ -408,12 +405,13 @@ Understanding [list comprehensions](https://www.w3schools.com/python/python_list
 
 **Self** is a keyword in Python used to define an instance or an object of a class. In Python, it is explicitly used as the first parameter, unlike in Java where it is optional. It helps in distinguishing between the methods and attributes of a class from its local variables
 
-**Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.
+**Decorators** in Python are essentially functions that add functionality to an existing function in Python without changing the structure of the function itself. They are represented by the @decorator_name in Python and are called in bottom-up fashion.  
+Here are some: https://docs.python.org/3/library/functools.html
   
-**\*args** can be used to pass multiple positional arguments -passed as a tuple  
-**\*\*kwargs** can be used to pass multiple keyword/named arguments  -passed as a dictionary  
+**\*args** can be used to pass multiple positional arguments (tuple)  
+**\*\*kwargs** can be used to pass multiple keyword/named arguments (dict)  
 
-**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects. Note arguments are passed by reference.  
+**Functions** are first-class objects. This means that they can be assigned to variables, returned from other functions and passed into functions. Classes are also first class objects. Note arguments are passed by reference. **Read these** [builtin functions](https://docs.python.org/3.11/library/functions.html)  
 
 Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and **scope**.  
 
@@ -422,7 +420,7 @@ Understand [**namespaces**](https://realpython.com/python-namespaces-scope/) and
 <img align="right" width="310" src="https://s3.ap-south-1.amazonaws.com/myinterviewtrainer-domestic/public_assets/assets/000/000/925/original/Memory_Management_in_Python.jpg?1629977519">
 
 **How is memory managed in Python?**  
-Memory management in Python is handled by the Python Memory Manager. All Python objects are stored in a private heapspace dedicated to Python, which is inaccessible to the programmer. Though, Python does provide some core API functions to work upon the private heap space. Python has an in-built garbage collection to recycle the unused memory for the private heap space.  
+Memory in Python is handled by the Python Memory Manager. All Python objects are stored in a private heapspace dedicated to Python, which is mostly inaccessible to the programmer. Python has built-in garbage collection to recycle unused memory.  
 
 ```python
 class hi:
