@@ -270,6 +270,10 @@ What is method **overloading** and **overriding**?
 **Overloading:** when two or more methods in the same class share a name, but not parameters  
 **Overriding:** When name and parameters of method are the same  
 
+What is the difference between a method and a function?
+ - A **function** is a set of instructions or procedures to perform a specific task.
+ - A **method** is a set of instruction associated with an object and is continaed within a class.
+
 **Recursion:**
 - A function which calls itself recursively
 - Consists of a base case (stopper) and a recursive case(recurser)
