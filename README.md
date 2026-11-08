@@ -151,6 +151,7 @@ Expanding your resume/portfolio:
 Places to find another person to practice interview with: :microphone:  
 - https://interviewing.io/
 - https://www.pramp.com/#/
+- https://practick.io/
 - https://www.swecareers.com/mock-interviews
   
 **Example Coding Interviews:** :film_projector:  
